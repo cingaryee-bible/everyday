@@ -27,6 +27,22 @@
 
 如要測試完整的網站安裝功能，須經 HTTPS 網址開啟；本機檔案預覽仍可查看安裝教學。
 
+## 使用 GitHub Pages 發佈
+
+本儲存庫已包含自動發佈設定。第一次使用時：
+
+1. 在 GitHub 開啟本儲存庫的 **Settings**。
+2. 在左側選擇 **Pages**。
+3. 在 **Build and deployment** 下，將 **Source** 設為 **GitHub Actions**。
+4. 等候 **Actions** 頁面的「Deploy GitHub Pages」完成。
+5. 返回 **Settings → Pages**，即可看到網站網址。
+
+如儲存庫名稱是 `daily-readings`，網址通常會是：
+`https://你的GitHub帳戶.github.io/daily-readings/`
+
+日後只要更新 `main` 或 `master` 分支，GitHub Pages 便會自動重新發佈
+`public` 資料夾內的正式網站。
+
 ## 建置及測試
 
 需要 Node.js 18 或以上版本。
@@ -37,8 +53,8 @@ npm run build
 npm test
 ```
 
-建置後的 Cloudflare Worker 會輸出至 `dist/server/index.js`。
-`dist` 是自動產生的檔案，毋須上載至 GitHub。
+本機品質檢查會產生 `dist` 測試輸出；GitHub Pages 不會使用這個資料夾，
+並會直接發佈 `public` 內的正式網站。
 
 ## 主要檔案
 
@@ -49,6 +65,7 @@ npm test
 - `public/assets/topics/`：主題插畫
 - `public/icons/`：瀏覽器及主畫面圖示
 - `public/manifest.webmanifest`：可安裝網站設定
+- `.github/workflows/deploy-pages.yml`：GitHub Pages 自動發佈
 - `build.mjs`：部署建置
 - `tests/site.test.mjs`：網站測試
 

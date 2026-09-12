@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import { test } from "node:test";
 import worker from "../dist/server/index.js";
 
@@ -135,4 +136,17 @@ test("serves the complete topic artwork library without the design preview", asy
   assert.equal(finalArtwork.headers.get("content-type"), "image/webp");
   assert.ok((await finalArtwork.arrayBuffer()).byteLength > 10_000);
   assert.equal(preview.status, 404);
+});
+
+test("includes an automatic GitHub Pages deployment", async () => {
+  const workflow = await readFile(
+    new URL("../.github/workflows/deploy-pages.yml", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(workflow, /actions\/checkout@v6/);
+  assert.match(workflow, /actions\/configure-pages@v5/);
+  assert.match(workflow, /actions\/upload-pages-artifact@v4/);
+  assert.match(workflow, /path: \.\/public/);
+  assert.match(workflow, /actions\/deploy-pages@v4/);
 });
