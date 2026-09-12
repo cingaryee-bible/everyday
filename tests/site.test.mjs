@@ -14,7 +14,7 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /毛毛聊/);
   assert.doesNotMatch(html, /mailto:/);
   assert.match(html, /cat-readings\.js/);
-  assert.match(html, /cat-style\.css\?v=20260913c/);
+  assert.match(html, /cat-style\.css\?v=20260913g/);
   assert.match(html, /topic-art-image/);
   assert.match(html, /rel="manifest" href="manifest\.webmanifest"/);
   assert.match(html, /rel="apple-touch-icon"[^>]+icons\/icon-180\.png/);
@@ -88,6 +88,18 @@ test("revalidates styles and disables synthetic font weight", async () => {
   assert.match(
     css,
     /@media \(min-width: 560px\)[\s\S]*?body\s*{\s*padding-bottom: 112px;/,
+  );
+  assert.match(
+    css,
+    /\.mobile-nav\s*{[\s\S]*?bottom: 0;[\s\S]*?position: fixed;/,
+  );
+  assert.doesNotMatch(
+    css,
+    /@media \(max-width: 559px\)[\s\S]*?\.mobile-nav\s*{[\s\S]*?position: static;/,
+  );
+  assert.doesNotMatch(
+    css,
+    /@media \(max-width: 559px\)[\s\S]*?\.mobile-nav\s*{[\s\S]*?transform: translateY/,
   );
 });
 

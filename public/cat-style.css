@@ -35,7 +35,7 @@ body {
   font-family: var(--hand);
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
-  padding-bottom: calc(62px + env(safe-area-inset-bottom));
+  padding-bottom: calc(78px + env(safe-area-inset-bottom));
 }
 
 a {
@@ -1135,36 +1135,8 @@ body.install-dialog-fallback-open {
 }
 
 @media (max-width: 559px) {
-  body {
-    padding-bottom: 0;
-  }
-
   .daily-art {
     transform: translateY(12px);
-  }
-
-  .mobile-nav {
-    bottom: auto;
-    left: auto;
-    padding:
-      3px max(11px, env(safe-area-inset-left))
-      calc(3px + env(safe-area-inset-bottom))
-      max(11px, env(safe-area-inset-right));
-    position: static;
-    right: auto;
-    width: 100%;
-  }
-
-  .mobile-nav a {
-    font-size: 10px;
-    gap: 1px;
-    min-height: 42px;
-  }
-
-  .mobile-nav span {
-    font-size: 9px;
-    height: 18px;
-    width: 22px;
   }
 
   .install-dialog {
