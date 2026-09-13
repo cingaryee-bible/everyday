@@ -1,4 +1,4 @@
-const readings = [
+const fallbackReadings = [
   {
     date: "2026-09-11",
     day: 11,
@@ -422,9 +422,13 @@ const readings = [
   }
 ];
 
+let generatedContent = window.dailyReadingContent;
+let readings = generatedContent?.readings?.length
+  ? generatedContent.readings
+  : fallbackReadings;
 const readingKinds = ["psalm", "old", "new"];
 
-const fullReadingKeys = {
+const fallbackFullReadingKeys = {
   "2026-09-11": { psalm: ["psa114"], old: ["exo14_1_18"], new: ["act7_9_16"] },
   "2026-09-12": { psalm: ["psa114"], old: ["exo15_19_21"], new: ["mat6_7_15"] },
   "2026-09-13": { psalm: ["psa114"], old: ["exo14_19_31"], new: ["rom14_1_12", "mat18_21_35"] },
@@ -440,6 +444,50 @@ const fullReadingKeys = {
   "2026-09-23": { psalm: ["psa119_97_104"], old: ["num11_18_23_31_32"], new: ["mat18_1_5"] },
   "2026-09-24": { psalm: ["psa78_1_4_12_16"], old: ["isa48_17_21"], new: ["jas4_11_16"] }
 };
+let fullReadingKeys = generatedContent?.fullReadingKeys
+  ?? fallbackFullReadingKeys;
+let scriptureTexts = generatedContent?.scriptureTexts
+  ?? window.scriptureTexts;
+const dataRefreshInterval = 15 * 60 * 1000;
+let lastDataRefreshAt = 0;
+let dataRefreshPromise = null;
+
+function applyGeneratedContent(content) {
+  if (!content?.readings?.length || !content.fullReadingKeys || !content.scriptureTexts) {
+    return false;
+  }
+  generatedContent = content;
+  readings = content.readings;
+  fullReadingKeys = content.fullReadingKeys;
+  scriptureTexts = content.scriptureTexts;
+  return true;
+}
+
+function refreshGeneratedContent({ force = false } = {}) {
+  if (window.location.protocol === "file:") return Promise.resolve(false);
+  if (!force && Date.now() - lastDataRefreshAt < dataRefreshInterval) {
+    return Promise.resolve(false);
+  }
+  if (dataRefreshPromise) return dataRefreshPromise;
+
+  lastDataRefreshAt = Date.now();
+  dataRefreshPromise = new Promise((resolve) => {
+    const script = document.createElement("script");
+    const finish = (updated) => {
+      script.remove();
+      resolve(updated);
+    };
+    script.src = `daily-content.js?refresh=${Date.now()}`;
+    script.async = true;
+    script.onload = () => finish(applyGeneratedContent(window.dailyReadingContent));
+    script.onerror = () => finish(false);
+    document.head.append(script);
+  }).finally(() => {
+    dataRefreshPromise = null;
+  });
+
+  return dataRefreshPromise;
+}
 
 function buildReference(element, lines) {
   const nodes = [];
@@ -478,7 +526,7 @@ function buildQuotes(element, quotes) {
 
 function buildFullScriptures(element, keys) {
   const panels = keys.map((key) => {
-    const passage = window.scriptureTexts[key];
+    const passage = scriptureTexts[key];
     const details = document.createElement("details");
     const summary = document.createElement("summary");
     const action = document.createElement("span");
@@ -552,6 +600,7 @@ function renderDay(day) {
   const topicArtwork = document.getElementById("topic-art-image");
   topicArtwork.src = `assets/topics/topic-${day.artwork.file}.webp?v=20260912e`;
   topicArtwork.alt = `${day.artwork.label}主題插畫`;
+  topicArtwork.draggable = false;
   document.getElementById("reflection-title").textContent = day.reflection;
   renderTheme(day.tags);
 
@@ -581,11 +630,20 @@ function getLocalDateKey(date = new Date()) {
 
 function renderLocalDay() {
   const localDate = getLocalDateKey();
-  const day = readings.find((reading) => reading.date === localDate);
+  const exactDay = readings.find((reading) => reading.date === localDate);
+  const generatedFallback = generatedContent?.readings?.length
+    ? [...readings]
+      .sort((first, second) => first.date.localeCompare(second.date))
+      .filter((reading) => reading.date <= localDate)
+      .at(-1) ?? readings[0]
+    : null;
+  const day = exactDay ?? generatedFallback;
 
-  if (day && document.documentElement.dataset.activeDate !== localDate) {
+  if (day && document.documentElement.dataset.activeDate !== day.date) {
     renderDay(day);
   }
+  document.documentElement.dataset.contentDateStatus = exactDay ? "current" : "fallback";
+  return Boolean(exactDay);
 }
 
 function scheduleLocalMidnightUpdate() {
@@ -597,18 +655,33 @@ function scheduleLocalMidnightUpdate() {
     0, 0, 1
   );
 
-  window.setTimeout(() => {
+  window.setTimeout(async () => {
+    await refreshGeneratedContent({ force: true });
     renderLocalDay();
     scheduleLocalMidnightUpdate();
   }, nextMidnight.getTime() - now.getTime());
 }
 
-renderLocalDay();
+if (!renderLocalDay()) {
+  refreshGeneratedContent({ force: true }).finally(renderLocalDay);
+}
 scheduleLocalMidnightUpdate();
+
+document.addEventListener("contextmenu", (event) => {
+  if (event.target.closest?.(".topic-art-stage")) {
+    event.preventDefault();
+  }
+});
+
+document.addEventListener("dragstart", (event) => {
+  if (event.target.closest?.(".topic-art-stage")) {
+    event.preventDefault();
+  }
+});
 
 document.addEventListener("visibilitychange", () => {
   if (!document.hidden) {
-    renderLocalDay();
+    refreshGeneratedContent().finally(renderLocalDay);
   }
 });
 

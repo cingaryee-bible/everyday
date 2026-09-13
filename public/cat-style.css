@@ -280,6 +280,8 @@ footer,
   overflow: visible;
   padding: 0;
   transform: none;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 
 .topic-art-stage .daily-art-copy {
@@ -347,6 +349,7 @@ footer,
   max-height: none;
   object-fit: contain;
   order: 1;
+  pointer-events: none;
   transform: none;
   width: 100%;
 }
