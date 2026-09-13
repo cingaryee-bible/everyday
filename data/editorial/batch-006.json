@@ -1,0 +1,315 @@
+{
+  "batch": "006",
+  "entries": {
+    "psalm 148|1 kings 3:5-14|john 8:12-19": {
+      "dates": ["2026-12-31"],
+      "reviewed": true,
+      "themeFile": "24",
+      "deck": "所羅門沒有先求財富與勝利，而求一顆能辨是非的心；世界的光也引人越過外貌，按從父而來的真實作判斷。",
+      "reflection": "站在新舊交界，我最想向上帝求甚麼？這願望只成全自己，還是使我更能明辨並服事別人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 148, "verse": 11 }, { "chapter": 148, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 7 }, { "chapter": 3, "verse": 9 }, { "chapter": 3, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 12 }, { "chapter": 8, "verse": 15 }, { "chapter": 8, "verse": 16 }] }]
+      }
+    },
+    "psalm 8|numbers 6:22-27|galatians 4:4-7|luke 2:15-21": {
+      "dates": ["2027-01-01"],
+      "reviewed": true,
+      "themeFile": "33",
+      "deck": "新一年從領受名字開始：上帝把自己的名放在百姓身上，又藉耶穌使奴僕成為兒女；被顧念的人可以帶着平安前行。",
+      "reflection": "過去的成敗曾怎樣替我命名？今日我願否先以『蒙上帝眷顧的兒女』來認識自己和別人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 3 }, { "chapter": 8, "verse": 4 }, { "chapter": 8, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 24 }, { "chapter": 6, "verse": 25 }, { "chapter": 6, "verse": 26 }, { "chapter": 6, "verse": 27 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 5 }, { "chapter": 4, "verse": 6 }, { "chapter": 4, "verse": 7 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 2, "verse": 17 }, { "chapter": 2, "verse": 19 }, { "chapter": 2, "verse": 21 }] }
+        ]
+      }
+    },
+    "psalm 148|proverbs 1:1-7|james 3:13-18": {
+      "dates": ["2027-01-02"],
+      "reviewed": true,
+      "themeFile": "24",
+      "deck": "智慧不以懂得多少自證，而在溫柔的善行中被認出；敬畏上帝的人會放下嫉妒與爭競，用和平栽種公義。",
+      "reflection": "我最近一次爭辯，是想尋求真理還是證明自己較高明？若從上頭的智慧帶領，我的語氣會怎樣不同？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 148, "verse": 5 }, { "chapter": 148, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 2 }, { "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 7 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 13 }, { "chapter": 3, "verse": 17 }, { "chapter": 3, "verse": 18 }] }]
+      }
+    },
+    "psalm 147:12-20|jeremiah 31:7-14|ephesians 1:3-14|john 1:(1-9), 10-18": {
+      "dates": ["2027-01-03"],
+      "reviewed": true,
+      "themeFile": "27",
+      "shortSummary": "上帝的話成了肉身住在人間",
+      "deck": "使冰雪融化、領流散者回家的話，親自成了肉身住在人間；在基督裏，破碎與隔離不再是結局，萬有被招聚為一。",
+      "reflection": "我生命中哪一處仍像封凍或流散？道成肉身的上帝會邀請我以甚麼實際方式重新連結？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 147, "verse": 13 }, { "chapter": 147, "verse": 18 }, { "chapter": 147, "verse": 19 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 8 }, { "chapter": 31, "verse": 9 }, { "chapter": 31, "verse": 13 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 10 }, { "chapter": 1, "verse": 13 }, { "chapter": 1, "verse": 14 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 1, "verse": 12 }, { "chapter": 1, "verse": 14 }, { "chapter": 1, "verse": 16 }, { "chapter": 1, "verse": 18 }] }
+        ]
+      }
+    },
+    "psalm 110|proverbs 3:1-12|james 4:11-17": {
+      "dates": ["2027-01-04"],
+      "reviewed": true,
+      "themeFile": "40",
+      "deck": "生命像片刻雲霧，我們不能把明日握在手中；專心倚靠主的人放下論斷與張狂計劃，把已知道的善忠實活在今日。",
+      "reflection": "我正用哪個周密計劃換取安全感？若承認明日在主手中，今天那件已知道的善事是甚麼？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 110, "verse": 3 }, { "chapter": 110, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 3 }, { "chapter": 3, "verse": 5 }, { "chapter": 3, "verse": 6 }, { "chapter": 3, "verse": 7 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 12 }, { "chapter": 4, "verse": 14 }, { "chapter": 4, "verse": 15 }, { "chapter": 4, "verse": 17 }] }]
+      }
+    },
+    "psalm 110|proverbs 22:1-9|luke 6:27-31": {
+      "dates": ["2027-01-05"],
+      "reviewed": true,
+      "themeFile": "20",
+      "shortSummary": "基督以祝福仇敵打斷報復",
+      "deck": "在基督的國度，權柄不是報復的杖，而是把食物分給窮人、為仇敵祝福的力量；愛打斷了傷害不斷複製的循環。",
+      "shortReflection": "面對傷害過我的人，我可以先停止報復嗎？",
+      "reflection": "面對一個傷害過我的人，我未必能立刻親近他，但今日可否先拒絕報復，求上帝指引安全而良善的回應？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 110, "verse": 3 }, { "chapter": 110, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 22, "verse": 2 }, { "chapter": 22, "verse": 8 }, { "chapter": 22, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 27 }, { "chapter": 6, "verse": 28 }, { "chapter": 6, "verse": 31 }] }]
+      }
+    },
+    "psalm 72:1-7, 10-14|isaiah 60:1-6|ephesians 3:1-12|matthew 2:1-12": {
+      "dates": ["2027-01-06"],
+      "reviewed": true,
+      "themeFile": "08",
+      "deck": "東方來客循光尋見小孩，揭開外邦人同蒙應許的奧祕；真正的君王珍惜窮人的血，不像希律以不安守住權位。",
+      "shortReflection": "陌生人的看法，會令我好奇還是抗拒？",
+      "reflection": "當陌生人帶來我未曾看見的亮光，我會像博士繼續尋求，還是像希律因失去控制而抗拒？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 72, "verse": 4 }, { "chapter": 72, "verse": 12 }, { "chapter": 72, "verse": 13 }, { "chapter": 72, "verse": 14 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 60, "verse": 1 }, { "chapter": 60, "verse": 3 }, { "chapter": 60, "verse": 6 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 6 }, { "chapter": 3, "verse": 8 }, { "chapter": 3, "verse": 12 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 2, "verse": 2 }, { "chapter": 2, "verse": 10 }, { "chapter": 2, "verse": 11 }, { "chapter": 2, "verse": 12 }] }
+        ]
+      }
+    },
+    "psalm 29|1 samuel 3:1-21|acts 9:10-19a": {
+      "dates": ["2027-01-07"],
+      "reviewed": true,
+      "themeFile": "25",
+      "deck": "聽見上帝不只需要安靜，也需要有人幫助分辨；撒母耳學會敬聽，亞拿尼亞則聽命走近自己最害怕的人。",
+      "reflection": "哪一個呼喚因重複、微小或令人不安而被我忽略？我需要請誰陪我分辨，然後勇敢回應？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 3 }, { "chapter": 29, "verse": 4 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 8 }, { "chapter": 3, "verse": 9 }, { "chapter": 3, "verse": 10 }, { "chapter": 3, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 13 }, { "chapter": 9, "verse": 15 }, { "chapter": 9, "verse": 17 }, { "chapter": 9, "verse": 18 }] }]
+      }
+    },
+    "psalm 29|1 samuel 16:1-13|1 timothy 4:11-16": {
+      "dates": ["2027-01-08"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "人按年齡、身形和資歷排列高低，上帝卻看內心，也呼召年輕人以言語、行為與愛心活出恩賜。",
+      "reflection": "我因外表或履歷低估了誰，包括自己？我可以如何給那份被忽略的恩賜一個成長和服事的空間？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 1 }, { "chapter": 29, "verse": 2 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 7 }, { "chapter": 16, "verse": 11 }, { "chapter": 16, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 12 }, { "chapter": 4, "verse": 14 }, { "chapter": 4, "verse": 15 }, { "chapter": 4, "verse": 16 }] }]
+      }
+    },
+    "psalm 29|1 kings 2:1-4, 10-12|luke 5:1-11": {
+      "dates": ["2027-01-09"],
+      "reviewed": true,
+      "themeFile": "36",
+      "deck": "大衛走完自己的路，把責任交給下一代；彼得在徒勞一夜後仍依從耶穌，把船開往深處，並接受一個全新的使命。",
+      "reflection": "有哪段熟悉的生活已到交棒或再出發的時候？即使曾經徒勞，我願意因主的話再試哪一步？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 10 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 2 }, { "chapter": 2, "verse": 3 }, { "chapter": 2, "verse": 4 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 4 }, { "chapter": 5, "verse": 5 }, { "chapter": 5, "verse": 10 }, { "chapter": 5, "verse": 11 }] }]
+      }
+    },
+    "psalm 29|genesis 1:1-5|acts 19:1-7|mark 1:4-11": {
+      "dates": ["2027-01-10"],
+      "reviewed": true,
+      "themeFile": "41",
+      "deck": "創造之初，聖靈運行水面、上帝發聲使光出現；約旦河上，聖靈再次降臨，父的聲音宣告耶穌是蒙喜悅的愛子。",
+      "reflection": "我是否一直靠表現換取肯定？若先領受『蒙愛』的身分，今日的選擇和服事會有何不同？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 3 }, { "chapter": 29, "verse": 4 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 2 }, { "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 4 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 4 }, { "chapter": 19, "verse": 5 }, { "chapter": 19, "verse": 6 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 1, "verse": 8 }, { "chapter": 1, "verse": 10 }, { "chapter": 1, "verse": 11 }] }
+        ]
+      }
+    },
+    "psalm 69:1-5, 30-36|genesis 17:1-13|romans 4:1-12": {
+      "dates": ["2027-01-11"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "割禮是約的記號，卻不是恩典的門檻；亞伯拉罕尚未受割禮便因信被接納，使各種背景的信徒都能同屬一個應許之家。",
+      "reflection": "我是否把某種習慣、文化或表現當成上帝接納人的資格？這會令誰覺得自己永遠是外人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 69, "verse": 32 }, { "chapter": 69, "verse": 33 }, { "chapter": 69, "verse": 36 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 17, "verse": 4 }, { "chapter": 17, "verse": 7 }, { "chapter": 17, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 3 }, { "chapter": 4, "verse": 5 }, { "chapter": 4, "verse": 9 }, { "chapter": 4, "verse": 11 }] }]
+      }
+    },
+    "psalm 69:1-5, 30-36|exodus 30:22-38|acts 22:2-16": {
+      "dates": ["2027-01-12"],
+      "reviewed": true,
+      "themeFile": "39",
+      "deck": "聖膏油分別人與器皿歸給上帝，不能仿製成私用商品；追逼信徒的掃羅也被光截停、洗淨，轉為向萬人作見證。",
+      "reflection": "信仰在哪些地方被我拿來裝飾形象或服務私利？上帝正呼喚我停止甚麼，重新把生命歸祂使用？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 69, "verse": 1 }, { "chapter": 69, "verse": 5 }, { "chapter": 69, "verse": 30 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 30, "verse": 25 }, { "chapter": 30, "verse": 29 }, { "chapter": 30, "verse": 30 }, { "chapter": 30, "verse": 32 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 22, "verse": 7 }, { "chapter": 22, "verse": 10 }, { "chapter": 22, "verse": 14 }, { "chapter": 22, "verse": 16 }] }]
+      }
+    },
+    "psalm 69:1-5, 30-36|isaiah 41:14-20|john 1:29-34": {
+      "dates": ["2027-01-13"],
+      "reviewed": true,
+      "themeFile": "19",
+      "deck": "困苦者在乾地找不到水，上帝卻說『我必不離棄』；那除去世人罪孽的羔羊，使荒漠湧泉，也使疲乏的心重新甦醒。",
+      "reflection": "哪一份匱乏令我覺得自己微小得不值得看顧？我願意把這口渴帶到基督面前嗎？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 69, "verse": 2 }, { "chapter": 69, "verse": 32 }, { "chapter": 69, "verse": 33 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 41, "verse": 14 }, { "chapter": 41, "verse": 17 }, { "chapter": 41, "verse": 18 }, { "chapter": 41, "verse": 20 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 29 }, { "chapter": 1, "verse": 32 }, { "chapter": 1, "verse": 34 }] }]
+      }
+    },
+    "psalm 139:1-6, 13-18|judges 2:6-15|2 corinthians 10:1-11": {
+      "dates": ["2027-01-14"],
+      "reviewed": true,
+      "themeFile": "02",
+      "deck": "一代若不把上帝的作為活着傳下去，下一代便容易失去記憶；屬靈權柄的目的不是威嚇，而是攻破謊言、造就生命。",
+      "shortReflection": "下一代從我的生活，看見的是壓力還是恩典？",
+      "reflection": "我正把一個怎樣的上帝傳給下一代——只剩規條與壓力，還是從真實生活看得見的恩典與真理？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 139, "verse": 1 }, { "chapter": 139, "verse": 3 }, { "chapter": 139, "verse": 17 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 7 }, { "chapter": 2, "verse": 10 }, { "chapter": 2, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 3 }, { "chapter": 10, "verse": 4 }, { "chapter": 10, "verse": 5 }, { "chapter": 10, "verse": 8 }] }]
+      }
+    },
+    "psalm 139:1-6, 13-18|judges 2:16-23|acts 13:16-25": {
+      "dates": ["2027-01-15"],
+      "reviewed": true,
+      "themeFile": "33",
+      "deck": "士師記反覆記下人的背叛，保羅卻在整段曲折歷史中指出上帝的忍耐與應許；救主不是人的忠誠換來，而是恩典沒有放棄。",
+      "shortReflection": "我反覆跌倒時，只看見羞恥，還是也看見改變？",
+      "reflection": "回望自己反覆跌倒的模式，我只看見羞恥，還是也看見上帝一直呼喚、容忍和挽回的痕跡？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 139, "verse": 5 }, { "chapter": 139, "verse": 16 }, { "chapter": 139, "verse": 18 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 16 }, { "chapter": 2, "verse": 18 }, { "chapter": 2, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 13, "verse": 17 }, { "chapter": 13, "verse": 18 }, { "chapter": 13, "verse": 22 }, { "chapter": 13, "verse": 23 }] }]
+      }
+    },
+    "psalm 139:1-6, 13-18|1 samuel 2:21-25|matthew 25:1-13": {
+      "dates": ["2027-01-16"],
+      "reviewed": true,
+      "themeFile": "28",
+      "deck": "以利的兒子長期拒絕勸告，最後一刻的提醒不能代替平日塑造；等候新郎所需的油，也是在日常中慢慢預備。",
+      "reflection": "我把哪件重要的改變一再留到『有空才做』？今日可建立哪個微小而持續的習慣，為將來預備自己？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 139, "verse": 2 }, { "chapter": 139, "verse": 4 }, { "chapter": 139, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 23 }, { "chapter": 2, "verse": 24 }, { "chapter": 2, "verse": 25 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 25, "verse": 3 }, { "chapter": 25, "verse": 4 }, { "chapter": 25, "verse": 10 }, { "chapter": 25, "verse": 13 }] }]
+      }
+    },
+    "psalm 139:1-6, 13-18|1 samuel 3:1-10, (11-20)|1 corinthians 6:12-20|john 1:43-51": {
+      "dates": ["2027-01-17"],
+      "reviewed": true,
+      "themeFile": "27",
+      "deck": "上帝在撒母耳聽懂以前已呼喚他，在拿但業走近以前已看見他；被徹底認識的身體與生命，不再任由慾望轄制，而是歸主為聖。",
+      "reflection": "哪種慾望、習慣或別人的眼光正在定義我的身體？若相信自己早被上帝看見和珍惜，我會如何重新選擇？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 139, "verse": 1 }, { "chapter": 139, "verse": 13 }, { "chapter": 139, "verse": 14 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 3 }, { "chapter": 3, "verse": 9 }, { "chapter": 3, "verse": 10 }, { "chapter": 3, "verse": 19 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 12 }, { "chapter": 6, "verse": 19 }, { "chapter": 6, "verse": 20 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 1, "verse": 43 }, { "chapter": 1, "verse": 46 }, { "chapter": 1, "verse": 48 }, { "chapter": 1, "verse": 51 }] }
+        ]
+      }
+    },
+    "psalm 86|1 samuel 9:27-10:8|2 corinthians 6:14-7:1": {
+      "dates": ["2027-01-18"],
+      "reviewed": true,
+      "themeFile": "39",
+      "deck": "受膏使掃羅承擔新身分，聖靈也要使他變為新人；蒙召不是披上一個頭銜，而是把身心從污穢中分別出來，讓上帝居住。",
+      "reflection": "我希望別人承認我的哪個身分，卻尚未讓它改變私下的生活？上帝今日要潔淨哪一處？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 86, "verse": 10 }, { "chapter": 86, "verse": 11 }, { "chapter": 86, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 1 }, { "chapter": 10, "verse": 6 }, { "chapter": 10, "verse": 7 }, { "chapter": 10, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 16 }, { "chapter": 6, "verse": 18 }, { "chapter": 7, "verse": 1 }] }]
+      }
+    },
+    "psalm 86|1 samuel 15:10-31|acts 5:1-11": {
+      "dates": ["2027-01-19"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "掃羅用祭物包裝不順服，亞拿尼亞夫婦用奉獻包裝虛假；上帝要的不是屬靈形象，而是一顆不向人演戲的誠實心。",
+      "reflection": "我在哪件事上較在意別人以為我敬虔，而不願讓上帝看見真相？我可以向誰誠實承認？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 86, "verse": 5 }, { "chapter": 86, "verse": 11 }, { "chapter": 86, "verse": 15 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 14 }, { "chapter": 15, "verse": 22 }, { "chapter": 15, "verse": 24 }, { "chapter": 15, "verse": 30 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 3 }, { "chapter": 5, "verse": 4 }, { "chapter": 5, "verse": 8 }, { "chapter": 5, "verse": 9 }] }]
+      }
+    },
+    "psalm 86|genesis 16:1-14|luke 18:15-17": {
+      "dates": ["2027-01-20"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "夏甲被當作生育工具、受苦逃亡，上帝卻在曠野叫她的名字、聽見她的苦情；耶穌同樣把被門徒攔阻的孩子叫到身邊。",
+      "reflection": "誰在制度或關係中被當成工具、麻煩或無聲的小人物？我可以怎樣叫出他的名字，尊重他的需要？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 86, "verse": 1 }, { "chapter": 86, "verse": 6 }, { "chapter": 86, "verse": 15 }, { "chapter": 86, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 6 }, { "chapter": 16, "verse": 7 }, { "chapter": 16, "verse": 11 }, { "chapter": 16, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 15 }, { "chapter": 18, "verse": 16 }, { "chapter": 18, "verse": 17 }] }]
+      }
+    },
+    "psalm 62:5-12|jeremiah 19:1-15|revelation 18:11-20": {
+      "dates": ["2027-01-21"],
+      "reviewed": true,
+      "themeFile": "31",
+      "deck": "把無辜人的血、甚至人口變成繁榮代價的城，終會像瓦瓶破碎；財寶不能承托生命，能力與慈愛只屬上帝。",
+      "reflection": "我日常的便宜、消費或投資，有沒有建立在看不見的剝削上？我可以先查明並改變哪一項選擇？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 62, "verse": 8 }, { "chapter": 62, "verse": 10 }, { "chapter": 62, "verse": 11 }, { "chapter": 62, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 4 }, { "chapter": 19, "verse": 5 }, { "chapter": 19, "verse": 10 }, { "chapter": 19, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 11 }, { "chapter": 18, "verse": 13 }, { "chapter": 18, "verse": 17 }, { "chapter": 18, "verse": 20 }] }]
+      }
+    },
+    "psalm 62:5-12|jeremiah 20:7-13|2 peter 3:1-7": {
+      "dates": ["2027-01-22"],
+      "reviewed": true,
+      "themeFile": "04",
+      "deck": "被譏笑的耶利米曾想閉口，上帝的話卻像骨中的火；當人嘲諷應許、故意忘記歷史，忠心就是仍然記得並發聲。",
+      "reflection": "哪一句應當說的真話因怕被笑或被排斥而困在我心裏？我需要以甚麼合宜方式把它說出來？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 62, "verse": 5 }, { "chapter": 62, "verse": 6 }, { "chapter": 62, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 20, "verse": 8 }, { "chapter": 20, "verse": 9 }, { "chapter": 20, "verse": 11 }, { "chapter": 20, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 1 }, { "chapter": 3, "verse": 2 }, { "chapter": 3, "verse": 4 }, { "chapter": 3, "verse": 5 }] }]
+      }
+    },
+    "psalm 62:5-12|jeremiah 20:14-18|luke 10:13-16": {
+      "dates": ["2027-01-23"],
+      "reviewed": true,
+      "themeFile": "12",
+      "deck": "耶利米的絕望沒有被經卷刪去，耶穌也哀歎拒絕回轉的城；上帝容許痛苦說出真話，並在深處仍作可以傾心的磐石。",
+      "shortReflection": "若活着也覺沉重，請立即找可信任的人或專業支援。",
+      "reflection": "若我或身邊的人連活着也覺沉重，能否不急着說教，先把痛苦說清楚，並尋求可信任的人與專業支援同行？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 62, "verse": 5 }, { "chapter": 62, "verse": 6 }, { "chapter": 62, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 20, "verse": 14 }, { "chapter": 20, "verse": 18 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 13 }, { "chapter": 10, "verse": 14 }, { "chapter": 10, "verse": 16 }] }]
+      }
+    }
+  }
+}

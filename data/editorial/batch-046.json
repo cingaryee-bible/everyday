@@ -1,0 +1,41 @@
+{
+  "batch": "046",
+  "entries": {
+    "psalm 114|exodus 13:17-22|1 john 3:11-16": {
+      "dates": ["2026-09-10"],
+      "reviewed": true,
+      "themeFile": "02",
+      "deck": "詩篇以大地震動、水流改道歌唱上帝領人離開奴役；出埃及記卻沒有把自由描寫成直奔最短路，上帝避開戰事，以雲柱和火柱陪百姓繞行。繞路不是失去方向，有時是保護尚未準備好面對另一場暴力的人。約翰一書把生命的方向說得更清楚：不可讓嫉妒和恨意走向殺害，彼此相愛要以基督捨己的愛為尺度。這不要求受害者犧牲安全或替別人承受虐待；一起守護，是選擇減少傷害的路，也把時間、資源和位置用來保存別人的生命。",
+      "reflection": "眼前哪條捷徑會令自己或別人再受傷？今天可改走哪條較慢但更安全的路，並以甚麼實際行動守護一個人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 114, "verse": 1 }, { "chapter": 114, "verse": 3 }, { "chapter": 114, "verse": 7 }, { "chapter": 114, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 13, "verse": 17 }, { "chapter": 13, "verse": 18 }, { "chapter": 13, "verse": 21 }, { "chapter": 13, "verse": 22 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 11 }, { "chapter": 3, "verse": 14 }, { "chapter": 3, "verse": 15 }, { "chapter": 3, "verse": 16 }] }]
+      }
+    },
+    "psalm 114|exodus 14:1-18|acts 7:9-16": {
+      "dates": ["2026-09-11"],
+      "reviewed": true,
+      "themeFile": "37",
+      "deck": "以色列人離開奴役後被法老軍隊追上，恐懼令他們寧願回去服事埃及；摩西先叫人不要怕，上帝隨即吩咐百姓往前走。敘事以法老全軍覆亡彰顯上帝榮耀，屬古代解放與審判語言，不能用來神聖化今日戰爭、集體懲罰或把敵人當成可以消滅的群體。司提反在使徒行傳重述約瑟被嫉妒、販賣、流徙和饑荒包圍的家族歷史，焦點是上帝與受害者同在，並把智慧化成全家可得的糧食。路會打開，不是靠報復證明自由，而是在恐懼中保護逃難者、供應飢餓者，踏出不再返回奴役制度的一步。",
+      "reflection": "恐懼是否令我想返回一個熟悉但傷人的制度？今天可找誰同行，先踏出哪個安全而不報復的下一步？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 114, "verse": 1 }, { "chapter": 114, "verse": 3 }, { "chapter": 114, "verse": 7 }, { "chapter": 114, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 10 }, { "chapter": 14, "verse": 13 }, { "chapter": 14, "verse": 14 }, { "chapter": 14, "verse": 15 }, { "chapter": 14, "verse": 16 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 7, "verse": 9 }, { "chapter": 7, "verse": 10 }, { "chapter": 7, "verse": 11 }, { "chapter": 7, "verse": 12 }, { "chapter": 7, "verse": 14 }] }]
+      }
+    },
+    "psalm 114|exodus 15:19-21|matthew 6:7-15": {
+      "dates": ["2026-09-12"],
+      "reviewed": true,
+      "themeFile": "20",
+      "deck": "米利暗帶領婦女擊鼓歌唱，為奴群體終於脫離追兵而慶賀；歌中卻也有馬匹和騎兵葬身海中的死亡。這首古代勝利詩保存受壓者得自由的記憶，但不可成為今天以別人死亡取樂或煽動暴力的歌曲。耶穌把門徒帶回簡單而共同的禱告：願上帝的國和旨意臨到，求今日的飲食、債得赦免，也求脫離凶惡。饒恕不是否認傷害、取消公義或強迫受害者與危險人物復和；憐憫讓我們停止報復，同時建立界線、追求修復，使自己不再複製所逃離的惡。",
+      "reflection": "我能否為得自由感恩，又不以傷害另一群人為樂？今天的主禱文邀請我供應誰、設立哪個安全界線，或停止哪項報復？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 114, "verse": 1 }, { "chapter": 114, "verse": 3 }, { "chapter": 114, "verse": 7 }, { "chapter": 114, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 19 }, { "chapter": 15, "verse": 20 }, { "chapter": 15, "verse": 21 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 8 }, { "chapter": 6, "verse": 9 }, { "chapter": 6, "verse": 10 }, { "chapter": 6, "verse": 11 }, { "chapter": 6, "verse": 12 }, { "chapter": 6, "verse": 13 }, { "chapter": 6, "verse": 14 }] }]
+      }
+    }
+  }
+}

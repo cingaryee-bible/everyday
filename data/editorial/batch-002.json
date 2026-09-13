@@ -1,0 +1,308 @@
+{
+  "batch": "002",
+  "entries": {
+    "psalm 78:1-4, 12-16|numbers 20:1-13|acts 13:32-41": {
+      "dates": ["2026-09-25"],
+      "reviewed": true,
+      "themeFile": "25",
+      "deck": "上帝的能力不是領袖可以據為己有；留心聽祂的話，才認出應許已在復活的基督裏成全。",
+      "reflection": "我是否曾以自己的方法取代上帝的吩咐，甚至把祂的作為說成自己的功勞？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 78, "verse": 1 }, { "chapter": 78, "verse": 15 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 20, "verse": 8 }, { "chapter": 20, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 13, "verse": 32 }, { "chapter": 13, "verse": 33 }] }]
+      }
+    },
+    "psalm 78:1-4, 12-16|numbers 27:12-14|mark 11:27-33": {
+      "dates": ["2026-09-26"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "摩西誠實面對自己的界限，宗教領袖卻以『不知道』迴避真相；看清自己，才懂得尊上帝為聖。",
+      "reflection": "有甚麼真相其實已經清楚，只因代價太大，我仍用含糊的答案逃避？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 78, "verse": 3 }, { "chapter": 78, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 27, "verse": 12 }, { "chapter": 27, "verse": 14 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 30 }, { "chapter": 11, "verse": 33 }] }]
+      }
+    },
+    "psalm 78:1-4, 12-16|exodus 17:1-7|philippians 2:1-13|matthew 21:23-32": {
+      "dates": ["2026-09-27"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "信仰不在於嘴上答應，而在於回轉後的行動；基督以謙卑順服，顯明上帝確實在我們中間。",
+      "reflection": "我在哪件事上只說了『我願意』，卻仍未行動？今日可以如何真正回轉？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 78, "verse": 14 }, { "chapter": 78, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 17, "verse": 6 }, { "chapter": 17, "verse": 7 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 3 }, { "chapter": 2, "verse": 5 }, { "chapter": 2, "verse": 13 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 21, "verse": 29 }, { "chapter": 21, "verse": 31 }] }
+        ]
+      }
+    },
+    "psalm 42|exodus 18:1-12|philippians 1:3-14": {
+      "dates": ["2026-09-28"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "憂悶的心渴想上帝，也渴想同行的人；一席重聚的飯與一封感恩的信，使恩典重新有了名字。",
+      "reflection": "在思念或孤單之中，我可以主動與誰問安、分享近況，讓彼此再次同行？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 42, "verse": 5 }, { "chapter": 42, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 8 }, { "chapter": 18, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 5 }, { "chapter": 1, "verse": 7 }] }]
+      }
+    },
+    "psalm 42|exodus 18:13-27|philippians 1:15-21": {
+      "dates": ["2026-09-29"],
+      "reviewed": true,
+      "themeFile": "02",
+      "deck": "忠心不等於獨力承擔；讓人同負責任，又把目光放回基督，沉重的服事才不致耗盡眾人。",
+      "reflection": "哪一項責任已令我和身邊的人疲憊？我需要邀請誰一同承擔？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 42, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 18 }, { "chapter": 18, "verse": 22 }, { "chapter": 18, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 18 }, { "chapter": 1, "verse": 20 }] }]
+      }
+    },
+    "psalm 42|exodus 19:9b-25|matthew 9:2-8": {
+      "dates": ["2026-09-30"],
+      "reviewed": true,
+      "themeFile": "27",
+      "deck": "西奈山教人敬畏上帝的聖潔，耶穌卻走近癱子施行赦免；祂的臨在既不可輕忽，也使人放心起來。",
+      "reflection": "我對上帝只剩畏懼，還是只剩隨便？今日如何同時以敬畏和信靠來到祂面前？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 42, "verse": 2 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 17 }, { "chapter": 19, "verse": 20 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 2 }, { "chapter": 9, "verse": 6 }] }]
+      }
+    },
+    "psalm 19|exodus 23:1-9|colossians 2:16-23": {
+      "dates": ["2026-10-01"],
+      "reviewed": true,
+      "themeFile": "31",
+      "shortSummary": "律法關心真實、公正與憐憫",
+      "deck": "真正的敬虔不靠繁複規條裝飾，而在真實、公正與憐憫中落地，連仇敵和寄居者也不被遺忘。",
+      "reflection": "當群眾的聲音與公平相衝突，我願意為哪一位容易被忽略的人守住真實？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 8 }, { "chapter": 19, "verse": 14 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 2 }, { "chapter": 23, "verse": 5 }, { "chapter": 23, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 19 }, { "chapter": 2, "verse": 23 }] }]
+      }
+    },
+    "psalm 19|exodus 23:14-19|philippians 2:14-18; 3:1-4a": {
+      "dates": ["2026-10-02"],
+      "reviewed": true,
+      "themeFile": "01",
+      "deck": "守節與獻上初熟，是以感恩記住恩典；不發怨言而持守生命之道，便在世代中一同發光喜樂。",
+      "reflection": "我今日能把哪一份勞碌的成果獻給上帝，並少一句怨言、多一份喜樂？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 1 }, { "chapter": 19, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 14 }, { "chapter": 23, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 14 }, { "chapter": 2, "verse": 15 }, { "chapter": 2, "verse": 18 }] }]
+      }
+    },
+    "psalm 19|exodus 23:10-13|john 7:40-52": {
+      "dates": ["2026-10-03"],
+      "reviewed": true,
+      "themeFile": "24",
+      "deck": "上帝的律法為土地、窮人和寄居者留下空間，也要求先聆聽才判斷；智慧不隨眾定罪。",
+      "reflection": "我是否只憑背景、傳聞或群體立場判斷一個人，而未曾真正聽他的話？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 7 }, { "chapter": 19, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 11 }, { "chapter": 23, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 7, "verse": 46 }, { "chapter": 7, "verse": 51 }] }]
+      }
+    },
+    "psalm 19|exodus 20:1-4, 7-9, 12-20|philippians 3:4b-14|matthew 21:33-46": {
+      "dates": ["2026-10-04"],
+      "reviewed": true,
+      "themeFile": "36",
+      "deck": "領人出奴役的上帝賜下生命之道；跟隨基督，就是放下自恃和佔有，向着祂結出當交的果子。",
+      "reflection": "我正倚靠哪一項成就或身分證明自己？放下它，會如何幫助我更專心跟隨基督？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 7 }, { "chapter": 19, "verse": 10 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 20, "verse": 2 }, { "chapter": 20, "verse": 3 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 8 }, { "chapter": 3, "verse": 13 }, { "chapter": 3, "verse": 14 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 21, "verse": 42 }, { "chapter": 21, "verse": 43 }] }
+        ]
+      }
+    },
+    "psalm 119:49-56|deuteronomy 5:1-21|1 peter 2:4-10": {
+      "dates": ["2026-10-05"],
+      "reviewed": true,
+      "themeFile": "08",
+      "deck": "古老的約是向今日仍然活着的人說話；蒙憐憫的人成為活石，被召離開黑暗，宣揚上帝的光。",
+      "reflection": "若我真是被建造在基督裏的一塊活石，今日要在哪一處活出屬上帝子民的身分？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 50 }, { "chapter": 119, "verse": 54 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 3 }, { "chapter": 5, "verse": 15 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 5 }, { "chapter": 2, "verse": 9 }, { "chapter": 2, "verse": 10 }] }]
+      }
+    },
+    "psalm 119:49-56|deuteronomy 5:22-6:3|2 corinthians 5:17-21": {
+      "dates": ["2026-10-06"],
+      "reviewed": true,
+      "themeFile": "39",
+      "deck": "上帝的話不是停在石版上，而要成為可行的道路；在基督裏得着新生命的人，也承接使人和好的使命。",
+      "reflection": "哪一段破裂的關係正等待新的開始？我可以先踏出哪一步，使和好不只停在口號？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 49 }, { "chapter": 119, "verse": 50 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 32 }, { "chapter": 6, "verse": 3 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 17 }, { "chapter": 5, "verse": 18 }, { "chapter": 5, "verse": 20 }] }]
+      }
+    },
+    "psalm 119:49-56|deuteronomy 6:10-25|john 11:45-57": {
+      "dates": ["2026-10-07"],
+      "reviewed": true,
+      "themeFile": "33",
+      "deck": "安穩富足最容易使人忘記誰曾施救；耶穌卻為聚集四散的人走向死亡，讓救恩再次被記起。",
+      "reflection": "有哪些享受已被我視作理所當然？我可以怎樣向下一代述說它背後的恩典？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 52 }, { "chapter": 119, "verse": 55 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 12 }, { "chapter": 6, "verse": 21 }, { "chapter": 6, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 51 }, { "chapter": 11, "verse": 52 }] }]
+      }
+    },
+    "psalm 106:1-6, 19-23|exodus 24:1-8|1 peter 5:1-5, 12-14": {
+      "dates": ["2026-10-08"],
+      "reviewed": true,
+      "themeFile": "07",
+      "deck": "立約的群體不只齊聲答應，也要在恩典上站穩；領袖以謙卑作榜樣，眾人便能彼此順服。",
+      "reflection": "我曾向上帝作出的承諾，今日要透過哪一個謙卑而具體的行動重新站穩？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 106, "verse": 3 }, { "chapter": 106, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 7 }, { "chapter": 24, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 3 }, { "chapter": 5, "verse": 5 }, { "chapter": 5, "verse": 12 }] }]
+      }
+    },
+    "psalm 106:1-6, 19-23|exodus 24:9-11|james 4:4-10": {
+      "dates": ["2026-10-09"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "人曾在上帝面前吃喝，也曾把榮耀換成偶像；恩典再次呼喚心懷二意的人潔淨自己、親近上帝。",
+      "reflection": "我的心正同時依戀上帝和甚麼偶像？真正親近祂，需要我停止哪一種兩面生活？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 106, "verse": 20 }, { "chapter": 106, "verse": 21 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 10 }, { "chapter": 24, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 6 }, { "chapter": 4, "verse": 8 }, { "chapter": 4, "verse": 10 }] }]
+      }
+    },
+    "psalm 106:1-6, 19-23|exodus 24:12-18|mark 2:18-22": {
+      "dates": ["2026-10-10"],
+      "reviewed": true,
+      "themeFile": "22",
+      "deck": "摩西在雲中等候上帝的話，耶穌則宣告新酒來到；迎接新事，需要耐心領受，也需要可被更新的器皿。",
+      "reflection": "我是否一面催促上帝說話，一面又只肯接受合乎舊習慣的答案？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 106, "verse": 21 }, { "chapter": 106, "verse": 22 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 12 }, { "chapter": 24, "verse": 16 }, { "chapter": 24, "verse": 18 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 21 }, { "chapter": 2, "verse": 22 }] }]
+      }
+    },
+    "psalm 106:1-6, 19-23|exodus 32:1-14|philippians 4:1-9|matthew 22:1-14": {
+      "dates": ["2026-10-11"],
+      "reviewed": true,
+      "themeFile": "16",
+      "deck": "等候令人不安，人便想造一個可控制的神；上帝卻邀請人以禱告交託憂慮，穿上相稱的生命赴祂的筵席。",
+      "reflection": "焦急時，我會抓住甚麼來代替上帝？今日可否把它放下，帶着真實的自己回應邀請？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 106, "verse": 19 }, { "chapter": 106, "verse": 21 }, { "chapter": 106, "verse": 23 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 32, "verse": 1 }, { "chapter": 32, "verse": 13 }, { "chapter": 32, "verse": 14 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 6 }, { "chapter": 4, "verse": 7 }, { "chapter": 4, "verse": 9 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 22, "verse": 4 }, { "chapter": 22, "verse": 9 }] }
+        ]
+      }
+    },
+    "psalm 97|exodus 32:15-35|jude 17-25": {
+      "dates": ["2026-10-12"],
+      "reviewed": true,
+      "themeFile": "20",
+      "deck": "偶像帶來的破壞不能被輕描淡寫；面對失腳的人，信徒仍要守在上帝的愛中，以敬畏和憐憫挽回。",
+      "reflection": "當別人陷在錯誤中，我如何既不縱容傷害，也不放棄以憐憫扶他回來？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 97, "verse": 10 }, { "chapter": 97, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 32, "verse": 30 }, { "chapter": 32, "verse": 32 }, { "chapter": 32, "verse": 34 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 20 }, { "chapter": 1, "verse": 21 }, { "chapter": 1, "verse": 22 }, { "chapter": 1, "verse": 24 }] }]
+      }
+    },
+    "psalm 97|exodus 33:1-6|philippians 3:13-4:1": {
+      "dates": ["2026-10-13"],
+      "reviewed": true,
+      "themeFile": "29",
+      "deck": "百姓摘下妝飾，帶着悔意重新上路；保羅也放下背後，向着基督的呼召前行，並在主裏站穩。",
+      "reflection": "為了不再被過去拖住，我需要卸下哪一件用來裝飾或保護自己的東西？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 97, "verse": 11 }, { "chapter": 97, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 4 }, { "chapter": 33, "verse": 6 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 13 }, { "chapter": 3, "verse": 14 }, { "chapter": 4, "verse": 1 }] }]
+      }
+    },
+    "psalm 97|2 kings 17:7-20|john 6:25-35": {
+      "dates": ["2026-10-14"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "追隨虛無，人也漸漸變得虛妄；耶穌呼喚飢餓的心離開偶像，歸向那位賜生命的真糧。",
+      "reflection": "我每天最用力追逐的，是會朽壞的滿足，還是能使生命真正飽足的基督？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 97, "verse": 7 }, { "chapter": 97, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 17, "verse": 13 }, { "chapter": 17, "verse": 15 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 27 }, { "chapter": 6, "verse": 35 }] }]
+      }
+    },
+    "psalm 99|exodus 33:7-11|3 john 9-12": {
+      "dates": ["2026-10-15"],
+      "reviewed": true,
+      "themeFile": "27",
+      "deck": "聖潔的上帝與摩西像朋友說話；真正親近祂的人不爭着為首，反而接待弟兄、選擇行善。",
+      "reflection": "我的信仰關係使我更願意接待人，還是更想控制誰可以被接納？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 99, "verse": 6 }, { "chapter": 99, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 9 }, { "chapter": 33, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 9 }, { "chapter": 1, "verse": 11 }, { "chapter": 1, "verse": 12 }] }]
+      }
+    },
+    "psalm 99|exodus 31:1-11|1 peter 5:1-5": {
+      "dates": ["2026-10-16"],
+      "reviewed": true,
+      "themeFile": "15",
+      "shortDeck": "聖靈賜下巧手建造會幕，也呼召領袖甘心牧養。",
+      "deck": "聖靈賜下巧手建造會幕，也呼召領袖甘心牧養；才幹與權柄的目的，都是為上帝好好看顧祂的群體。",
+      "reflection": "我手上的能力或位置，今日可以怎樣少一點自我表現、多一點成全別人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 99, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 2 }, { "chapter": 31, "verse": 3 }, { "chapter": 31, "verse": 6 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 2 }, { "chapter": 5, "verse": 3 }, { "chapter": 5, "verse": 5 }] }]
+      }
+    },
+    "psalm 99|exodus 39:32-43|matthew 14:1-12": {
+      "dates": ["2026-10-17"],
+      "reviewed": true,
+      "themeFile": "31",
+      "deck": "有人按上帝的吩咐完成聖工，有人為保住面子殺害先知；敬畏聖潔的王，就是在壓力下仍選擇公義。",
+      "shortReflection": "為了面子，我有沒有讓一句承諾繼續傷人？",
+      "reflection": "當承認錯誤會令我失去面子時，我是否仍願意停手，不讓一句承諾變成對人的傷害？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 99, "verse": 4 }, { "chapter": 99, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 39, "verse": 42 }, { "chapter": 39, "verse": 43 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 4 }, { "chapter": 14, "verse": 9 }, { "chapter": 14, "verse": 12 }] }]
+      }
+    },
+    "psalm 99|exodus 33:12-23|1 thessalonians 1:1-10|matthew 22:15-22": {
+      "dates": ["2026-10-18"],
+      "reviewed": true,
+      "themeFile": "27",
+      "deck": "上帝不只指示道路，更親自同行、按名字認識人；屬祂的生命便以信、愛與盼望，在世界留下清楚印記。",
+      "reflection": "銀錢帶着凱撒的像，而我帶着上帝的形像；今日我要把生命哪一部分重新歸給祂？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 99, "verse": 6 }, { "chapter": 99, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 14 }, { "chapter": 33, "verse": 17 }, { "chapter": 33, "verse": 19 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 9 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 22, "verse": 21 }] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "batch": "001",
+  "entries": {
+    "psalm 114|exodus 14:19-31|romans 14:1-12|matthew 18:21-35": {
+      "dates": ["2026-09-13"],
+      "reviewed": true,
+      "themeFile": "20",
+      "deck": "上帝為受困的人開路，也接納軟弱的人；蒙了赦免，便學習把憐憫傳下去。",
+      "reflection": "在我最容易論斷或追討的人身上，今日可以怎樣活出自己曾領受的寬容？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 114, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 30 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 3 }, { "chapter": 14, "verse": 8 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 18, "verse": 33 }] }
+        ]
+      }
+    },
+    "psalm 77|joshua 3:1-17|hebrews 11:23-29": {
+      "dates": ["2026-09-14"],
+      "reviewed": true,
+      "themeFile": "37",
+      "deck": "前路從未走過，信心不是先看見答案，而是跟着臨在的上帝踏進水中。",
+      "reflection": "面對一條沒有經驗可依循的路，我願意憑上帝過去的信實踏出哪一步？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 77, "verse": 19 }, { "chapter": 77, "verse": 20 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 4 }, { "chapter": 3, "verse": 17 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 27 }, { "chapter": 11, "verse": 29 }] }]
+      }
+    },
+    "psalm 77|nehemiah 9:9-15|romans 14:13-15:2": {
+      "dates": ["2026-09-15"],
+      "reviewed": true,
+      "themeFile": "02",
+      "deck": "記念上帝一路的拯救與供應，便不再只求自己方便，反而願意扶住身旁軟弱的人。",
+      "reflection": "我有哪一項自由或習慣，可以為了別人的益處而自願放下？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 77, "verse": 11 }, { "chapter": 77, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 12 }, { "chapter": 9, "verse": 15 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 19 }, { "chapter": 15, "verse": 1 }] }]
+      }
+    },
+    "psalm 77|2 kings 2:1-18|mark 11:20-25": {
+      "dates": ["2026-09-16"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "熟悉的人會離開，腳蹤也未必看得見；上帝卻仍同行，使交託下來的使命繼續向前。",
+      "reflection": "在告別、轉變或承接責任之中，我要放下哪一份執着，才可忠心走下一程？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 77, "verse": 19 }, { "chapter": 77, "verse": 20 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 13 }, { "chapter": 2, "verse": 14 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 22 }, { "chapter": 11, "verse": 25 }] }]
+      }
+    },
+    "psalm 105:1-6, 37-45|exodus 15:22-27|2 corinthians 13:1-4": {
+      "dates": ["2026-09-17"],
+      "reviewed": true,
+      "themeFile": "19",
+      "deck": "苦水未必立即消失，軟弱也無須掩飾；上帝能在其中施行醫治，顯出使人活着的大能。",
+      "reflection": "生命中哪一處仍帶着苦澀？我願意如何讓上帝在這份軟弱中工作？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 105, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 25 }, { "chapter": 15, "verse": 26 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 13, "verse": 4 }] }]
+      }
+    },
+    "psalm 105:1-6, 37-45|exodus 16:1-21|2 corinthians 13:5-10": {
+      "dates": ["2026-09-18"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "每日的嗎哪教人領受剛好的分量；誠實的省察，也使信仰從囤積安全感轉向造就生命。",
+      "reflection": "我正用甚麼填補不安？今日可否先察看內心，再只領受上帝所賜的足夠？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 105, "verse": 40 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 18 }, { "chapter": 16, "verse": 21 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 13, "verse": 5 }, { "chapter": 13, "verse": 10 }] }]
+      }
+    },
+    "psalm 105:1-6, 37-45|exodus 16:22-30|matthew 19:23-30": {
+      "dates": ["2026-09-19"],
+      "reviewed": true,
+      "themeFile": "16",
+      "deck": "安息日是上帝所賜，不是人靠勞碌賺取；救恩同樣不能囤積，只能以信靠的手領受。",
+      "reflection": "若我今日停止證明自己的價值，最難交託的是工作、財富，還是對成果的控制？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 105, "verse": 42 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 29 }, { "chapter": 16, "verse": 30 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 26 }, { "chapter": 19, "verse": 30 }] }]
+      }
+    },
+    "psalm 105:1-6, 37-45|exodus 16:2-15|philippians 1:21-30|matthew 20:1-16": {
+      "dates": ["2026-09-20"],
+      "reviewed": true,
+      "themeFile": "10",
+      "deck": "天上的糧與葡萄園的工價都顯出慷慨的恩典；上帝給人足夠，也召人為別人的長進而活。",
+      "reflection": "看見別人得着恩惠時，我會比較埋怨，還是願意與他一同歡喜並分享所有？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 105, "verse": 40 }, { "chapter": 105, "verse": 43 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 15 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 24 }, { "chapter": 1, "verse": 25 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 20, "verse": 14 }, { "chapter": 20, "verse": 16 }] }
+        ]
+      }
+    },
+    "psalm 119:97-104|exodus 16:31-35|romans 16:1-16": {
+      "dates": ["2026-09-21"],
+      "reviewed": true,
+      "themeFile": "33",
+      "deck": "一罐嗎哪保存曠野的恩典，一串名字記下群體的勞苦；信仰就在記念與彼此問安中傳承。",
+      "reflection": "有哪些曾供應、接待或扶助我的人，值得我今日記起他的名字並親自致謝？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 103 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 32 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 2 }, { "chapter": 16, "verse": 12 }] }]
+      }
+    },
+    "psalm 119:97-104|numbers 11:1-9|romans 16:17-20": {
+      "dates": ["2026-09-22"],
+      "reviewed": true,
+      "themeFile": "24",
+      "deck": "不受約束的慾望會扭曲記憶，花言巧語也會迷惑人心；上帝的話教人分辨何為真正的善。",
+      "reflection": "今日有甚麼慾望或說法看似吸引，卻正在使我忘記恩典、偏離善道？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 104 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 4 }, { "chapter": 11, "verse": 6 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 17 }, { "chapter": 16, "verse": 19 }] }]
+      }
+    },
+    "psalm 119:97-104|numbers 11:18-23, 31-32|matthew 18:1-5": {
+      "dates": ["2026-09-23"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "人渴望更多，也渴望成為最大；耶穌卻叫人回轉，以孩子般的謙卑重新認識上帝的能力。",
+      "reflection": "我正在哪一件事上追求『更多』或『更大』？回轉成謙卑的樣式會是怎樣？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 101 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 3 }, { "chapter": 18, "verse": 4 }] }]
+      }
+    },
+    "psalm 78:1-4, 12-16|isaiah 48:17-21|james 4:11-16": {
+      "dates": ["2026-09-24"],
+      "reviewed": true,
+      "themeFile": "25",
+      "deck": "記得上帝昔日怎樣引路，今日便學習聽從；前途不是由人誇口掌握，而是在主旨意中前行。",
+      "reflection": "面對尚未知道的明天，我的計劃可以怎樣由『我一定要』改成聆聽與順服？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 78, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 48, "verse": 17 }, { "chapter": 48, "verse": 21 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 15 }] }]
+      }
+    }
+  }
+}

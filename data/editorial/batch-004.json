@@ -1,0 +1,310 @@
+{
+  "batch": "004",
+  "entries": {
+    "psalm 123|judges 2:16-23|revelation 16:8-21": {
+      "dates": ["2026-11-13"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "受苦會使人呼求，卻不一定使心回轉；上帝一再施憐憫，也一再揭露只咒罵苦難、仍不悔改的頑梗。",
+      "reflection": "我向上帝求脫離困境時，是否也願意讓祂指出自己需要改變的地方？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 123, "verse": 2 }, { "chapter": 123, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 16 }, { "chapter": 2, "verse": 18 }, { "chapter": 2, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 9 }, { "chapter": 16, "verse": 11 }, { "chapter": 16, "verse": 15 }] }]
+      }
+    },
+    "psalm 123|judges 5:1-12|matthew 12:43-45": {
+      "dates": ["2026-11-14"],
+      "reviewed": true,
+      "themeFile": "39",
+      "deck": "得釋放之後不能只留下打掃乾淨的空屋；感恩的歌、甘心的委身與上帝的同在，才使新開始有根有基。",
+      "reflection": "我曾離開一個壞習慣，卻沒有以甚麼良善的新生活填補留下的空間？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 123, "verse": 1 }, { "chapter": 123, "verse": 2 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 2 }, { "chapter": 5, "verse": 9 }, { "chapter": 5, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 44 }, { "chapter": 12, "verse": 45 }] }]
+      }
+    },
+    "psalm 123|judges 4:1-7|1 thessalonians 5:1-11|matthew 25:14-30": {
+      "dates": ["2026-11-15"],
+      "reviewed": true,
+      "themeFile": "07",
+      "shortSummary": "上帝喚醒長久受壓的光明之子",
+      "deck": "在長久欺壓和漫長等候中，上帝喚醒光明之子；忠心不是被恐懼埋起來，而是使用所託付的彼此建立。",
+      "reflection": "有哪一份恩賜因我害怕失敗而一直被埋藏？今日可以先為別人使用一小步嗎？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 123, "verse": 2 }, { "chapter": 123, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 3 }, { "chapter": 4, "verse": 6 }, { "chapter": 4, "verse": 7 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 5 }, { "chapter": 5, "verse": 8 }, { "chapter": 5, "verse": 11 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 25, "verse": 18 }, { "chapter": 25, "verse": 21 }, { "chapter": 25, "verse": 25 }] }
+        ]
+      }
+    },
+    "psalm 83:1-4, 9-10, 17-18|judges 4:8-24|romans 2:1-11": {
+      "dates": ["2026-11-16"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "古老的爭戰故事訴說受壓者得解救，卻不能成為自義的武器；上帝按真理審判，也不偏待任何人。",
+      "reflection": "當我讀到別人的惡與結局，是否急於站在審判者的位置，忘了先省察自己？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 83, "verse": 1 }, { "chapter": 83, "verse": 18 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 9 }, { "chapter": 4, "verse": 14 }, { "chapter": 4, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 1 }, { "chapter": 2, "verse": 4 }, { "chapter": 2, "verse": 11 }] }]
+      }
+    },
+    "psalm 83:1-4, 9-10, 17-18|exodus 2:1-10|1 thessalonians 5:12-18": {
+      "dates": ["2026-11-17"],
+      "reviewed": true,
+      "themeFile": "02",
+      "shortSummary": "摩西在眾人的接力守護下存活",
+      "deck": "一個孩子在母親、姊姊、婢女和公主的接力守護下存活；上帝也呼召群體扶助軟弱、勉勵灰心。",
+      "reflection": "身邊有誰正像河中的小箱子般脆弱？我可以在守護他的接力中承擔哪一環？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 83, "verse": 3 }, { "chapter": 83, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 3 }, { "chapter": 2, "verse": 6 }, { "chapter": 2, "verse": 10 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 14 }, { "chapter": 5, "verse": 15 }, { "chapter": 5, "verse": 17 }] }]
+      }
+    },
+    "psalm 83:1-4, 9-10, 17-18|esther 7:1-10|matthew 24:45-51": {
+      "dates": ["2026-11-18"],
+      "reviewed": true,
+      "themeFile": "31",
+      "deck": "以斯帖冒險指出滅族的陰謀，耶穌也揭露趁主人遲延欺壓同伴的僕人；權柄要按時分糧，不是傷害人。",
+      "reflection": "當權勢威脅別人時，我需要為誰說出真相？我自己又如何使用手上的權力？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 83, "verse": 1 }, { "chapter": 83, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 7, "verse": 3 }, { "chapter": 7, "verse": 4 }, { "chapter": 7, "verse": 6 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 45 }, { "chapter": 24, "verse": 48 }, { "chapter": 24, "verse": 49 }] }]
+      }
+    },
+    "psalm 100|genesis 48:15-22|revelation 14:1-11": {
+      "dates": ["2026-11-19"],
+      "reviewed": true,
+      "themeFile": "36",
+      "deck": "上帝一生牧養雅各，祂的祝福也越過人的排行；額上屬羔羊之名的人，不跟隨權勢的印記，只跟隨羔羊。",
+      "reflection": "社會的排序與期望正把我推向哪裏？我今日要如何辨認並跟隨羔羊的腳步？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 100, "verse": 3 }, { "chapter": 100, "verse": 5 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 48, "verse": 15 }, { "chapter": 48, "verse": 16 }, { "chapter": 48, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 1 }, { "chapter": 14, "verse": 4 }, { "chapter": 14, "verse": 7 }] }]
+      }
+    },
+    "psalm 100|isaiah 40:1-11|revelation 22:1-9": {
+      "dates": ["2026-11-20"],
+      "reviewed": true,
+      "themeFile": "19",
+      "deck": "牧人把羊羔抱在懷中，生命河又流過聖城；上帝的安慰不只止住眼淚，更要醫治萬民和受造世界。",
+      "reflection": "我身上哪一處需要被溫柔抱住？又可以把所得的安慰帶到哪一處傷口？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 100, "verse": 3 }, { "chapter": 100, "verse": 5 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 40, "verse": 1 }, { "chapter": 40, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 22, "verse": 1 }, { "chapter": 22, "verse": 2 }, { "chapter": 22, "verse": 5 }] }]
+      }
+    },
+    "psalm 100|ezekiel 34:25-31|matthew 12:46-50": {
+      "dates": ["2026-11-21"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "上帝折斷奴役的軛，讓羊群安然居住；耶穌也把家庭的門打開，使遵行天父旨意的人彼此成為家人。",
+      "reflection": "在上帝的新家庭裏，我可以如何接納一位沒有血緣、卻需要歸屬與平安的人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 100, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 34, "verse": 25 }, { "chapter": 34, "verse": 27 }, { "chapter": 34, "verse": 31 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 49 }, { "chapter": 12, "verse": 50 }] }]
+      }
+    },
+    "psalm 100|ezekiel 34:11-16, 20-24|ephesians 1:15-23|matthew 25:31-46": {
+      "dates": ["2026-11-22"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "作王的基督親自尋找失喪、纏裹受傷，也藏在飢餓、患病和被囚的人中；看顧最小者，就是服事祂。",
+      "reflection": "今日哪一位飢餓、孤單、患病或受困的人，正讓我有機會認出基督？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 100, "verse": 2 }, { "chapter": 100, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 34, "verse": 11 }, { "chapter": 34, "verse": 15 }, { "chapter": 34, "verse": 16 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 18 }, { "chapter": 1, "verse": 22 }, { "chapter": 1, "verse": 23 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 25, "verse": 35 }, { "chapter": 25, "verse": 36 }, { "chapter": 25, "verse": 40 }] }
+        ]
+      }
+    },
+    "psalm 28|numbers 27:15-23|2 timothy 2:8-13": {
+      "dates": ["2026-11-23"],
+      "reviewed": true,
+      "themeFile": "04",
+      "deck": "領袖會交棒，人也可能被捆綁，上帝的道卻不受捆綁；即使我們失信，復活的基督仍然可信。",
+      "reflection": "在一項快要結束或受阻的使命上，我可以怎樣預備別人，並繼續信靠上帝的信實？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 28, "verse": 8 }, { "chapter": 28, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 27, "verse": 16 }, { "chapter": 27, "verse": 17 }, { "chapter": 27, "verse": 18 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 8 }, { "chapter": 2, "verse": 9 }, { "chapter": 2, "verse": 13 }] }]
+      }
+    },
+    "psalm 28|zechariah 11:4-17|revelation 19:1-9": {
+      "dates": ["2026-11-24"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "假牧人以羊群致富、丟棄受傷者，羔羊卻以真實公義預備婚筵；要看清誰在餵養人，誰只在吞吃人。",
+      "reflection": "我所信任的領導正在使弱小者得照料，還是把人的需要變成自己的利益？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 28, "verse": 3 }, { "chapter": 28, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 5 }, { "chapter": 11, "verse": 16 }, { "chapter": 11, "verse": 17 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 19, "verse": 2 }, { "chapter": 19, "verse": 7 }, { "chapter": 19, "verse": 9 }] }]
+      }
+    },
+    "psalm 28|jeremiah 31:10-14|john 5:19-40": {
+      "dates": ["2026-11-25"],
+      "reviewed": true,
+      "themeFile": "19",
+      "deck": "牧者招聚分散的人，使悲哀轉為歡喜；上帝的兒子也呼喚墳墓中的人出來，讓聽見並相信的人出死入生。",
+      "reflection": "我生命中哪一處像被分散或埋葬？今日是否願意再聽一次基督叫人活着的聲音？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 28, "verse": 6 }, { "chapter": 28, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 10 }, { "chapter": 31, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 24 }, { "chapter": 5, "verse": 25 }, { "chapter": 5, "verse": 40 }] }]
+      }
+    },
+    "psalm 65|deuteronomy 8:7-18|2 corinthians 9:6-15|luke 17:11-19": {
+      "dates": ["2026-11-26"],
+      "reviewed": true,
+      "themeFile": "13",
+      "deck": "土地、能力、醫治和可撒的種子，全是領受的恩賜；記得回來感謝的人，也把富足化成慷慨的分享。",
+      "reflection": "哪一份成就我曾歸功自己？今日可以怎樣以感謝和樂意施予，承認它來自上帝？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 65, "verse": 9 }, { "chapter": 65, "verse": 11 }, { "chapter": 65, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 10 }, { "chapter": 8, "verse": 17 }, { "chapter": 8, "verse": 18 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 7 }, { "chapter": 9, "verse": 8 }, { "chapter": 9, "verse": 12 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 17, "verse": 15 }, { "chapter": 17, "verse": 16 }, { "chapter": 17, "verse": 19 }] }
+        ]
+      }
+    },
+    "psalm 80:1-7, 17-19|zechariah 14:1-9|1 thessalonians 4:1-18": {
+      "dates": ["2026-11-27"],
+      "reviewed": true,
+      "themeFile": "17",
+      "deck": "在眼淚與昏暗中，百姓求上帝使臉發光；將臨的王帶來活水，也召我們以聖潔、相愛與盼望預備自己。",
+      "reflection": "等候主的光時，我要整理哪一段關係或生活習慣，使盼望成為今日可見的行動？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 80, "verse": 3 }, { "chapter": 80, "verse": 19 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 7 }, { "chapter": 14, "verse": 8 }, { "chapter": 14, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 3 }, { "chapter": 4, "verse": 9 }, { "chapter": 4, "verse": 14 }, { "chapter": 4, "verse": 18 }] }]
+      }
+    },
+    "psalm 80:1-7, 17-19|micah 2:1-13|matthew 24:15-31": {
+      "dates": ["2026-11-28"],
+      "reviewed": true,
+      "themeFile": "37",
+      "deck": "強者霸佔田地，使婦孺失去安居之所；上帝卻親自作開路者，招聚被趕散的人，領他們穿過危難。",
+      "reflection": "我所享有的安穩有否建立在別人的失去上？我能為被擠到邊緣的人打開甚麼出路？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 80, "verse": 1 }, { "chapter": 80, "verse": 2 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 2 }, { "chapter": 2, "verse": 9 }, { "chapter": 2, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 23 }, { "chapter": 24, "verse": 25 }, { "chapter": 24, "verse": 31 }] }]
+      }
+    },
+    "psalm 80:1-7, 17-19|isaiah 64:1-9|1 corinthians 1:3-9|mark 13:24-37": {
+      "dates": ["2026-11-29"],
+      "reviewed": true,
+      "themeFile": "17",
+      "deck": "我們像泥土等候窯匠，也像看門人守候家主；上帝是信實的，祂必親自堅固我們，直到基督顯現。",
+      "reflection": "我盼望上帝裂天而降時，是否也願意讓祂塑造我，忠心完成今日所分派的工作？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 80, "verse": 1 }, { "chapter": 80, "verse": 18 }, { "chapter": 80, "verse": 19 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 64, "verse": 4 }, { "chapter": 64, "verse": 8 }, { "chapter": 64, "verse": 9 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 8 }, { "chapter": 1, "verse": 9 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 13, "verse": 33 }, { "chapter": 13, "verse": 34 }, { "chapter": 13, "verse": 37 }] }
+        ]
+      }
+    },
+    "psalm 79|micah 4:1-5|revelation 15:1-8": {
+      "dates": ["2026-11-30"],
+      "reviewed": true,
+      "themeFile": "21",
+      "deck": "血流成河的城仍敢盼望：刀劍終要打成犁頭，萬民學習和平；在審判以外，上帝預備不再學戰的清晨。",
+      "reflection": "我手中有哪一件用來攻擊或防衛的『刀劍』，可以被重造成栽種和平的工具？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 79, "verse": 3 }, { "chapter": 79, "verse": 8 }, { "chapter": 79, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 2 }, { "chapter": 4, "verse": 3 }, { "chapter": 4, "verse": 4 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 3 }, { "chapter": 15, "verse": 4 }] }]
+      }
+    },
+    "psalm 79|micah 4:6-13|revelation 18:1-10": {
+      "dates": ["2026-12-01"],
+      "reviewed": true,
+      "themeFile": "32",
+      "deck": "被趕散的人要經過巴比倫，卻也在那裏蒙救贖；上帝同時呼喚百姓離開巴比倫的罪，走出奢華與剝削。",
+      "reflection": "我正身處一個不能立刻離開的困境嗎？今天可以先拒絕參與其中哪一種不義？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 79, "verse": 9 }, { "chapter": 79, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 6 }, { "chapter": 4, "verse": 10 }, { "chapter": 4, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 3 }, { "chapter": 18, "verse": 4 }, { "chapter": 18, "verse": 5 }] }]
+      }
+    },
+    "psalm 79|micah 5:1-5a|luke 21:34-38": {
+      "dates": ["2026-12-02"],
+      "reviewed": true,
+      "themeFile": "21",
+      "deck": "城雖被圍困，微小的伯利恆卻要興起牧者和平；黑夜中保持清醒的人，清早仍到耶穌那裏聽道。",
+      "reflection": "今生的思慮正如何累住我的心？我可以騰出哪段清醒時間，重新聽耶穌說話？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 79, "verse": 5 }, { "chapter": 79, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 2 }, { "chapter": 5, "verse": 4 }, { "chapter": 5, "verse": 5 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 21, "verse": 34 }, { "chapter": 21, "verse": 36 }, { "chapter": 21, "verse": 38 }] }]
+      }
+    },
+    "psalm 85:1-2, 8-13|hosea 6:1-6|1 thessalonians 1:2-10": {
+      "dates": ["2026-12-03"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "短暫如晨霧的熱心不是回轉；上帝所喜愛的是持久的良善，而真福音也在信心、愛心與忍耐中成為可見。",
+      "reflection": "我的悔改是否只停在一時感動？哪個持久行動能顯出我正在歸向又真又活的上帝？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 85, "verse": 8 }, { "chapter": 85, "verse": 10 }, { "chapter": 85, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 3 }, { "chapter": 6, "verse": 4 }, { "chapter": 6, "verse": 6 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 5 }, { "chapter": 1, "verse": 9 }] }]
+      }
+    },
+    "psalm 85:1-2, 8-13|jeremiah 1:4-10|acts 11:19-26": {
+      "dates": ["2026-12-04"],
+      "reviewed": true,
+      "themeFile": "35",
+      "deck": "年幼的先知被差遣說話，四散的門徒也跨過界線傳福音；上帝能把拆毀與患難之地變成建立和栽植的起點。",
+      "reflection": "我常用哪一個不足推辭呼召？上帝已經把誰或哪個地方放在我面前？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 85, "verse": 8 }, { "chapter": 85, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 8 }, { "chapter": 1, "verse": 10 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 20 }, { "chapter": 11, "verse": 21 }, { "chapter": 11, "verse": 23 }] }]
+      }
+    },
+    "psalm 85:1-2, 8-13|ezekiel 36:24-28|mark 11:27-33": {
+      "dates": ["2026-12-05"],
+      "reviewed": true,
+      "themeFile": "39",
+      "deck": "上帝應許除去石心、賜下新靈；真正的新開始，不再以權宜答案保護地位，而以柔軟的心誠實回應祂。",
+      "reflection": "我在哪一個問題上明知真相，卻因顧慮別人眼光而不肯作答？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 85, "verse": 8 }, { "chapter": 85, "verse": 10 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 36, "verse": 25 }, { "chapter": 36, "verse": 26 }, { "chapter": 36, "verse": 27 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 30 }, { "chapter": 11, "verse": 31 }, { "chapter": 11, "verse": 33 }] }]
+      }
+    },
+    "psalm 85:1-2, 8-13|isaiah 40:1-11|2 peter 3:8-15a|mark 1:1-8": {
+      "dates": ["2026-12-06"],
+      "reviewed": true,
+      "themeFile": "17",
+      "deck": "曠野傳來安慰與悔改的呼聲；主看似遲延，其實以寬容等待人歸回，讓公義和平安的新天地預備成形。",
+      "reflection": "在等候主的日子，我要修直哪一條內心的路，使悔改帶來可見的公義與和平？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 85, "verse": 8 }, { "chapter": 85, "verse": 10 }, { "chapter": 85, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 40, "verse": 1 }, { "chapter": 40, "verse": 3 }, { "chapter": 40, "verse": 11 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 9 }, { "chapter": 3, "verse": 13 }, { "chapter": 3, "verse": 15 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 4 }, { "chapter": 1, "verse": 8 }] }
+        ]
+      }
+    }
+  }
+}

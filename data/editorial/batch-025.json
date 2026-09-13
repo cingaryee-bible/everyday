@@ -1,0 +1,306 @@
+{
+  "batch": "025",
+  "entries": {
+    "psalm 31:9-16|isaiah 54:9-10|hebrews 2:10-18": {
+      "dates": ["2028-04-07"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "詩人沒有掩飾愁苦、歎息和被人躲避的孤單，仍把自己交在上帝手中；以賽亞則以不能挪移的慈愛和平安之約回應被遺棄的群體。希伯來書把這份親近落在血肉之中：基督不以稱人為弟兄姊妹為恥，親自分擔死亡的恐懼，也因受過試探而能扶助受試探的人。這不是說苦難本身使人更完全，或受傷者必須忍耐才配得幫助；盼望在於上帝不隔岸觀看，而是進入人的脆弱，使羞愧和恐懼不再把人孤立。有人同行，是讓受苦者不必獨自證明自己仍撐得住。",
+      "reflection": "誰正因憂傷、羞愧或怕死而漸漸與人隔絕？今天我可以怎樣靠近他，先陪伴和聆聽，而不是替苦難尋找漂亮解釋？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 9 }, { "chapter": 31, "verse": 12 }, { "chapter": 31, "verse": 14 }, { "chapter": 31, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 54, "verse": 9 }, { "chapter": 54, "verse": 10 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 11 }, { "chapter": 2, "verse": 14 }, { "chapter": 2, "verse": 15 }, { "chapter": 2, "verse": 18 }] }]
+      }
+    },
+    "psalm 31:9-16|leviticus 23:1-8|luke 22:1-13": {
+      "dates": ["2028-04-08"],
+      "reviewed": true,
+      "themeFile": "25",
+      "deck": "逾越節本來召集百姓停下勞碌、記念拯救，耶穌和門徒也仔細預備一張共享的飯桌；同一時刻，祭司長因懼怕群眾而密謀，猶大為銀子尋找沒有旁人在場的機會。福音沒有用『撒但進入』抹去人的選擇和責任，反而逐步揭示恐懼、金錢與秘密交易怎樣使節期的桌子變成陷阱。留心聽，不只聽宗教活動說了甚麼，也要察看它在暗處如何運作。真正的記念不靠盛大形式，而在於停止隱密操控，為人預備可以安歇、相聚和說真話的地方。",
+      "reflection": "我參與的群體在公開敬拜以外，有沒有由恐懼、利益或秘密交易支配的決定？今天可讓哪件事重見光明，使共同的桌子不再成為陷阱？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 9 }, { "chapter": 31, "verse": 13 }, { "chapter": 31, "verse": 14 }, { "chapter": 31, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 3 }, { "chapter": 23, "verse": 5 }, { "chapter": 23, "verse": 7 }, { "chapter": 23, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 22, "verse": 2 }, { "chapter": 22, "verse": 4 }, { "chapter": 22, "verse": 6 }, { "chapter": 22, "verse": 8 }, { "chapter": 22, "verse": 13 }] }]
+      }
+    },
+    "psalm 31:9-16|isaiah 50:4-9a|philippians 2:5-11|luke 22:14-23:56": {
+      "dates": ["2028-04-09"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "受難敘事把兩種權力放在同一張桌上：門徒爭論誰最大，耶穌卻說自己在他們中間如同服事的人。祂在恐懼中禱告，有天使加力；有人揮刀，祂先醫好被砍傷的耳朵；婦女一路哀哭，亞利馬太的約瑟又公開反對公會的決定。腓立比書所說的虛己，是基督自由選擇不抓住權位，不能被權勢者用來要求受虐者繼續屈服。十字架揭露宗教、政治和群眾如何合力處死無罪者，也顯明上帝的道路不靠刀劍維持。記念受難，是聽見受傷者、拒絕支配，並在黑暗中仍選擇醫治。",
+      "reflection": "當群體追逐位置或以服從合理化傷害時，我站在哪裏？今天可聽見哪位被忽略的見證人，制止哪一種傷害，並把服事還原為保護人的行動？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 9 }, { "chapter": 31, "verse": 13 }, { "chapter": 31, "verse": 15 }, { "chapter": 31, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 50, "verse": 4 }, { "chapter": 50, "verse": 6 }, { "chapter": 50, "verse": 7 }, { "chapter": 50, "verse": 9 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 5 }, { "chapter": 2, "verse": 7 }, { "chapter": 2, "verse": 8 }, { "chapter": 2, "verse": 11 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 22, "verse": 24 }, { "chapter": 22, "verse": 27 }, { "chapter": 22, "verse": 42 }, { "chapter": 22, "verse": 51 }, { "chapter": 23, "verse": 27 }, { "chapter": 23, "verse": 34 }, { "chapter": 23, "verse": 50 }] }
+        ]
+      }
+    },
+    "psalm 118:1-2, 14-24|acts 10:34-43|1 corinthians 15:19-26|john 20:1-18": {
+      "dates": ["2028-04-16"],
+      "reviewed": true,
+      "themeFile": "18",
+      "deck": "清早來到墳墓的馬利亞沒有因石頭挪開便立即歡喜；她來回奔走、站着哭泣，甚至一度認不出耶穌，直到復活的主呼喚她的名字。她由哀傷者成為第一位向門徒宣告『我已經看見主』的見證人。彼得也開始明白上帝不偏待人，而保羅把死亡稱為最後要被毀滅的仇敵。復活不是催促人跳過悲傷，更不是把女性的見證放回次要位置；它進入眼淚，恢復名字和聲音，宣告死亡沒有最後決定權。新的早晨由一位仍在哭的人被看見、被呼喚開始。",
+      "reflection": "我是否急着叫人停止悲傷，因而聽不見他所看見的事？今天可在誰的眼淚旁多留一會，並認真接納哪位常被低估的見證人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 1 }, { "chapter": 118, "verse": 14 }, { "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 34 }, { "chapter": 10, "verse": 35 }, { "chapter": 10, "verse": 39 }, { "chapter": 10, "verse": 43 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 20 }, { "chapter": 15, "verse": 22 }, { "chapter": 15, "verse": 26 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 20, "verse": 1 }, { "chapter": 20, "verse": 11 }, { "chapter": 20, "verse": 16 }, { "chapter": 20, "verse": 18 }] }
+        ]
+      }
+    },
+    "psalm 118:1-2, 14-24|joshua 10:16-27|1 corinthians 5:6b-8": {
+      "dates": ["2028-04-17"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "約書亞把五王從洞裏拉出，叫軍長把腳踏在他們頸上，最後處死並懸掛屍體；這是古代戰爭中公開羞辱敵人的殘酷畫面，不能變成基督徒『征服對手』或處理分歧的榜樣。復活節後，保羅所要求除掉的不是某個被標籤為敵人的群體，而是群體自身的惡毒與邪惡，好以誠實和真理守節。看清楚經文，便要承認聖經保存了人類暴力的記憶，也讓復活的光照出我們仍想把勝利建立在別人受辱之上的衝動。基督的得勝既以死亡為仇敵，就不需再製造可被踐踏的人。",
+      "reflection": "我在哪場爭執中只想讓對方屈服或丟臉？今天可先除去自己言語中的哪份惡意，以真誠面對問題而不踐踏人的尊嚴？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 14 }, { "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 22 }, { "chapter": 10, "verse": 24 }, { "chapter": 10, "verse": 26 }, { "chapter": 10, "verse": 27 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 6 }, { "chapter": 5, "verse": 7 }, { "chapter": 5, "verse": 8 }] }]
+      }
+    },
+    "psalm 118:1-2, 14-24|judges 4:17-23; 5:24-31a|revelation 12:1-12": {
+      "dates": ["2028-04-18"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "士師記先敘述雅億殺死西西拉，隨後的戰歌更想像敵方母親等待戰利品，其中婦女也被當成可分配的掠物。這些文字記錄戰爭怎樣令受壓者以敵人死亡為解放，也揭露暴力如何吞噬雙方家庭，不能浪漫化為今日傷害他人的神聖命令。啟示錄同樣充滿爭戰圖像，焦點卻轉向一名被追趕的婦人：曠野為她預備了受照料的地方，群體得勝是藉羔羊和忠實見證，不是重演征服。好好看顧，是在威脅中為受追逼者留下安全空間，也拒絕把任何人的身體變成戰利品。",
+      "reflection": "我講述勝利時，遺漏了哪一方家庭、婦女或身體所付的代價？今天可為一位受威脅的人預備甚麼安全、資源或可信任的陪伴？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 14 }, { "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 21 }, { "chapter": 4, "verse": 23 }, { "chapter": 5, "verse": 24 }, { "chapter": 5, "verse": 27 }, { "chapter": 5, "verse": 30 }, { "chapter": 5, "verse": 31 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 6 }, { "chapter": 12, "verse": 10 }, { "chapter": 12, "verse": 11 }, { "chapter": 12, "verse": 12 }] }]
+      }
+    },
+    "psalm 118:1-2, 14-24|2 samuel 6:1-15|luke 24:1-12": {
+      "dates": ["2028-04-19"],
+      "reviewed": true,
+      "themeFile": "12",
+      "deck": "烏撒扶住搖動的約櫃卻突然死亡，這段令人不安的敘事沒有讓大衛立刻恢復慶祝；他先憤怒、懼怕，把約櫃停放三個月，之後才重新起行和跳舞。復活清晨同樣沒有跳過死亡帶來的混亂：婦女帶香料來，驚怕俯伏，回去述說所見，十一使徒卻把她們的話當作胡言。復活的喜樂若要真實，必須容許人先停下，承認難以理解的死亡，也認真聽取被忽視者的見證。可以哭，也可以問；上帝的新事不需要靠壓下悲傷或否定婦女來證明。",
+      "reflection": "哪宗死亡或創傷被我們太快用慶祝掩過？今天我可停下來承認哪份不解，並相信哪位曾被當作胡言的見證人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 21 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 6 }, { "chapter": 6, "verse": 7 }, { "chapter": 6, "verse": 9 }, { "chapter": 6, "verse": 11 }, { "chapter": 6, "verse": 14 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 1 }, { "chapter": 24, "verse": 5 }, { "chapter": 24, "verse": 10 }, { "chapter": 24, "verse": 11 }, { "chapter": 24, "verse": 12 }] }]
+      }
+    },
+    "psalm 150|1 samuel 17:1-23|acts 5:12-16": {
+      "dates": ["2028-04-20"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "歌利亞每天以身量、武器和威嚇定義戰場，要求一場決鬥決定整個民族誰作奴僕；大衛進入故事時卻只是替兄長送糧，也把食物帶給軍官。新約的群眾把病人抬到街上，希望連彼得的影子也能觸及他們；敘事最後強調眾人得醫治，而不是建立一位使徒的明星地位。面對龐大威脅，信仰不必先模仿對方的聲量。好好看顧由食物、搬運、可接近的醫治開始，讓被恐懼支配的公共空間重新容得下病者和照顧者。",
+      "reflection": "今天最響亮的威嚇令我忽略了誰的基本需要？我可送上一份甚麼實際資源，並讓照顧不再只圍繞某位英雄人物？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 150, "verse": 1 }, { "chapter": 150, "verse": 2 }, { "chapter": 150, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 17, "verse": 8 }, { "chapter": 17, "verse": 9 }, { "chapter": 17, "verse": 17 }, { "chapter": 17, "verse": 18 }, { "chapter": 17, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 12 }, { "chapter": 5, "verse": 14 }, { "chapter": 5, "verse": 15 }, { "chapter": 5, "verse": 16 }] }]
+      }
+    },
+    "psalm 150|1 samuel 17:19-32|acts 5:17-26": {
+      "dates": ["2028-04-21"],
+      "reviewed": true,
+      "themeFile": "35",
+      "deck": "大衛聽見歌利亞的挑戰便追問事情，兄長以利押卻把他的好奇解讀為驕傲和惡意；大衛沒有讓這個判斷終止對話，轉向另一個人繼續查問。使徒又因宗教領袖的嫉妒被關進公共監牢，夜間得釋放後，不是悄悄消失，而是回到聖殿把生命之道公開講明。起來，不是證明自己永不害怕，而是不讓別人的誤讀或權勢的封口成為最後一句。真正的釋放也不只離開牢門，而是使被壓住的聲音重新進入公共空間，讓人可以提問和作證。",
+      "reflection": "誰的提問被我太快判為動機不良？今天我可收回哪個武斷評語，並為哪位被噤聲的人打開一個安全而公開的說話空間？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 150, "verse": 1 }, { "chapter": 150, "verse": 2 }, { "chapter": 150, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 17, "verse": 23 }, { "chapter": 17, "verse": 26 }, { "chapter": 17, "verse": 28 }, { "chapter": 17, "verse": 29 }, { "chapter": 17, "verse": 32 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 17 }, { "chapter": 5, "verse": 18 }, { "chapter": 5, "verse": 19 }, { "chapter": 5, "verse": 20 }, { "chapter": 5, "verse": 25 }] }]
+      }
+    },
+    "psalm 150|1 samuel 17:32-51|luke 24:36-40": {
+      "dates": ["2028-04-22"],
+      "reviewed": true,
+      "themeFile": "20",
+      "deck": "大衛拒絕穿上未曾試過的盔甲，以自己熟悉的杖、石和甩石機面對歌利亞；這可提醒人毋須假裝成別人才有勇氣，卻不能把最後的斬首變成『打倒人生巨人』的通用公式。路加把復活的得勝放在另一幅圖畫中：驚慌的門徒聽見『願你們平安』，耶穌展示仍帶傷痕的手腳，邀請他們親自察看。憐憫不是否認衝突，而是不讓暴力決定我們想像勝利的方式。復活的身體保留傷口，卻不再用敵人的屍體證明自己得勝。",
+      "reflection": "我是否把某個人稱作必須消滅的『巨人』，好讓自己的故事顯得英勇？今天可放下哪件不合身的武器，以誠實、可受檢視而帶着和平的方法面對衝突？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 150, "verse": 1 }, { "chapter": 150, "verse": 2 }, { "chapter": 150, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 17, "verse": 38 }, { "chapter": 17, "verse": 39 }, { "chapter": 17, "verse": 40 }, { "chapter": 17, "verse": 49 }, { "chapter": 17, "verse": 51 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 36 }, { "chapter": 24, "verse": 39 }, { "chapter": 24, "verse": 40 }] }]
+      }
+    },
+    "psalm 118:14-29|acts 5:27-32|revelation 1:4-8|john 20:19-31": {
+      "dates": ["2028-04-23"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "門徒把門鎖上，耶穌沒有責怪他們害怕，而是站在中間兩次說平安，展示傷口並差遣他們。多馬缺席時不肯只憑別人的話相信；耶穌一星期後再來，讓他親自察看，沒有把需要證據的人逐出群體。使徒面對公會則清楚指出權力殺害了耶穌，順服上帝不等於逃避對暴力制度的問責。約翰福音所說因『猶太人』而怕，處於當時猶太群體內部衝突，不能轉作反猶太仇恨。有人同行，是讓驚怕、疑問和傷口都可留在房間裏，並一起學習有責任的見證。",
+      "reflection": "我的群體是否只接納迅速相信、沒有疑問的人？今天可為誰再開一次門，讓他安全察看證據，也讓造成傷口的權力接受問責？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 14 }, { "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 29 }, { "chapter": 5, "verse": 30 }, { "chapter": 5, "verse": 31 }, { "chapter": 5, "verse": 32 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 5 }, { "chapter": 1, "verse": 6 }, { "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 8 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 20, "verse": 19 }, { "chapter": 20, "verse": 20 }, { "chapter": 20, "verse": 25 }, { "chapter": 20, "verse": 27 }, { "chapter": 20, "verse": 29 }] }
+        ]
+      }
+    },
+    "psalm 122|esther 7:1-10|revelation 1:9-20": {
+      "dates": ["2028-04-24"],
+      "reviewed": true,
+      "themeFile": "25",
+      "deck": "以斯帖終於在王面前說出自己和本族正被計劃殺戮，也直接指出哈曼是仇敵；她的勇氣打破宮廷一直容許的隱藏暴力。然而故事隨即以盛怒、遮面和木架處刑收場，仍受同一套帝國權力支配，不能把報復性處死當成今日公義的標準。約翰在被放逐的拔摩島上聽見聲音，轉身看見基督，受命把所見的寫給七間教會。留心聽，是讓受威脅的人能說出計劃、人物和後果，也把見證留下來；公義需要制止滅絕，卻不必複製統治者任意奪命的方式。",
+      "reflection": "哪一項傷害仍因禮貌、制度或恐懼而不能被點名？今天我可怎樣保護說話者、保存證據，又避免把追究責任變成任意報復？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 122, "verse": 1 }, { "chapter": 122, "verse": 6 }, { "chapter": 122, "verse": 7 }, { "chapter": 122, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 7, "verse": 3 }, { "chapter": 7, "verse": 4 }, { "chapter": 7, "verse": 6 }, { "chapter": 7, "verse": 7 }, { "chapter": 7, "verse": 10 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 9 }, { "chapter": 1, "verse": 10 }, { "chapter": 1, "verse": 12 }, { "chapter": 1, "verse": 17 }, { "chapter": 1, "verse": 19 }] }]
+      }
+    },
+    "psalm 122|esther 8:1-17|revelation 2:8-11": {
+      "dates": ["2028-04-25"],
+      "reviewed": true,
+      "themeFile": "03",
+      "shortSummary": "以斯帖為受威脅的族群求生",
+      "deck": "哈曼死後，原來下達的滅族詔書仍不能撤銷；以斯帖再次哭泣求王，末底改只能另寫一道准許猶太人武裝自衛、殺戮並奪取財物的諭旨。這是受威脅者在不公帝制內尋求存活的複雜安排，不是把報復或族群暴力神聖化。啟示錄向受患難的士每拿教會說『不用怕』，卻沒有保證他們不受監禁；其中激烈的猶太群體內部論戰，也絕不可成為今日反猶太主義的工具。不用怕，是在制度仍未改變時守護受威脅者，同時拒絕讓求生滑向對整個族群的仇恨。",
+      "reflection": "當舊有制度令傷害難以撤回，我可先建立哪項實際保護？又要怎樣把責任對準行動和權力，而不把恐懼投射到整個族群？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 122, "verse": 6 }, { "chapter": 122, "verse": 7 }, { "chapter": 122, "verse": 8 }, { "chapter": 122, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 3 }, { "chapter": 8, "verse": 5 }, { "chapter": 8, "verse": 8 }, { "chapter": 8, "verse": 11 }, { "chapter": 8, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 9 }, { "chapter": 2, "verse": 10 }, { "chapter": 2, "verse": 11 }] }]
+      }
+    },
+    "psalm 122|esther 9:1-5, 18-23|luke 12:4-12": {
+      "dates": ["2028-04-26"],
+      "reviewed": true,
+      "themeFile": "03",
+      "deck": "以斯帖記的局勢逆轉，使原先將被殺的人得以自衛，敘事卻仍記下大規模殺戮；這份生存記憶不能簡化成暴力勝利的慶典。普珥日的安排最後把焦點移向筵席、彼此餽送和賙濟窮人，使由悲哀轉為喜樂不只屬於有力量者。耶穌也沒有假裝門徒不會受威嚇，祂說人的身體可能遭傷害，卻以麻雀提醒他們在上帝眼中不被遺忘，並應許受審問時聖靈幫助說話。不用怕不是人身安全的保證，而是即使權勢威逼，生命仍有價值、聲音仍可被賜回。",
+      "reflection": "我的慶祝是否也讓缺乏資源的人得着喜樂，而沒有掩去暴力留下的傷？今天可分享甚麼，並陪伴誰預備在權勢面前說真話？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 122, "verse": 6 }, { "chapter": 122, "verse": 7 }, { "chapter": 122, "verse": 8 }, { "chapter": 122, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 2 }, { "chapter": 9, "verse": 5 }, { "chapter": 9, "verse": 18 }, { "chapter": 9, "verse": 20 }, { "chapter": 9, "verse": 22 }, { "chapter": 9, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 4 }, { "chapter": 12, "verse": 6 }, { "chapter": 12, "verse": 7 }, { "chapter": 12, "verse": 11 }, { "chapter": 12, "verse": 12 }] }]
+      }
+    },
+    "psalm 30|isaiah 5:11-17|revelation 3:14-22": {
+      "dates": ["2028-04-27"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "以賽亞責備從早到晚追逐酒宴的人：樂器和美酒填滿聚會，他們卻不留意上帝的作為，結果百姓缺糧乾渴，權貴也一同降卑。啟示錄中的老底嘉以為自己富足、一無所缺，基督卻指出它貧窮、瞎眼、赤身，並站在門外叩門。這不是羞辱窮人，而是拆穿富裕群體對自身安全的幻覺；悔改也不是更精緻地消費，而是打開門重新同席。看清楚，便要從宴會的熱鬧望向誰仍缺食物和水，也容許真實的需要打斷自滿。",
+      "reflection": "我以甚麼資源或成績證明自己『甚麼都不缺』，卻看不見誰正在挨餓？今天可打開哪一道門、重分哪一份資源，使同席不只是口號？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 30, "verse": 2 }, { "chapter": 30, "verse": 5 }, { "chapter": 30, "verse": 11 }, { "chapter": 30, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 11 }, { "chapter": 5, "verse": 12 }, { "chapter": 5, "verse": 13 }, { "chapter": 5, "verse": 15 }, { "chapter": 5, "verse": 16 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 15 }, { "chapter": 3, "verse": 17 }, { "chapter": 3, "verse": 18 }, { "chapter": 3, "verse": 19 }, { "chapter": 3, "verse": 20 }] }]
+      }
+    },
+    "psalm 30|isaiah 6:1-4|revelation 4:1-11": {
+      "dates": ["2028-04-28"],
+      "reviewed": true,
+      "themeFile": "30",
+      "deck": "烏西雅王逝世那年，以賽亞看見真正的寶座並不空置；撒拉弗彼此呼喊聖哉，大地充滿的也是上帝的榮光。啟示錄把視野擴展到形態各異的活物，它們晝夜頌讚，二十四位長老則離開自己的座位，把冠冕放在創造主面前。萬物都好，不是說世界沒有哀傷，而是宣告王權、冠冕和人類成就都不是萬物的中心。當受造界一同發聲，掌權者應學會離座和放下冠冕；敬拜創造主，也包括讓各種生命有空間存活和讚美。",
+      "reflection": "我緊握哪個位置、名銜或成就，好像一放下便失去價值？今天可讓哪種被忽略的生命發聲，並以甚麼行動承認世界不只圍繞我運轉？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 30, "verse": 4 }, { "chapter": 30, "verse": 5 }, { "chapter": 30, "verse": 11 }, { "chapter": 30, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 1 }, { "chapter": 6, "verse": 2 }, { "chapter": 6, "verse": 3 }, { "chapter": 6, "verse": 4 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 8 }, { "chapter": 4, "verse": 9 }, { "chapter": 4, "verse": 10 }, { "chapter": 4, "verse": 11 }] }]
+      }
+    },
+    "psalm 30|genesis 18:1-8|luke 14:12-14": {
+      "dates": ["2028-04-29"],
+      "reviewed": true,
+      "themeFile": "10",
+      "deck": "亞伯拉罕看見旅人便從帳棚口跑去迎接，主動提供水、樹蔭和食物；然而筵席背後也有撒拉揉麵、僕人料理牛犢等容易被忽略的勞動。款待若只歌頌主人的慷慨，卻讓別人承擔看不見的工作，仍未真正分享。耶穌更把邀請名單由可回請的親友，轉向貧窮、傷殘、瘸腿和失明的人；這不是把殘障者當作行善道具，而是重整桌子、通道和關係，使不能回報的人也有自主和同等位置。分給別人，也要分擔勞動與權力。",
+      "reflection": "一次看似慷慨的款待背後，誰在默默勞動？今天我可分擔哪項工作，並按受邀者的需要改善通道、選擇和同桌的位置？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 30, "verse": 4 }, { "chapter": 30, "verse": 5 }, { "chapter": 30, "verse": 11 }, { "chapter": 30, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 18, "verse": 2 }, { "chapter": 18, "verse": 4 }, { "chapter": 18, "verse": 5 }, { "chapter": 18, "verse": 6 }, { "chapter": 18, "verse": 7 }, { "chapter": 18, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 12 }, { "chapter": 14, "verse": 13 }, { "chapter": 14, "verse": 14 }] }]
+      }
+    },
+    "psalm 30|acts 9:1-6, (7-20)|revelation 5:11-14|john 21:1-19": {
+      "dates": ["2028-04-30"],
+      "reviewed": true,
+      "themeFile": "38",
+      "deck": "掃羅的回轉不是一道光便完成：他先失明三天，停止飲食；亞拿尼亞聽見差遣時坦白提出安全疑慮，之後才去按手、稱他為弟兄。受害群體的戒心不是缺乏信心，悔改者也不應立即取得信任和權位。約翰福音中的彼得同樣先在岸上得到炭火、餅和魚，吃過早餐後，耶穌才三次問愛，並把餵養群羊的責任交給他。返轉頭包含承認傷害、接受別人的見證和界線，也包含身體所需的休息、食物與群體陪伴；愛基督要在照顧人之中逐步變得可信。",
+      "reflection": "我是否把一句道歉或一次感動當作關係已完全修復？今天可尊重誰的安全疑慮，接受哪項問責，並先以一件持續照顧人的事證明改變？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 30, "verse": 2 }, { "chapter": 30, "verse": 5 }, { "chapter": 30, "verse": 11 }, { "chapter": 30, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 1 }, { "chapter": 9, "verse": 4 }, { "chapter": 9, "verse": 9 }, { "chapter": 9, "verse": 13 }, { "chapter": 9, "verse": 17 }, { "chapter": 9, "verse": 19 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 11 }, { "chapter": 5, "verse": 12 }, { "chapter": 5, "verse": 13 }, { "chapter": 5, "verse": 14 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 21, "verse": 4 }, { "chapter": 21, "verse": 9 }, { "chapter": 21, "verse": 12 }, { "chapter": 21, "verse": 15 }, { "chapter": 21, "verse": 17 }, { "chapter": 21, "verse": 19 }] }
+        ]
+      }
+    },
+    "psalm 121|ezekiel 1:1-25|acts 9:19b-31": {
+      "dates": ["2028-05-01"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "以西結在被擄之地、迦巴魯河邊看見天開了；上帝的榮耀帶着輪子移動，沒有被耶路撒冷的邊界困住。掃羅開始傳道後，耶路撒冷門徒卻因他過去逼迫教會而害怕，不信他已成門徒；巴拿巴沒有叫他們盲目信任，而是具體述說掃羅所經歷和所做的事。其後威脅再起，弟兄姊妹又安排他離開。有同行者，不是取消受傷群體的戒心，而是提供可核實的見證、時間和安全移動；即使人被迫離開熟悉地方，上帝也能在流徙途中臨近。",
+      "reflection": "一段破裂關係若要重建，需要哪位可信任的人作證、哪些可核實的改變和甚麼安全安排？今天我可成為搭橋者，卻不催迫受傷者交出界線嗎？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 121, "verse": 1 }, { "chapter": 121, "verse": 2 }, { "chapter": 121, "verse": 7 }, { "chapter": 121, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 1 }, { "chapter": 1, "verse": 4 }, { "chapter": 1, "verse": 12 }, { "chapter": 1, "verse": 20 }, { "chapter": 1, "verse": 25 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 20 }, { "chapter": 9, "verse": 21 }, { "chapter": 9, "verse": 26 }, { "chapter": 9, "verse": 27 }, { "chapter": 9, "verse": 30 }, { "chapter": 9, "verse": 31 }] }]
+      }
+    },
+    "psalm 121|ezekiel 1:26-2:1|acts 26:1-18": {
+      "dates": ["2028-05-02"],
+      "reviewed": true,
+      "themeFile": "35",
+      "deck": "保羅在亞基帕王面前沒有只講一次耀眼異象，他先承認自己曾囚禁聖徒、贊成處死他們，又在各城逼迫人；轉變的見證若不說清造成的傷害，便容易只剩自我英雄化。以西結看見榮耀便俯伏，隨後聽見『你站起來』，受召以人的身分領受說話能力。起來作見證，不是高高在上改造別人，而是先在真相前站穩。保羅所說使人眼睛得開，也不能變成強迫人接受宗教的授權；可信的見證尊重聽者，並讓悔改由說出自己的責任開始。",
+      "reflection": "我講述自己的改變時，省略了誰所承受的傷害？今天可具體承認哪項責任，並用甚麼不操控、不強迫的方式分享所領受的光？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 121, "verse": 1 }, { "chapter": 121, "verse": 2 }, { "chapter": 121, "verse": 7 }, { "chapter": 121, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 26 }, { "chapter": 1, "verse": 28 }, { "chapter": 2, "verse": 1 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 26, "verse": 9 }, { "chapter": 26, "verse": 10 }, { "chapter": 26, "verse": 11 }, { "chapter": 26, "verse": 14 }, { "chapter": 26, "verse": 16 }, { "chapter": 26, "verse": 18 }] }]
+      }
+    },
+    "psalm 121|isaiah 6:1-8|luke 5:1-11": {
+      "dates": ["2028-05-03"],
+      "reviewed": true,
+      "themeFile": "32",
+      "deck": "以賽亞說『我在這裏，請差遣我』以前，先承認自己和群體嘴唇不潔，也先經歷赦免；召命不是跳過自省的熱情。湖邊的漁夫則誠實說整夜勞力毫無所得，耶穌沒有否定他們的專業和疲倦。魚多得網險些裂開時，他們必須招呼另一隻船的同伴來幫忙，兩船一起承載收穫。被帶出去，不是成為孤身英雄；『得人』也不是把人當成果績或操控對象。真正的呼召容許人說出失敗、接受修復，並在重擔超出一人能力時立即呼叫伙伴。",
+      "reflection": "哪項使命正被我一個人勉強拉着，網已接近破裂？今天可向誰發出求助，並先承認哪項限制或需要修復的地方？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 121, "verse": 1 }, { "chapter": 121, "verse": 2 }, { "chapter": 121, "verse": 7 }, { "chapter": 121, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 1 }, { "chapter": 6, "verse": 5 }, { "chapter": 6, "verse": 6 }, { "chapter": 6, "verse": 7 }, { "chapter": 6, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 4 }, { "chapter": 5, "verse": 5 }, { "chapter": 5, "verse": 7 }, { "chapter": 5, "verse": 8 }, { "chapter": 5, "verse": 10 }, { "chapter": 5, "verse": 11 }] }]
+      }
+    },
+    "psalm 23|ezekiel 11:1-25|revelation 5:1-10": {
+      "dates": ["2028-05-04"],
+      "reviewed": true,
+      "themeFile": "27",
+      "deck": "耶路撒冷的領袖把自己想成鍋中的肉，仿佛城牆足以保護他們，以西結卻指出城中遍布被殺的人；留在權力中心並不等於蒙上帝認可。相反，被驅散、被說成遠離上帝的流亡者，聽見上帝要在列國暫作他們的聖所，賜下柔軟的心。這個歸回應許不能被挪用為現代驅逐別人的土地權狀。啟示錄中眾人期待獅子，約翰看見的卻是被殺的羔羊；值得掌權者以傷痕和捨己贖回各族，而非靠征服。祂在這裏，特別臨近被中心排除的人，重建不以別人的流離為代價。",
+      "reflection": "我是否把身處中心誤當成正確，又把離散者看成遠離上帝？今天可怎樣把資源帶到被排除的人中，並確保自己的安居不建立在別人被驅逐之上？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 1 }, { "chapter": 23, "verse": 3 }, { "chapter": 23, "verse": 4 }, { "chapter": 23, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 2 }, { "chapter": 11, "verse": 3 }, { "chapter": 11, "verse": 9 }, { "chapter": 11, "verse": 15 }, { "chapter": 11, "verse": 16 }, { "chapter": 11, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 5 }, { "chapter": 5, "verse": 6 }, { "chapter": 5, "verse": 8 }, { "chapter": 5, "verse": 9 }, { "chapter": 5, "verse": 10 }] }]
+      }
+    },
+    "psalm 23|ezekiel 20:39-44|revelation 6:1-7:4": {
+      "dates": ["2028-05-05"],
+      "reviewed": true,
+      "themeFile": "31",
+      "deck": "啟示錄的四騎士不是可供猜測新聞事件的密碼，而是一幅帝國失序圖：征服、戰爭、糧價暴升和死亡接連而來，富人的油與酒得保留，窮人的基本糧食卻昂貴。祭壇下被殺者問『要等到幾時』，他們的哀聲沒有被責備，也不應被解作上帝需要湊足受害者數目。天使反而命令暫停傷害，先在僕人額上蓋印。以西結談及回想惡行和自愧，是蒙招聚後承認傷害，不能用來延續自我厭惡。行公義，是聽見受害者催促，制止傷害，並改變讓生活必需品成為剝削工具的秩序。",
+      "reflection": "誰正因糧食、住屋或其他必需品變得昂貴而被擠壓？今天我可支持哪項止害和重分資源的行動，也容許受害者不被催促地問『還要多久』？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 1 }, { "chapter": 23, "verse": 3 }, { "chapter": 23, "verse": 4 }, { "chapter": 23, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 20, "verse": 40 }, { "chapter": 20, "verse": 41 }, { "chapter": 20, "verse": 43 }, { "chapter": 20, "verse": 44 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 2 }, { "chapter": 6, "verse": 4 }, { "chapter": 6, "verse": 6 }, { "chapter": 6, "verse": 10 }, { "chapter": 6, "verse": 11 }, { "chapter": 7, "verse": 3 }] }]
+      }
+    },
+    "psalm 23|ezekiel 28:25-26|luke 12:29-32": {
+      "dates": ["2028-05-06"],
+      "reviewed": true,
+      "themeFile": "16",
+      "deck": "耶穌對『小群』說不用懼怕，理由不是物質需要不重要；祂明說天父知道人需要吃喝，並樂意把國賜給他們。因此『不要掛心』不能用來打發正面對租金、糧食或照顧壓力的人。以西結盼望分散者被招聚、安然居住、建屋種園；這幅和平圖畫重視土地、家園和食物，卻不能成為現代驅逐另一群人的授權。安心交託不是把生活困難屬靈化，而是相信上帝看見具體需要，並使群體一起建造不靠別人流離失所的安全。",
+      "reflection": "身邊哪個『小群』正為住屋、食物或安全憂慮？今天我可提供哪項具體支援，也檢查自己的安穩是否令另一群人付出被排除的代價？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 23, "verse": 1 }, { "chapter": 23, "verse": 2 }, { "chapter": 23, "verse": 4 }, { "chapter": 23, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 28, "verse": 25 }, { "chapter": 28, "verse": 26 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 29 }, { "chapter": 12, "verse": 30 }, { "chapter": 12, "verse": 31 }, { "chapter": 12, "verse": 32 }] }]
+      }
+    }
+  }
+}

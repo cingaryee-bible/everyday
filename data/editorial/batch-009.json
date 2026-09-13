@@ -1,0 +1,326 @@
+{
+  "batch": "009",
+  "entries": {
+    "psalm 51:1-12|habakkuk 3:2-13|john 12:1-11": {
+      "dates": ["2027-03-13"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "哈巴谷在動盪中求上帝以憐憫為念，馬利亞則在危險逼近時，把珍貴香膏傾倒在耶穌腳前；愛看見這一刻的重量，不讓算計冒充關懷。",
+      "reflection": "有哪一份愛需要在仍有機會時表達，而不應留待『更合算』的一天？我今日能為誰作一件真誠而不求回報的事？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 51, "verse": 1 }, { "chapter": 51, "verse": 6 }, { "chapter": 51, "verse": 10 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 2 }, { "chapter": 3, "verse": 4 }, { "chapter": 3, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 3 }, { "chapter": 12, "verse": 6 }, { "chapter": 12, "verse": 7 }, { "chapter": 12, "verse": 11 }] }]
+      }
+    },
+    "psalm 51:1-12|jeremiah 31:31-34|hebrews 5:5-10|john 12:20-33": {
+      "dates": ["2027-03-14"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "新約不是把更多規條壓在人身上，而是上帝把律法寫進心裏、赦免過犯；耶穌大聲哀哭，也像麥子落地，以不逃避痛苦的愛結出生命。",
+      "reflection": "我是否把順服誤解成沒有眼淚、沒有掙扎？面對不能繞過的責任，我可以怎樣一面誠實哀哭，一面忠心前行？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 51, "verse": 6 }, { "chapter": 51, "verse": 10 }, { "chapter": 51, "verse": 12 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 31 }, { "chapter": 31, "verse": 33 }, { "chapter": 31, "verse": 34 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 5 }, { "chapter": 5, "verse": 7 }, { "chapter": 5, "verse": 8 }, { "chapter": 5, "verse": 9 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 12, "verse": 24 }, { "chapter": 12, "verse": 26 }, { "chapter": 12, "verse": 27 }, { "chapter": 12, "verse": 32 }] }
+        ]
+      }
+    },
+    "psalm 119:9-16|isaiah 43:8-13|2 corinthians 3:4-11": {
+      "dates": ["2027-03-15"],
+      "reviewed": true,
+      "themeFile": "27",
+      "deck": "上帝呼召一群曾經有眼看不見、有耳聽不見的人作見證；資格不在於自信或完美口才，因承擔新約職事的能力出於上帝，那使人活的靈也與他們同在。",
+      "reflection": "我因哪一項不足而認定自己不能作見證？與其證明自己，我能否只誠實說出上帝曾怎樣尋回我？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 10 }, { "chapter": 119, "verse": 11 }, { "chapter": 119, "verse": 15 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 43, "verse": 8 }, { "chapter": 43, "verse": 10 }, { "chapter": 43, "verse": 11 }, { "chapter": 43, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 4 }, { "chapter": 3, "verse": 5 }, { "chapter": 3, "verse": 6 }, { "chapter": 3, "verse": 9 }] }]
+      }
+    },
+    "psalm 119:9-16|isaiah 44:1-8|acts 2:14-24": {
+      "dates": ["2027-03-16"],
+      "reviewed": true,
+      "themeFile": "05",
+      "deck": "上帝把水澆在乾旱之地，也把聖靈澆灌所有血氣的人；兒女、少年、長者、僕人和使女都能領受聲音，復活的福音不再由少數人壟斷。",
+      "reflection": "我習慣只聽哪一類人的聲音，又輕看了誰可能領受的恩賜？今日我可以為哪個人讓出說話和參與的位置？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 9 }, { "chapter": 119, "verse": 12 }, { "chapter": 119, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 44, "verse": 2 }, { "chapter": 44, "verse": 3 }, { "chapter": 44, "verse": 4 }, { "chapter": 44, "verse": 5 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 17 }, { "chapter": 2, "verse": 18 }, { "chapter": 2, "verse": 21 }, { "chapter": 2, "verse": 24 }] }]
+      }
+    },
+    "psalm 119:9-16|haggai 2:1-9, 20-23|john 12:34-50": {
+      "dates": ["2027-03-17"],
+      "reviewed": true,
+      "themeFile": "08",
+      "deck": "重建中的聖殿看來遠遜昔日，上帝卻說『我與你們同在』，真正榮耀不由金銀衡量；耶穌來作光，也揭露人為保住地位而把信藏起來的黑暗。",
+      "reflection": "我是否用規模、外觀或別人的掌聲判斷上帝有沒有工作？即使成果微小，今日哪一步仍值得忠實完成？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 119, "verse": 11 }, { "chapter": 119, "verse": 15 }, { "chapter": 119, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 3 }, { "chapter": 2, "verse": 4 }, { "chapter": 2, "verse": 5 }, { "chapter": 2, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 35 }, { "chapter": 12, "verse": 36 }, { "chapter": 12, "verse": 43 }, { "chapter": 12, "verse": 46 }] }]
+      }
+    },
+    "psalm 118:1-2, 19-29|deuteronomy 16:1-8|philippians 2:1-11": {
+      "dates": ["2027-03-18"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "逾越節叫一代又一代記得自己曾是急忙離開奴役的人；基督的道路也不是攫取地位，而是虛己成為僕人，讓被拯救的群體以彼此看顧活出自由。",
+      "reflection": "我得到自由後，是否又用身分或能力支配別人？今日有哪項權利可以放低，使身旁的人更能呼吸？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 21 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 1 }, { "chapter": 16, "verse": 3 }, { "chapter": 16, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 3 }, { "chapter": 2, "verse": 4 }, { "chapter": 2, "verse": 7 }, { "chapter": 2, "verse": 8 }] }]
+      }
+    },
+    "psalm 118:1-2, 19-29|jeremiah 33:1-9|philippians 2:12-18": {
+      "dates": ["2027-03-19"],
+      "reviewed": true,
+      "themeFile": "19",
+      "deck": "耶利米在牢中、城被屍首充滿之際，仍聽見醫治與歸回的應許；這盼望不是否認廢墟，而是讓上帝在其中運行，使人如微光般活出不怨懟的忠誠。",
+      "reflection": "面對一個破損的環境，我只剩控訴和怨言嗎？上帝可能正邀請我參與哪一小部分的醫治？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 21 }, { "chapter": 118, "verse": 23 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 3 }, { "chapter": 33, "verse": 6 }, { "chapter": 33, "verse": 7 }, { "chapter": 33, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 13 }, { "chapter": 2, "verse": 14 }, { "chapter": 2, "verse": 15 }, { "chapter": 2, "verse": 16 }] }]
+      }
+    },
+    "psalm 118:1-2, 19-29|jeremiah 33:10-16|mark 10:32-34, 46-52": {
+      "dates": ["2027-03-20"],
+      "reviewed": true,
+      "themeFile": "37",
+      "shortSummary": "耶穌在受難路上停步醫治",
+      "deck": "耶穌清楚知道耶路撒冷路上等候祂的是羞辱與死亡，仍在途中為巴底買停步；群眾想壓下的呼喊，成了通往醫治與跟隨的新起點。",
+      "reflection": "我趕往重要目標時，忽略了路旁哪一個聲音？今日我能否停下來，先問一句『要我為你做甚麼』？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }, { "chapter": 118, "verse": 26 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 11 }, { "chapter": 33, "verse": 14 }, { "chapter": 33, "verse": 15 }, { "chapter": 33, "verse": 16 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 32 }, { "chapter": 10, "verse": 34 }, { "chapter": 10, "verse": 48 }, { "chapter": 10, "verse": 51 }] }]
+      }
+    },
+    "psalm 31:9-16|isaiah 50:4-9a|philippians 2:5-11|mark 14:1-15:47": {
+      "dates": ["2027-03-21"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "棕枝主日的歡呼很快變成審訊、逃跑和十字架下的譏笑；耶穌沒有以暴力保存自己，反把生命交出，連外邦百夫長也在祂斷氣時看見上帝兒子的真相。",
+      "reflection": "我會否只在信仰令人興奮時跟隨，壓力一來便遠遠站着？本週我願意在哪個困難現場仍陪伴基督與受苦者？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 9 }, { "chapter": 31, "verse": 14 }, { "chapter": 31, "verse": 15 }, { "chapter": 31, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 50, "verse": 4 }, { "chapter": 50, "verse": 5 }, { "chapter": 50, "verse": 7 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 5 }, { "chapter": 2, "verse": 7 }, { "chapter": 2, "verse": 8 }, { "chapter": 2, "verse": 11 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 14, "verse": 8 }, { "chapter": 14, "verse": 36 }, { "chapter": 15, "verse": 34 }, { "chapter": 15, "verse": 39 }] }
+        ]
+      }
+    },
+    "psalm 36:5-11|isaiah 42:1-9|hebrews 9:11-15|john 12:1-11": {
+      "dates": ["2027-03-22"],
+      "reviewed": true,
+      "themeFile": "20",
+      "deck": "上帝的僕人不折斷壓傷的蘆葦，也不吹滅將殘的燈火；馬利亞的香膏和基督的自獻同樣顯出，真正的愛不是遠距離評價，而是親近脆弱、付上自己。",
+      "reflection": "誰像一根壓傷的蘆葦，最需要的不是催促而是溫柔？我今天的語氣和行動能否保住他仍微弱的火光？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 36, "verse": 7 }, { "chapter": 36, "verse": 9 }, { "chapter": 36, "verse": 10 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 42, "verse": 1 }, { "chapter": 42, "verse": 3 }, { "chapter": 42, "verse": 6 }, { "chapter": 42, "verse": 7 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 11 }, { "chapter": 9, "verse": 12 }, { "chapter": 9, "verse": 14 }, { "chapter": 9, "verse": 15 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 12, "verse": 1 }, { "chapter": 12, "verse": 3 }, { "chapter": 12, "verse": 7 }, { "chapter": 12, "verse": 8 }] }
+        ]
+      }
+    },
+    "psalm 71:1-14|isaiah 49:1-7|1 corinthians 1:18-31|john 12:20-36": {
+      "dates": ["2027-03-23"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "那位被本國憎惡、被官長虐待的僕人，反成為照到地極的光；十字架顛倒人對能力的想像，一粒落地的麥子也證明，看似徒然的忠誠可以孕育生命。",
+      "reflection": "我是否只把顯眼成功當作上帝使用人的證據？哪一份無人稱讚的忠誠，仍值得我因愛繼續？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 71, "verse": 3 }, { "chapter": 71, "verse": 5 }, { "chapter": 71, "verse": 12 }, { "chapter": 71, "verse": 14 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 49, "verse": 4 }, { "chapter": 49, "verse": 5 }, { "chapter": 49, "verse": 6 }, { "chapter": 49, "verse": 7 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 18 }, { "chapter": 1, "verse": 23 }, { "chapter": 1, "verse": 27 }, { "chapter": 1, "verse": 29 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 12, "verse": 24 }, { "chapter": 12, "verse": 26 }, { "chapter": 12, "verse": 27 }, { "chapter": 12, "verse": 35 }] }
+        ]
+      }
+    },
+    "psalm 70|isaiah 50:4-9a|hebrews 12:1-3|john 13:21-32": {
+      "dates": ["2027-03-24"],
+      "reviewed": true,
+      "themeFile": "07",
+      "deck": "耶穌明知同席者將要出賣自己，心裏仍然憂愁，而不是麻木；祂忍受羞辱的堅忍並非否認痛楚，而是在最黑的夜把目光守在前面的喜樂。",
+      "reflection": "一段背叛或失望是否令我想封閉感受？我可以承認哪份憂傷，同時放下哪個容易纏累自己的重擔？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 70, "verse": 1 }, { "chapter": 70, "verse": 4 }, { "chapter": 70, "verse": 5 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 50, "verse": 4 }, { "chapter": 50, "verse": 5 }, { "chapter": 50, "verse": 7 }, { "chapter": 50, "verse": 9 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 1 }, { "chapter": 12, "verse": 2 }, { "chapter": 12, "verse": 3 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 13, "verse": 21 }, { "chapter": 13, "verse": 26 }, { "chapter": 13, "verse": 30 }, { "chapter": 13, "verse": 31 }] }
+        ]
+      }
+    },
+    "psalm 116:1-2, 12-19|exodus 12:1-4, (5-10), 11-14|1 corinthians 11:23-26|john 13:1-17, 31b-35": {
+      "dates": ["2027-03-25"],
+      "reviewed": true,
+      "themeFile": "10",
+      "deck": "逾越的晚餐按每戶人數預備，也讓人與鄰舍共享；耶穌在被賣之夜擘餅、洗腳，把『記念我』變成一種彼此服事、確保沒有人被遺下的生活。",
+      "reflection": "我領受聖餐與恩典後，生活中有誰仍未被我的桌子和關懷容納？我可以怎樣具體為他『洗腳』？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 116, "verse": 1 }, { "chapter": 116, "verse": 12 }, { "chapter": 116, "verse": 13 }, { "chapter": 116, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 3 }, { "chapter": 12, "verse": 4 }, { "chapter": 12, "verse": 11 }, { "chapter": 12, "verse": 14 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 23 }, { "chapter": 11, "verse": 24 }, { "chapter": 11, "verse": 25 }, { "chapter": 11, "verse": 26 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 13, "verse": 1 }, { "chapter": 13, "verse": 14 }, { "chapter": 13, "verse": 15 }, { "chapter": 13, "verse": 34 }] }
+        ]
+      }
+    },
+    "psalm 22|isaiah 52:13-53:12|hebrews 10:16-25|john 18:1-19:42": {
+      "dates": ["2027-03-26"],
+      "reviewed": true,
+      "themeFile": "11",
+      "deck": "受難日不把暴力稱為美善：無罪的耶穌被宗教算計、帝國權力和群眾恐懼合力殺害；祂卻拒絕拔刀，以受傷的身體開出一條不再複製暴力的新路。",
+      "shortReflection": "制度傷害無辜者時，我願意站近受傷的人嗎？",
+      "reflection": "當制度傷害無辜者時，我像彼拉多般明知不對仍選擇方便，還是願意站近十字架、照顧被遺下的人？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 22, "verse": 1 }, { "chapter": 22, "verse": 11 }, { "chapter": 22, "verse": 19 }, { "chapter": 22, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 53, "verse": 3 }, { "chapter": 53, "verse": 4 }, { "chapter": 53, "verse": 5 }, { "chapter": 53, "verse": 9 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 20 }, { "chapter": 10, "verse": 22 }, { "chapter": 10, "verse": 23 }, { "chapter": 10, "verse": 24 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 18, "verse": 8 }, { "chapter": 18, "verse": 11 }, { "chapter": 19, "verse": 30 }, { "chapter": 19, "verse": 38 }] }
+        ]
+      }
+    },
+    "psalm 31:1-4, 15-16|job 14:1-14|1 peter 4:1-8|matthew 27:57-66": {
+      "dates": ["2027-03-27"],
+      "reviewed": true,
+      "themeFile": "28",
+      "deck": "聖週六停在封好的墳墓前，不急着把哀傷跳成勝利；約伯只敢問人死能否再活，兩位馬利亞也只是坐着守望，讓等待本身成為愛的忠誠。",
+      "reflection": "哪個尚未有答案的失落，需要我停止催促自己振作？今日我能否安靜坐在它旁邊，也陪一位哀傷者不急着解釋？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 31, "verse": 1 }, { "chapter": 31, "verse": 3 }, { "chapter": 31, "verse": 15 }, { "chapter": 31, "verse": 16 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 14, "verse": 7 }, { "chapter": 14, "verse": 9 }, { "chapter": 14, "verse": 13 }, { "chapter": 14, "verse": 14 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 2 }, { "chapter": 4, "verse": 7 }, { "chapter": 4, "verse": 8 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 27, "verse": 60 }, { "chapter": 27, "verse": 61 }, { "chapter": 27, "verse": 65 }, { "chapter": 27, "verse": 66 }] }
+        ]
+      }
+    },
+    "psalm 118:1-2, 14-24|acts 10:34-43|1 corinthians 15:1-11|john 20:1-18": {
+      "dates": ["2027-03-28"],
+      "reviewed": true,
+      "themeFile": "18",
+      "deck": "復活不是叫馬利亞忘記眼淚，而是主在她哭泣時呼喚她的名字；那位被掛在木頭上的耶穌如今活着，也把曾逼迫教會的保羅變成恩典的見證人。",
+      "reflection": "我是否以為必須先停止悲傷才遇得見主？在仍然天黑的地方，我願意留心聽祂如何呼喚我嗎？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 23 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 34 }, { "chapter": 10, "verse": 38 }, { "chapter": 10, "verse": 40 }, { "chapter": 10, "verse": 43 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 3 }, { "chapter": 15, "verse": 4 }, { "chapter": 15, "verse": 9 }, { "chapter": 15, "verse": 10 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 20, "verse": 11 }, { "chapter": 20, "verse": 15 }, { "chapter": 20, "verse": 16 }, { "chapter": 20, "verse": 18 }] }
+        ]
+      }
+    },
+    "psalm 118:1-2, 14-24|genesis 1:1-19|1 corinthians 15:35-49": {
+      "dates": ["2027-03-29"],
+      "reviewed": true,
+      "themeFile": "09",
+      "deck": "創造從空虛、深淵和黑暗中展開，復活也像埋下的種子長成上帝所賜的新形體；基督沒有丟棄屬土的生命，而是在其中開始不能朽壞的更新。",
+      "reflection": "我正因哪一種『埋下去』而以為一切完了？若它可能是轉化的開始，今天需要給它甚麼時間、泥土與照料？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 14 }, { "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 2 }, { "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 4 }, { "chapter": 1, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 36 }, { "chapter": 15, "verse": 38 }, { "chapter": 15, "verse": 42 }, { "chapter": 15, "verse": 49 }] }]
+      }
+    },
+    "psalm 118:1-2, 14-24|genesis 1:20-2:4a|1 corinthians 15:50-58": {
+      "dates": ["2027-03-30"],
+      "reviewed": true,
+      "themeFile": "30",
+      "deck": "復活盼望與整個受造世界同聲：海中活物、飛鳥、牲畜與人都被上帝稱為好，創造最後以安息完成；死亡不能抹去這份美善，人的勞苦也不再徒然。",
+      "reflection": "我把身體、土地或休息只當作可消耗的資源嗎？今日可以怎樣尊重一種生命的界限，回應創造與復活的美善？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 21 }, { "chapter": 1, "verse": 27 }, { "chapter": 1, "verse": 31 }, { "chapter": 2, "verse": 3 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 52 }, { "chapter": 15, "verse": 54 }, { "chapter": 15, "verse": 57 }, { "chapter": 15, "verse": 58 }] }]
+      }
+    },
+    "psalm 118:1-2, 14-24|song of solomon 3:1-11|mark 16:1-8": {
+      "dates": ["2027-03-31"],
+      "reviewed": true,
+      "themeFile": "37",
+      "deck": "雅歌中的女子在夜裏起身尋找所愛，三位婦女也帶着香膏走向墳墓；她們尚未知道誰會移開大石，但復活的主已走在前面，約定在加利利相見。",
+      "reflection": "哪一塊大石令我還未出發便想放棄？我能否帶着未解的問題先走一步，相信道路可能已在我看不見時打開？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 118, "verse": 14 }, { "chapter": 118, "verse": 17 }, { "chapter": 118, "verse": 22 }, { "chapter": 118, "verse": 24 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 1 }, { "chapter": 3, "verse": 2 }, { "chapter": 3, "verse": 3 }, { "chapter": 3, "verse": 4 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 3 }, { "chapter": 16, "verse": 4 }, { "chapter": 16, "verse": 6 }, { "chapter": 16, "verse": 7 }] }]
+      }
+    },
+    "psalm 133|daniel 1:1-21|acts 2:42-47": {
+      "dates": ["2027-04-01"],
+      "reviewed": true,
+      "themeFile": "23",
+      "shortSummary": "四位被擄少年彼此支持",
+      "deck": "巴比倫想用新名字、教育和王膳重塑被擄少年，但四位朋友彼此支持，以溫和而堅定的方法守住身分；初代信徒也以擘餅、祈禱和共享抵抗各自為生。",
+      "reflection": "甚麼環境正悄悄替我定義『成功的人』應該怎樣？我需要哪些同行者，一起守住不願交換的價值？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 133, "verse": 1 }, { "chapter": 133, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 8 }, { "chapter": 1, "verse": 12 }, { "chapter": 1, "verse": 17 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 42 }, { "chapter": 2, "verse": 44 }, { "chapter": 2, "verse": 45 }, { "chapter": 2, "verse": 46 }] }]
+      }
+    },
+    "psalm 133|daniel 2:1-23|acts 4:23-31": {
+      "dates": ["2027-04-02"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "暴君因自己的不安威脅所有哲士，但以理沒有獨自扮演英雄，而是回到朋友中一同求憐憫；受恐嚇的使徒也回到群體祈禱，重新得着放膽的力量。",
+      "reflection": "壓力來時，我是否把自己孤立起來？哪幾個人可以與我分享真相、一起祈求，而我又願意為誰成為這種同伴？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 133, "verse": 1 }, { "chapter": 133, "verse": 2 }, { "chapter": 133, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 13 }, { "chapter": 2, "verse": 17 }, { "chapter": 2, "verse": 18 }, { "chapter": 2, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 23 }, { "chapter": 4, "verse": 24 }, { "chapter": 4, "verse": 29 }, { "chapter": 4, "verse": 31 }] }]
+      }
+    },
+    "psalm 133|daniel 2:24-49|john 12:44-50": {
+      "dates": ["2027-04-03"],
+      "reviewed": true,
+      "themeFile": "24",
+      "deck": "但以理得知奧祕後先求停止殺戮，也承認答案不是出於自己勝人一籌；從上而來的智慧救人、照亮黑暗，並不把啟示變成自我抬高的台階。",
+      "reflection": "當我比別人早一步看清事情，會用答案取得優越感，還是先保護可能受害的人？今日的真理能怎樣成為救援？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 133, "verse": 1 }, { "chapter": 133, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 24 }, { "chapter": 2, "verse": 28 }, { "chapter": 2, "verse": 30 }, { "chapter": 2, "verse": 44 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 46 }, { "chapter": 12, "verse": 47 }, { "chapter": 12, "verse": 49 }, { "chapter": 12, "verse": 50 }] }]
+      }
+    },
+    "psalm 133|acts 4:32-35|1 john 1:1-2:2|john 20:19-31": {
+      "dates": ["2027-04-04"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "復活的主進入鎖上的房間，沒有責罵害怕的門徒，反覆說『願你們平安』，也容許多馬帶着疑問靠近傷口；真實相交同樣容得下需要與認罪。",
+      "reflection": "我的群體是否只歡迎信心整齊、生活無缺的人？我可以怎樣讓一個帶着疑問或需要的人安全地留下？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 133, "verse": 1 }, { "chapter": 133, "verse": 3 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 32 }, { "chapter": 4, "verse": 33 }, { "chapter": 4, "verse": 34 }, { "chapter": 4, "verse": 35 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 9 }, { "chapter": 2, "verse": 1 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 20, "verse": 19 }, { "chapter": 20, "verse": 21 }, { "chapter": 20, "verse": 27 }, { "chapter": 20, "verse": 29 }] }
+        ]
+      }
+    },
+    "psalm 135|daniel 3:1-30|1 john 2:3-11": {
+      "dates": ["2027-04-05"],
+      "reviewed": true,
+      "themeFile": "07",
+      "deck": "金像前人人隨樂聲下拜，三位被擄者卻說，即使上帝不按期望拯救，他們也不把敬拜交給暴君；住在光中不是口號，而是拒絕仇恨、照主所行的去行。",
+      "reflection": "哪一種群體壓力正以安全、利益或認同交換我的順服？即使沒有即時好結果，我仍要守住哪一條愛與真理的界線？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 135, "verse": 5 }, { "chapter": 135, "verse": 15 }, { "chapter": 135, "verse": 18 }, { "chapter": 135, "verse": 21 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 3, "verse": 16 }, { "chapter": 3, "verse": 17 }, { "chapter": 3, "verse": 18 }, { "chapter": 3, "verse": 25 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 6 }, { "chapter": 2, "verse": 8 }, { "chapter": 2, "verse": 9 }, { "chapter": 2, "verse": 10 }] }]
+      }
+    }
+  }
+}

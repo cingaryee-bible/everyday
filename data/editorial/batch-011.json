@@ -1,0 +1,313 @@
+{
+  "batch": "011",
+  "entries": {
+    "psalm 98|isaiah 42:5-9|acts 10:34-43": {
+      "dates": ["2027-04-30"],
+      "reviewed": true,
+      "themeFile": "08",
+      "deck": "創造天地、把氣息賜給眾人的上帝，呼召僕人作外邦人的光、領囚犯出黑暗；彼得終於看見上帝不偏待人，復活的和平福音本來就要穿越族群界線。",
+      "reflection": "我的信仰視野仍把誰留在光照不到的地方？今日我可以怎樣使一個被排除的人更自由，而不是要求他先變得像我？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 98, "verse": 2 }, { "chapter": 98, "verse": 3 }, { "chapter": 98, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 42, "verse": 5 }, { "chapter": 42, "verse": 6 }, { "chapter": 42, "verse": 7 }, { "chapter": 42, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 34 }, { "chapter": 10, "verse": 35 }, { "chapter": 10, "verse": 38 }, { "chapter": 10, "verse": 43 }] }]
+      }
+    },
+    "psalm 98|deuteronomy 32:44-47|mark 10:42-45": {
+      "dates": ["2027-05-01"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "摩西說律法不是空話，而是百姓的生命；耶穌也把權力從支配人的手段，轉回服事和捨己。上帝的話若真進入心中，首先改變我們怎樣對待手下的人。",
+      "reflection": "在我有決定權的地方，別人感受到管束還是服事？今天有哪一個安排可讓較弱的一方多一點尊嚴與選擇？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 98, "verse": 1 }, { "chapter": 98, "verse": 3 }, { "chapter": 98, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 32, "verse": 44 }, { "chapter": 32, "verse": 46 }, { "chapter": 32, "verse": 47 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 42 }, { "chapter": 10, "verse": 43 }, { "chapter": 10, "verse": 44 }, { "chapter": 10, "verse": 45 }] }]
+      }
+    },
+    "psalm 98|acts 10:44-48|1 john 5:1-6|john 15:9-17": {
+      "dates": ["2027-05-02"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "聖靈在彼得講完之前已降在外邦人身上，教會只能追問：誰還能禁止水呢？基督稱門徒為朋友，也讓愛先於資格審查，拆去人設立的門檻。",
+      "reflection": "上帝已接納的人，我是否仍要他通過自己的考驗？我今天可以停止把守哪一道門，改為與人同行？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 98, "verse": 2 }, { "chapter": 98, "verse": 3 }, { "chapter": 98, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 10, "verse": 44 }, { "chapter": 10, "verse": 45 }, { "chapter": 10, "verse": 47 }, { "chapter": 10, "verse": 48 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 1 }, { "chapter": 5, "verse": 2 }, { "chapter": 5, "verse": 3 }, { "chapter": 5, "verse": 4 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 15, "verse": 9 }, { "chapter": 15, "verse": 12 }, { "chapter": 15, "verse": 15 }, { "chapter": 15, "verse": 16 }] }
+        ]
+      }
+    },
+    "psalm 93|deuteronomy 7:1-11|1 timothy 6:11-12": {
+      "dates": ["2027-05-03"],
+      "reviewed": true,
+      "themeFile": "20",
+      "shortSummary": "新約把爭戰轉向愛與溫柔",
+      "deck": "申命記的滅絕命令是危險而沉重的古代戰爭文本，不能搬到今日替暴力背書；經文同時記得以色列原是人數最少、從奴役得救的一群，新約則把爭戰指向公義、愛心、忍耐與溫柔。",
+      "reflection": "我有沒有用『上帝站在我這邊』把別人變成可消滅的敵人？今日真正要對抗的，是哪一種在自己裏面的仇恨或驕傲？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 93, "verse": 1 }, { "chapter": 93, "verse": 4 }, { "chapter": 93, "verse": 5 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 7, "verse": 6 }, { "chapter": 7, "verse": 7 }, { "chapter": 7, "verse": 8 }, { "chapter": 7, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 11 }, { "chapter": 6, "verse": 12 }] }]
+      }
+    },
+    "psalm 93|deuteronomy 11:1-17|1 timothy 6:13-16": {
+      "dates": ["2027-05-04"],
+      "reviewed": true,
+      "themeFile": "15",
+      "shortSummary": "百姓要學習依靠雨水與眷顧",
+      "deck": "百姓要進入的土地不能像埃及菜園般靠自己完全控制，而要留意雨水、土壤、牲畜和上帝的看顧；愛上帝也包括拒絕把大地當成無限供應的機器。",
+      "reflection": "我在哪一方面仍以為資源會自動供應、後果由別人承受？今日可以怎樣更謙卑地使用食物、水或土地？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 93, "verse": 1 }, { "chapter": 93, "verse": 3 }, { "chapter": 93, "verse": 4 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 1 }, { "chapter": 11, "verse": 11 }, { "chapter": 11, "verse": 12 }, { "chapter": 11, "verse": 15 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 13 }, { "chapter": 6, "verse": 14 }, { "chapter": 6, "verse": 15 }, { "chapter": 6, "verse": 16 }] }]
+      }
+    },
+    "psalm 93|deuteronomy 11:18-21|mark 16:19-20": {
+      "dates": ["2027-05-05"],
+      "reviewed": true,
+      "themeFile": "33",
+      "shortSummary": "上帝的話進入家庭日常",
+      "deck": "上帝的話要進入家中坐下、起來與行路的日常，也要由成年人耐心說給兒女聽；升天的主並未使使命離地，反與出去傳道的人一同工作。",
+      "reflection": "我的信仰主要停在聚會時段，還是進入一家人的日常對話？今天可以用甚麼自然方式，與下一代分享一段真實經歷？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 93, "verse": 1 }, { "chapter": 93, "verse": 2 }, { "chapter": 93, "verse": 5 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 18 }, { "chapter": 11, "verse": 19 }, { "chapter": 11, "verse": 20 }, { "chapter": 11, "verse": 21 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 19 }, { "chapter": 16, "verse": 20 }] }]
+      }
+    },
+    "psalm 47|acts 1:1-11|ephesians 1:15-23|luke 24:44-53": {
+      "dates": ["2027-05-06"],
+      "reviewed": true,
+      "themeFile": "29",
+      "deck": "門徒仰望升天的耶穌，天使卻問他們為何仍站着望天；時間表不屬他們，聖靈的能力卻要使見證從熟悉城市一直走到陌生的地極。",
+      "reflection": "我是否用等待更多指示，延遲已經清楚的使命？在自己的耶路撒冷、撒馬利亞與地極中，下一步分別在哪裏？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 47, "verse": 5 }, { "chapter": 47, "verse": 7 }, { "chapter": 47, "verse": 8 }, { "chapter": 47, "verse": 9 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 4 }, { "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 8 }, { "chapter": 1, "verse": 11 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 17 }, { "chapter": 1, "verse": 18 }, { "chapter": 1, "verse": 20 }, { "chapter": 1, "verse": 23 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 24, "verse": 45 }, { "chapter": 24, "verse": 47 }, { "chapter": 24, "verse": 48 }, { "chapter": 24, "verse": 49 }] }
+        ]
+      }
+    },
+    "psalm 47|exodus 24:15-18|revelation 1:9-18": {
+      "dates": ["2027-05-07"],
+      "reviewed": true,
+      "themeFile": "03",
+      "deck": "摩西進入遮蓋山頂的雲，約翰也在流放的海島看見烈日般的人子；榮耀令人仆倒，復活的主卻親手按着他說『不要懼怕』，權能在親近中顯明。",
+      "reflection": "我想像上帝的威嚴時，只剩距離與恐慌嗎？哪一份害怕需要交給那位曾死過、如今活着並伸手觸摸人的主？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 47, "verse": 2 }, { "chapter": 47, "verse": 7 }, { "chapter": 47, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 24, "verse": 15 }, { "chapter": 24, "verse": 16 }, { "chapter": 24, "verse": 17 }, { "chapter": 24, "verse": 18 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 9 }, { "chapter": 1, "verse": 17 }, { "chapter": 1, "verse": 18 }] }]
+      }
+    },
+    "psalm 47|deuteronomy 34:1-7|john 16:4-11": {
+      "dates": ["2027-05-08"],
+      "reviewed": true,
+      "themeFile": "12",
+      "deck": "摩西精神未衰，仍只能在山上遠望應許之地，生命有些終點不是努力不足，而是人必須交棒的界線；耶穌也不否定門徒因離別而滿心憂愁。",
+      "reflection": "有哪個重要成果我可能只能遠望、不能親手完成？我能否容許自己哀傷，並把未完的路祝福交給後來者？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 47, "verse": 5 }, { "chapter": 47, "verse": 7 }, { "chapter": 47, "verse": 8 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 34, "verse": 1 }, { "chapter": 34, "verse": 4 }, { "chapter": 34, "verse": 5 }, { "chapter": 34, "verse": 7 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 4 }, { "chapter": 16, "verse": 6 }, { "chapter": 16, "verse": 7 }, { "chapter": 16, "verse": 8 }] }]
+      }
+    },
+    "psalm 1|acts 1:15-17, 21-26|1 john 5:9-13|john 17:6-19": {
+      "dates": ["2027-05-09"],
+      "reviewed": true,
+      "themeFile": "39",
+      "deck": "猶大留下的空缺沒有被掩飾，群體從長久同行的人中選出馬提亞，讓使命繼續；耶穌也不是求門徒離開世界，而是求真理保守他們，再差他們回到世界。",
+      "reflection": "一個人的離去留下了甚麼需要修補的空位？我能否既不抹去他的故事，也讓群體用合宜程序重新前行？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 1 }, { "chapter": 1, "verse": 2 }, { "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 6 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 17 }, { "chapter": 1, "verse": 21 }, { "chapter": 1, "verse": 24 }, { "chapter": 1, "verse": 26 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 9 }, { "chapter": 5, "verse": 11 }, { "chapter": 5, "verse": 12 }, { "chapter": 5, "verse": 13 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 17, "verse": 11 }, { "chapter": 17, "verse": 15 }, { "chapter": 17, "verse": 17 }, { "chapter": 17, "verse": 18 }] }
+        ]
+      }
+    },
+    "psalm 115|exodus 28:29-38|philippians 1:3-11": {
+      "dates": ["2027-05-10"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "大祭司把十二支派的名字帶在胸前進入聖所，服事不是抬高自己，而是把整個群體常記在上帝面前；保羅也在捆鎖中逐一想念同工，為他們尚未完成的善工祈求。",
+      "reflection": "我肩負責任時，心上真正帶着哪些人的名字？今日可以為一位容易在制度中消失的人具體代求和發聲嗎？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 115, "verse": 1 }, { "chapter": 115, "verse": 9 }, { "chapter": 115, "verse": 12 }, { "chapter": 115, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 28, "verse": 29 }, { "chapter": 28, "verse": 30 }, { "chapter": 28, "verse": 36 }, { "chapter": 28, "verse": 38 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 3 }, { "chapter": 1, "verse": 6 }, { "chapter": 1, "verse": 9 }, { "chapter": 1, "verse": 11 }] }]
+      }
+    },
+    "psalm 115|numbers 8:5-22|titus 1:1-9": {
+      "dates": ["2027-05-11"],
+      "reviewed": true,
+      "themeFile": "15",
+      "deck": "利未人由全會眾按手、公開承接會幕的工作，服事既是分別為聖，也是向群體負責；提多選立長老時，首要的不是魅力，而是不暴躁、不貪財、樂意接待與自持。",
+      "reflection": "我評估一位領袖時，是否太重視能力而忽略品格與問責？在自己的服事中，哪一項性情需要先受整理？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 115, "verse": 1 }, { "chapter": 115, "verse": 8 }, { "chapter": 115, "verse": 11 }, { "chapter": 115, "verse": 13 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 9 }, { "chapter": 8, "verse": 10 }, { "chapter": 8, "verse": 11 }, { "chapter": 8, "verse": 22 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 5 }, { "chapter": 1, "verse": 7 }, { "chapter": 1, "verse": 8 }, { "chapter": 1, "verse": 9 }] }]
+      }
+    },
+    "psalm 115|ezra 9:5-15|john 16:16-24": {
+      "dates": ["2027-05-12"],
+      "reviewed": true,
+      "themeFile": "12",
+      "deck": "以斯拉的禱告保存了歸回群體對失去身分的深切恐懼，但這段經文不能用來羞辱跨族婚姻或家庭；耶穌容許門徒痛哭與不明白，也應許哀傷不會是故事最後一句。",
+      "reflection": "我是否曾以維護群體純潔之名，把罪疚加在具體家庭身上？面對複雜歷史，我可以怎樣一面悔改、一面不製造新的受害者？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 115, "verse": 1 }, { "chapter": 115, "verse": 9 }, { "chapter": 115, "verse": 12 }, { "chapter": 115, "verse": 15 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 9, "verse": 5 }, { "chapter": 9, "verse": 6 }, { "chapter": 9, "verse": 8 }, { "chapter": 9, "verse": 9 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 16, "verse": 18 }, { "chapter": 16, "verse": 20 }, { "chapter": 16, "verse": 22 }, { "chapter": 16, "verse": 24 }] }]
+      }
+    },
+    "psalm 33:12-22|genesis 2:4b-7|1 corinthians 15:42b-49": {
+      "dates": ["2027-05-13"],
+      "reviewed": true,
+      "themeFile": "30",
+      "deck": "人由土地的塵土被造，靠上帝吹入的氣息成為活人；復活不是厭棄肉身或泥土，而是那位叫人活的基督，使必朽壞、軟弱的生命得着新的形體。",
+      "reflection": "我是否因身體的限制而輕看自己或別人？今日可以怎樣善待這個出於塵土、仍被上帝氣息承托的身體？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 13 }, { "chapter": 33, "verse": 15 }, { "chapter": 33, "verse": 18 }, { "chapter": 33, "verse": 20 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 4 }, { "chapter": 2, "verse": 5 }, { "chapter": 2, "verse": 6 }, { "chapter": 2, "verse": 7 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 42 }, { "chapter": 15, "verse": 43 }, { "chapter": 15, "verse": 45 }, { "chapter": 15, "verse": 49 }] }]
+      }
+    },
+    "psalm 33:12-22|job 37:1-13|1 corinthians 15:50-57": {
+      "dates": ["2027-05-14"],
+      "reviewed": true,
+      "themeFile": "30",
+      "deck": "雪、暴雨、冰與密雲都超出人的控制，也可能潤地、施慈愛；復活同樣不是人手掌握的技術，而是上帝把必朽壞的改變，使死亡失去最後的話語權。",
+      "reflection": "面對不能測透的自然與死亡，我是否只剩控制的衝動？今天能否在敬畏中接受有限，仍把一件事交給復活的盼望？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 16 }, { "chapter": 33, "verse": 18 }, { "chapter": 33, "verse": 20 }, { "chapter": 33, "verse": 22 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 37, "verse": 2 }, { "chapter": 37, "verse": 5 }, { "chapter": 37, "verse": 12 }, { "chapter": 37, "verse": 13 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 51 }, { "chapter": 15, "verse": 52 }, { "chapter": 15, "verse": 54 }, { "chapter": 15, "verse": 57 }] }]
+      }
+    },
+    "psalm 33:12-22|exodus 15:6-11|john 7:37-39": {
+      "dates": ["2027-05-15"],
+      "reviewed": true,
+      "themeFile": "20",
+      "deck": "出埃及的歌保存了逃離奴役者在海邊的震撼，也帶着戰爭與死亡的尖銳記憶；耶穌把救恩的邀請轉向所有乾渴的人，聖靈不是淹沒敵人的水，而是從人裏面流出的活水。",
+      "reflection": "我慶祝自己得自由時，會否享受看見對手受苦？基督的活水要把我的勝利想像改造成怎樣的生命供應？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 33, "verse": 16 }, { "chapter": 33, "verse": 17 }, { "chapter": 33, "verse": 18 }, { "chapter": 33, "verse": 20 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 8 }, { "chapter": 15, "verse": 9 }, { "chapter": 15, "verse": 10 }, { "chapter": 15, "verse": 11 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 7, "verse": 37 }, { "chapter": 7, "verse": 38 }, { "chapter": 7, "verse": 39 }] }]
+      }
+    },
+    "psalm 104:24-34, 35b|acts 2:1-21|romans 8:22-27|john 15:26-27; 16:4b-15": {
+      "dates": ["2027-05-16"],
+      "reviewed": true,
+      "themeFile": "05",
+      "shortDeck": "每個人用自己的鄉談聽見上帝，同一位靈也進入人的歎息。",
+      "deck": "五旬節的聖靈沒有叫萬民只說一種語言，而是讓每個人用自己的鄉談聽見上帝；同一位靈也進入受造界和人的歎息，在說不出話時仍為我們禱告。",
+      "reflection": "我要求別人先學會我的語言和方式，才願意聆聽他嗎？今天可以怎樣翻譯自己，讓另一個人真正聽得明白？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 104, "verse": 24 }, { "chapter": 104, "verse": 29 }, { "chapter": 104, "verse": 30 }, { "chapter": 104, "verse": 34 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 4 }, { "chapter": 2, "verse": 8 }, { "chapter": 2, "verse": 17 }, { "chapter": 2, "verse": 21 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 22 }, { "chapter": 8, "verse": 23 }, { "chapter": 8, "verse": 26 }, { "chapter": 8, "verse": 27 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 15, "verse": 26 }, { "chapter": 15, "verse": 27 }, { "chapter": 16, "verse": 12 }, { "chapter": 16, "verse": 13 }] }
+        ]
+      }
+    },
+    "psalm 104:24-34, 35b|joel 2:18-29|1 corinthians 12:4-11": {
+      "dates": ["2027-05-17"],
+      "reviewed": true,
+      "themeFile": "05",
+      "deck": "聖靈澆灌凡有血氣的人，也把不同恩賜分給每一位；少年與長者、兒女與僕婢都能承載上帝的聲音，差異不是競爭排名，而是為共同益處而有的豐富。",
+      "reflection": "我羨慕哪種恩賜，或輕看了誰的貢獻？今日我能否真心說出另一個人的恩賜怎樣使群體得益？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 104, "verse": 27 }, { "chapter": 104, "verse": 28 }, { "chapter": 104, "verse": 30 }, { "chapter": 104, "verse": 31 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 21 }, { "chapter": 2, "verse": 25 }, { "chapter": 2, "verse": 28 }, { "chapter": 2, "verse": 29 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 4 }, { "chapter": 12, "verse": 6 }, { "chapter": 12, "verse": 7 }, { "chapter": 12, "verse": 11 }] }]
+      }
+    },
+    "psalm 104:24-34, 35b|genesis 11:1-9|1 corinthians 12:12-27": {
+      "dates": ["2027-05-18"],
+      "reviewed": true,
+      "themeFile": "23",
+      "deck": "巴別人害怕分散，想用同一種語言和高塔為自己留名；基督的身體卻不把所有肢體變成同一模樣，而是給被視為軟弱的更多尊重，使差異能彼此相顧。",
+      "reflection": "我的群體把合一誤作整齊一致嗎？哪一個不同聲音或較弱肢體，需要我停止說『用不着你』？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 104, "verse": 24 }, { "chapter": 104, "verse": 25 }, { "chapter": 104, "verse": 30 }, { "chapter": 104, "verse": 31 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 11, "verse": 1 }, { "chapter": 11, "verse": 4 }, { "chapter": 11, "verse": 7 }, { "chapter": 11, "verse": 8 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 12, "verse": 13 }, { "chapter": 12, "verse": 21 }, { "chapter": 12, "verse": 22 }, { "chapter": 12, "verse": 26 }] }]
+      }
+    },
+    "psalm 104:24-34, 35b|ezekiel 37:1-14|john 20:19-23": {
+      "dates": ["2027-05-19"],
+      "reviewed": true,
+      "themeFile": "09",
+      "deck": "枯骨異象不是教人否認死亡，而是讓先知先走遍極其乾枯的平原，聽見整個民族說『指望失去了』；復活的耶穌向鎖門的人吹氣，平安從承認創傷後重新呼吸開始。",
+      "reflection": "哪個地方的失望已乾枯得連禱告也困難？我能否先誠實走過它，再求聖靈把一口新氣息吹進來？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 104, "verse": 29 }, { "chapter": 104, "verse": 30 }, { "chapter": 104, "verse": 31 }, { "chapter": 104, "verse": 34 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 37, "verse": 2 }, { "chapter": 37, "verse": 3 }, { "chapter": 37, "verse": 11 }, { "chapter": 37, "verse": 14 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 20, "verse": 19 }, { "chapter": 20, "verse": 20 }, { "chapter": 20, "verse": 21 }, { "chapter": 20, "verse": 22 }] }]
+      }
+    },
+    "psalm 29|isaiah 1:1-4, 16-20|romans 8:1-8": {
+      "dates": ["2027-05-20"],
+      "reviewed": true,
+      "themeFile": "31",
+      "deck": "以賽亞所說的潔淨不是宗教外表變白，而是止住作惡、解救受欺壓者、為孤兒寡婦辨屈；基督裏不被定罪的人，正由賜生命的聖靈帶進這種公義與平安。",
+      "reflection": "我想得赦免時，有否同時問誰仍承受我或群體造成的後果？今日的悔改需要包括哪一項修復行動？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 3 }, { "chapter": 29, "verse": 4 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 1, "verse": 16 }, { "chapter": 1, "verse": 17 }, { "chapter": 1, "verse": 18 }, { "chapter": 1, "verse": 19 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 1 }, { "chapter": 8, "verse": 2 }, { "chapter": 8, "verse": 4 }, { "chapter": 8, "verse": 6 }] }]
+      }
+    },
+    "psalm 29|isaiah 2:1-5|romans 8:9-11": {
+      "dates": ["2027-05-21"],
+      "reviewed": true,
+      "themeFile": "21",
+      "deck": "萬民登山學習上帝的道路，不是為獲得更強武器，而是把刀槍重新鍛造成耕作工具；使耶穌復活的靈住在人裏面，也讓死亡文化中的身體學會栽種和平。",
+      "shortReflection": "我可以把哪項資源，由競爭轉為分享？",
+      "reflection": "我的時間、言語或資源中，有哪一件『武器』可以被重新鍛造，轉為養活人而不是擊敗人的工具？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 4 }, { "chapter": 29, "verse": 10 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 2, "verse": 2 }, { "chapter": 2, "verse": 3 }, { "chapter": 2, "verse": 4 }, { "chapter": 2, "verse": 5 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 9 }, { "chapter": 8, "verse": 10 }, { "chapter": 8, "verse": 11 }] }]
+      }
+    },
+    "psalm 29|isaiah 5:15-24|john 15:18-20, 26-27": {
+      "dates": ["2027-05-22"],
+      "reviewed": true,
+      "themeFile": "26",
+      "deck": "先知警告人可用話語把善惡、光暗、苦甜顛倒，甚至用利益替惡人洗白；真理的聖靈使門徒作見證，因此遭人反感並不自動證明正確，關鍵仍是忠於基督的真理。",
+      "reflection": "我有沒有因立場方便而替傷害改名，或把批評都當成逼迫？今日哪一句話需要按事實重新說清楚？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 2 }, { "chapter": 29, "verse": 4 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 16 }, { "chapter": 5, "verse": 20 }, { "chapter": 5, "verse": 21 }, { "chapter": 5, "verse": 23 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 15, "verse": 18 }, { "chapter": 15, "verse": 20 }, { "chapter": 15, "verse": 26 }, { "chapter": 15, "verse": 27 }] }]
+      }
+    },
+    "psalm 29|isaiah 6:1-8|romans 8:12-17|john 3:1-17": {
+      "dates": ["2027-05-23"],
+      "reviewed": true,
+      "themeFile": "29",
+      "deck": "以賽亞先承認自己嘴唇不潔、領受赦免，才回答『請差遣我』；尼哥德慕也要放下熟悉身分重新由聖靈而生，因蒙召不是靠恐懼服役，而是以兒女身分進入上帝愛世人的使命。",
+      "reflection": "我回應使命，是為證明自己有用，還是因已蒙赦免、被稱為兒女？若不用害怕失敗，今天我願意被差到哪裏？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 29, "verse": 2 }, { "chapter": 29, "verse": 4 }, { "chapter": 29, "verse": 11 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 6, "verse": 3 }, { "chapter": 6, "verse": 5 }, { "chapter": 6, "verse": 7 }, { "chapter": 6, "verse": 8 }] }],
+        "new": [
+          { "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 14 }, { "chapter": 8, "verse": 15 }, { "chapter": 8, "verse": 16 }, { "chapter": 8, "verse": 17 }] },
+          { "citationIndex": 1, "verses": [{ "chapter": 3, "verse": 3 }, { "chapter": 3, "verse": 5 }, { "chapter": 3, "verse": 16 }, { "chapter": 3, "verse": 17 }] }
+        ]
+      }
+    }
+  }
+}

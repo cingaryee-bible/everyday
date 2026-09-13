@@ -1,0 +1,19 @@
+{
+  "batch": "000",
+  "entries": {
+    "psalm 78:1-7|joshua 5:10-12|revelation 8:6-9:12": {
+      "dates": ["2026-11-05"],
+      "reviewed": true,
+      "themeFile": "25",
+      "shortDeck": "嗎哪停止，恩典沒有停止。記住歷史，不要重複傷害。",
+      "deck": "詩篇把信仰記憶當作跨代責任：不能向孩子隱瞞歷史，要述說上帝的作為，使下一代懂得盼望，也不重犯前人的錯。約書亞記記載嗎哪在百姓吃到當地出產後停止，提醒人供應方式可以轉變；這段土地敘事不能用來支持今日奪地或排斥原居民。啟示錄以烈火、苦水、黑暗和蝗蟲的異象揭露戰爭與邪惡如何摧毀受造世界，使人痛苦到求死；它不是災難時間表，也不是信徒施害的許可。留心聽，是把恩典和創傷都誠實傳下去，並抵抗污染水源、焚毀土地及使人失去生存盼望的力量；有自殺念頭的人需要即時安全陪伴與專業支援，不能被責怪信心不足。",
+      "shortReflection": "今天，我可以放下手機，認真聆聽誰說話？",
+      "reflection": "我向下一代講述的歷史，遺漏了誰的土地、創傷或付出？今天可補回哪個真實部分，並保護哪項生命資源？",
+      "quotes": {
+        "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 78, "verse": 1 }, { "chapter": 78, "verse": 3 }, { "chapter": 78, "verse": 4 }, { "chapter": 78, "verse": 6 }, { "chapter": 78, "verse": 7 }] }],
+        "old": [{ "citationIndex": 0, "verses": [{ "chapter": 5, "verse": 10 }, { "chapter": 5, "verse": 11 }, { "chapter": 5, "verse": 12 }] }],
+        "new": [{ "citationIndex": 0, "verses": [{ "chapter": 8, "verse": 7 }, { "chapter": 8, "verse": 9 }, { "chapter": 8, "verse": 11 }, { "chapter": 8, "verse": 13 }, { "chapter": 9, "verse": 4 }, { "chapter": 9, "verse": 5 }, { "chapter": 9, "verse": 6 }, { "chapter": 9, "verse": 12 }] }]
+      }
+    }
+  }
+}
