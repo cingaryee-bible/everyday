@@ -15,6 +15,7 @@ const files = [
   ["/cat-style.css", "cat-style.css", "text/css; charset=utf-8"],
   ["/cat-readings.js", "cat-readings.js", "text/javascript; charset=utf-8"],
   ["/cat-full-texts.js", "cat-full-texts.js", "text/javascript; charset=utf-8"],
+  ["/daily-content.js", "daily-content.js", "text/javascript; charset=utf-8"],
   ["/manifest.webmanifest", "manifest.webmanifest", "application/manifest+json; charset=utf-8"],
   ["/logo-cingaryee.png", "logo-cingaryee.png", "image/png"],
   ["/cat-psalm-cingaryee-v3.png", "cat-psalm-cingaryee-v3.png", "image/png"],

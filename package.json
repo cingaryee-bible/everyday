@@ -8,6 +8,8 @@
   },
   "scripts": {
     "build": "node build.mjs",
-    "test": "npm run build && node --test tests/site.test.mjs"
+    "test": "npm run build && node --test tests/site.test.mjs",
+    "update:daily": "node scripts/update-daily-content.mjs",
+    "review:export": "node scripts/export-editorial-review.mjs"
   }
 }
