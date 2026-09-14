@@ -824,7 +824,7 @@ function readingObject(citations, passages, kind, theme, signature, curatedEdito
       : "在基督裏回應今日的召喚";
   return {
     reference,
-    eyebrow: `${lead}：${theme.label}`,
+    eyebrow: lead,
     quotes: passages.map((passage, index) => ({
       ...(passages.length > 1 ? { label: passage.label } : {}),
       text: editorialQuoteFromSelection(
