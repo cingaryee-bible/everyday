@@ -8,9 +8,9 @@
 ## 現有功能
 
 - 詩篇、舊約、新約及今日默想
-- 內置《和合本》完整經文，可展開或收起
+- 內置《和合本2010（和修版）》完整經文，可展開或收起
 - 完整支援 RCL A、B、C 三年循環（半連續讀經）
-- 每日自動讀取官方當日經課並組合《和合本》全文
+- 每日自動讀取官方當日經課及香港聖經公會《和合本2010》經文
 - 保留前後各兩天內容，按使用者所在地日期自動切換
 - 手機、平板及電腦版面
 - iPhone、iPad、Android 及桌面安裝圖示
@@ -20,7 +20,8 @@
 ## 每日資料更新
 
 GitHub Actions 每日從 Vanderbilt Divinity Library 的 RCL 官方網頁讀取一個五日流動視窗，
-選用半連續讀經，再從 eBible 的 Public Domain《和合本》USFM 檔案組合全文。
+選用半連續讀經，再按所需章節從香港聖經公會《和合本網路聖經》取得
+《和合本2010（和修版）》神版經文。
 
 因此 A、B、C 三年循環會隨官方經課持續運作，毋須逐日修改或上載內容。
 瀏覽器按使用者自己的所在地日期顯示當日資料；前後各兩日的緩衝可照顧全球時區。
@@ -43,8 +44,7 @@ GitHub Actions 每日從 Vanderbilt Divinity Library 的 RCL 官方網頁讀取�
 三年後相同經課再次出現，系統會取回相同識別及編排，毋須重新設定。
 復活節、大齋期、將臨期等日期會按教會年曆重新計算，因此即使公曆日期改變仍可繼續使用。
 
-`public/cat-readings.js` 內原有的 14 日內容只作第一次更新前及離線預覽的後備資料。
-每日產生的 `public/daily-content.js` 不需要手動編輯。
+每日產生的 `public/daily-content.js` 不需要手動編輯；網站不會以舊譯本作後備經文。
 
 ## 本機預覽
 
@@ -69,10 +69,10 @@ GitHub Actions 每日從 Vanderbilt Divinity Library 的 RCL 官方網頁讀取�
 亦可在 **Actions → Deploy GitHub Pages → Run workflow** 手動執行一次。
 更新 `main` 或 `master` 分支時亦會重新產生及發佈。
 
-更新工作需要從以下兩個官方來源下載資料：
+更新工作需要從以下兩個官方來源取得資料：
 
 - Vanderbilt Divinity Library 的 RCL Daily Readings
-- eBible 的 `cmn-cu89t_usfm.zip`
+- 香港聖經公會《和合本網路聖經》的《和合本2010（和修版）》神版
 
 如果官方來源及適用的本地後備資料都無法提供已核對內容，該次 workflow 會停止，
 已公開的上一個成功版本不會被取代。
@@ -81,8 +81,8 @@ GitHub Actions 每日從 Vanderbilt Divinity Library 的 RCL 官方網頁讀取�
 
 - 官方經課出處會與儲存庫內已核對的三年 RCL 資料比對；在該三年範圍內，來源無法讀取
   或結果不一致時會改用本地資料。
-- 從 eBible 下載的《和合本》會逐節與本地已核對經文比對；下載失敗或內容不一致時，
-  改用本地經文。
+- 《和合本2010》經文會按五日視窗實際所需章節直接向香港聖經公會網站取得；來源無法讀取、
+  回應缺少章節或經節時，工作會停止，不會改用其他譯本或舊有經文。
 - 每日五日視窗內的經課必須全部配對到已審閱編輯內容。任何未知出處、缺章缺節或未審閱
   組合都會令工作停止，不會猜測經文或發佈部分錯誤內容。
 - 若日期超出本地後備經課範圍，而官方來源同時無法讀取，GitHub Pages 不會執行新部署，
@@ -111,16 +111,15 @@ npm test
 - `public/index.html`：正式網頁
 - `public/cat-style.css`：版面與響應式設計
 - `public/cat-readings.js`：每日經課資料及日期切換
-- `public/cat-full-texts.js`：《和合本》完整經文
 - `public/daily-content.js`：每日自動產生的五日流動內容
 - `public/assets/topics/`：主題插畫
 - `public/icons/`：瀏覽器及主畫面圖示
 - `public/manifest.webmanifest`：可安裝網站設定
 - `.github/workflows/deploy-pages.yml`：GitHub Pages 自動發佈
-- `scripts/update-daily-content.mjs`：RCL 與《和合本》每日內容產生器
+- `scripts/update-daily-content.mjs`：RCL 與《和合本2010》每日內容產生器
 - `data/editorial-plan.json`：1,072 組已審閱的固定主題、重點句及默想編排
 - `data/editorial/`：逐批保留的編輯原稿
-- `review/editorial-cycle-review.txt`：供人手逐項核對的純文字清單
+- `review/editorial-cycle-review.txt`：執行 `npm run review:export` 後產生的人手核對清單
 - `scripts/export-editorial-review.mjs`：重新產生核對清單
 - `build.mjs`：部署建置
 - `tests/site.test.mjs`：網站測試
@@ -128,5 +127,5 @@ npm test
 ## 內容與版權
 
 插畫、品牌標誌及視覺設計版權 © 2026 毛毛聊 CinGaryee。
-《和合本》電子經文來源、RCL 經課出處與公開使用注意事項詳見
+《和合本2010》經文來源、授權、RCL 經課出處與公開使用注意事項詳見
 [COPYRIGHT.md](COPYRIGHT.md)。
