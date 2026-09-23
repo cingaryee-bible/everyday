@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Huninn&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="cat-style.css?v=20260921a" />
+    <link rel="stylesheet" href="cat-style.css?v=20260923g" />
   </head>
   <body>
     <a class="skip-link" href="#psalm">直接閱讀今日經課</a>
@@ -57,19 +57,6 @@
           </div>
           <p id="year-display">2026</p>
         </div>
-        <div class="reading-toolbar" aria-label="經文顯示設定">
-          <span class="translation-control-label">經文譯本</span>
-          <button
-            class="translation-picker-button"
-            id="translation-picker-button"
-            type="button"
-            aria-haspopup="dialog"
-            aria-controls="translation-dialog"
-          >
-            <strong>和合本2010</strong>
-            <span class="translation-picker-arrow" aria-hidden="true"></span>
-          </button>
-        </div>
       </header>
 
       <section class="intro" aria-labelledby="page-title">
@@ -89,6 +76,20 @@
           />
         </div>
       </section>
+
+      <div class="reading-toolbar" aria-label="經文顯示設定">
+        <button
+          class="translation-picker-button"
+          id="translation-picker-button"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="translation-dialog"
+        >
+          <span class="translation-control-label">經文譯本</span>
+          <strong>和合本2010</strong>
+          <span class="translation-picker-arrow" aria-hidden="true"></span>
+        </button>
+      </div>
 
       <section class="readings" aria-label="今日經課內容">
         <article class="reading-card card-psalm" id="psalm">
