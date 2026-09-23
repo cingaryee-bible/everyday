@@ -371,29 +371,67 @@ export function hkbsChapterUrl(bookCode, chapter) {
 
 export function parseHkbsChapter(html) {
   const verses = new Map();
-  const pattern = /<b\b[^>]*>\s*(\d+)(?:[-–](\d+))?\s*<\/b>\s*<span\b[^>]*>([\s\S]*?)<\/span>/gi;
+  const paragraphPattern = /<p\b([^>]*)>([\s\S]*?)<\/p>/gi;
+  let currentRange = null;
 
-  for (const match of html.matchAll(pattern)) {
-    const startVerse = Number(match[1]);
-    const endVerse = Number(match[2] ?? match[1]);
-    const text = decodeHtml(match[3]
+  function extractText(value) {
+    return decodeHtml(value
       .replace(/<sup\b[\s\S]*?<\/sup>/gi, "")
+      .replace(/<b\b[\s\S]*?<\/b>/gi, "")
       .replace(/<[^>]+>/g, ""))
       .replace(/[~\u00a0]/g, " ")
       .replace(/\s+/g, " ")
       .trim();
-    if (!text) continue;
-    if (endVerse === startVerse) {
-      verses.set(startVerse, text);
+  }
+
+  function appendText(range, text) {
+    if (!range || !text) return;
+    const existing = verses.get(range.startVerse);
+    if (!existing) return;
+    const previousText = typeof existing === "string" ? existing : existing.text;
+    const combinedText = `${previousText}${text}`;
+    if (range.endVerse === range.startVerse) {
+      verses.set(range.startVerse, combinedText);
+      return;
+    }
+    const combinedVerse = { ...existing, text: combinedText };
+    for (let verse = range.startVerse; verse <= range.endVerse; verse += 1) {
+      verses.set(verse, combinedVerse);
+    }
+  }
+
+  for (const match of html.matchAll(paragraphPattern)) {
+    const attributes = match[1];
+    const content = match[2];
+    const versePattern = /<b\b[^>]*>\s*(\d+)(?:[-–](\d+))?\s*<\/b>/gi;
+    const markers = [...content.matchAll(versePattern)];
+
+    if (!markers.length) {
+      const isContinuation = /\bclass\s*=\s*["'][^"']*\bp[2-9]\b[^"']*["']/i.test(attributes);
+      if (isContinuation) appendText(currentRange, extractText(content));
       continue;
     }
-    const combinedVerse = {
-      text,
-      displayVerse: `${startVerse}–${endVerse}`,
-      group: `${startVerse}-${endVerse}`,
-    };
-    for (let verse = startVerse; verse <= endVerse; verse += 1) {
-      verses.set(verse, combinedVerse);
+
+    for (let index = 0; index < markers.length; index += 1) {
+      const marker = markers[index];
+      const startVerse = Number(marker[1]);
+      const endVerse = Number(marker[2] ?? marker[1]);
+      const segmentEnd = markers[index + 1]?.index ?? content.length;
+      const text = extractText(content.slice(marker.index + marker[0].length, segmentEnd));
+      currentRange = { startVerse, endVerse };
+      if (!text) continue;
+      if (endVerse === startVerse) {
+        verses.set(startVerse, text);
+        continue;
+      }
+      const combinedVerse = {
+        text,
+        displayVerse: `${startVerse}–${endVerse}`,
+        group: `${startVerse}-${endVerse}`,
+      };
+      for (let verse = startVerse; verse <= endVerse; verse += 1) {
+        verses.set(verse, combinedVerse);
+      }
     }
   }
 
