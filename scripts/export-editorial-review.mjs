@@ -4,14 +4,14 @@ import {
   THEME_DEFINITIONS,
   cycleSignature,
   editorialQuoteFromSelection,
+  loadHkbsRcuvBible,
   selectPassage,
 } from "./update-daily-content.mjs";
 
 const output = resolve(process.argv[2] ?? "review/editorial-cycle-review.txt");
 const checkOutput = resolve(process.argv[3] ?? "review/editorial-cycle-check.txt");
-const [rcl, corpus, plan] = await Promise.all([
+const [rcl, plan] = await Promise.all([
   readFile(resolve("data/rcl-three-year-semi-continuous.json"), "utf8").then(JSON.parse),
-  readFile(resolve("data/cuv-required-chapters.json"), "utf8").then(JSON.parse),
   readFile(resolve("data/editorial-plan.json"), "utf8").then(JSON.parse),
 ]);
 
@@ -20,11 +20,7 @@ if (plan.status !== "complete" || plan.entryCount !== plan.totalEntryCount) {
 }
 
 const themes = new Map(THEME_DEFINITIONS.map((theme) => [theme.file, theme]));
-const bible = new Map();
-for (const chapter of Object.values(corpus.chapters)) {
-  if (!bible.has(chapter.code)) bible.set(chapter.code, new Map());
-  bible.get(chapter.code).set(chapter.chapter, new Map(chapter.verses));
-}
+const bible = await loadHkbsRcuvBible(rcl.days);
 
 const daysBySignature = new Map();
 for (const day of rcl.days) {
@@ -62,7 +58,7 @@ const lines = [
   `經課範圍：${rcl.dateRange.from} 至 ${rcl.dateRange.to}`,
   `循環日數：${rcl.dayCount}`,
   `不重複經課組合：${entries.length}`,
-  "版本：和合本（繁體）｜RCL Daily Readings 半連續讀經",
+  "版本：和合本2010（和修・神版）｜RCL Daily Readings 半連續讀經",
   "",
   "每項列出實際會使用的 topic 圖、經課出處、題下小字、卡面節錄及默想。",
   "每個出處的卡面只顯示一段節錄；其餘核對經節只供人手校對，不會全部顯示。",
@@ -75,7 +71,7 @@ const checkLines = [
   "",
   `經課範圍：${rcl.dateRange.from} 至 ${rcl.dateRange.to}`,
   `循環日數：${rcl.dayCount}`,
-  "版本：和合本（繁體）｜RCL Daily Readings 半連續讀經",
+  "版本：和合本2010（和修・神版）｜RCL Daily Readings 半連續讀經",
   "",
   "本檔只列出網站實際會顯示的內容，方便逐項核對。",
   "完整經文會保留在網站的「完整經文＋」內，不在本清單重複列出。",

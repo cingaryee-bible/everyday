@@ -1,8 +1,10 @@
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
-import { basename, dirname, extname, join, resolve } from "node:path";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { basename, dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 export const RCL_DAILY_URL = "https://lectionary.library.vanderbilt.edu/daily-readings/";
+export const HKBS_RCUV_URL = "https://rcuv.hkbs.org.hk/";
+export const HKBS_RCUV_VERSION = "RCUV1";
 export const DEFAULT_OUTPUT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "../public/daily-content.js",
@@ -15,11 +17,6 @@ export const DEFAULT_RCL_SNAPSHOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "../data/rcl-three-year-semi-continuous.json",
 );
-export const DEFAULT_BIBLE_CORPUS = resolve(
-  dirname(fileURLToPath(import.meta.url)),
-  "../data/cuv-required-chapters.json",
-);
-
 const ENGLISH_MONTHS = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
@@ -365,86 +362,83 @@ export async function loadRclDaysWithFallback(
   return officialDays.map((day) => ({ ...day, dataSource: "official-rcl" }));
 }
 
-async function walkFiles(directory) {
-  const files = [];
-  for (const entry of await readdir(directory, { withFileTypes: true })) {
-    const pathname = join(directory, entry.name);
-    if (entry.isDirectory()) files.push(...await walkFiles(pathname));
-    else files.push(pathname);
-  }
-  return files;
+export function hkbsChapterUrl(bookCode, chapter) {
+  return new URL(
+    `bb/${HKBS_RCUV_VERSION}/${bookCode}/${chapter}/`,
+    HKBS_RCUV_URL,
+  ).href;
 }
 
-function cleanUsfm(text) {
-  return text
-    .replace(/\\f\s[\s\S]*?\\f\*/g, "")
-    .replace(/\\x\s[\s\S]*?\\x\*/g, "")
-    .replace(/\\w\s+([^|\\]+)\|[^\\]*\\w\*/g, "$1")
-    .replace(/\\zaln-s\s[^\\]*\\\*/g, "")
-    .replace(/\\zaln-e\\\*/g, "")
-    .replace(/\\[a-z0-9-]+\*?\s*/gi, "")
-    .replace(/[~\u00a0]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
+export function parseHkbsChapter(html) {
+  const verses = new Map();
+  const pattern = /<b\b[^>]*>\s*(\d+)(?:[-–](\d+))?\s*<\/b>\s*<span\b[^>]*>([\s\S]*?)<\/span>/gi;
 
-export function parseUsfm(content) {
-  const id = content.match(/^\\id\s+([A-Z0-9]{3})\b/m)?.[1];
-  if (!id) return null;
-  const chapters = new Map();
-  let chapter = 0;
-  let verse = 0;
-  let buffer = "";
-
-  function flush() {
-    if (!chapter || !verse) return;
-    const cleaned = cleanUsfm(buffer);
-    if (!chapters.has(chapter)) chapters.set(chapter, new Map());
-    if (cleaned) chapters.get(chapter).set(verse, cleaned);
-    buffer = "";
-  }
-
-  for (const rawLine of content.replace(/^\uFEFF/, "").split(/\r?\n/)) {
-    const chapterMatch = rawLine.match(/^\\c\s+(\d+)/);
-    if (chapterMatch) {
-      flush();
-      chapter = Number(chapterMatch[1]);
-      verse = 0;
+  for (const match of html.matchAll(pattern)) {
+    const startVerse = Number(match[1]);
+    const endVerse = Number(match[2] ?? match[1]);
+    const text = decodeHtml(match[3]
+      .replace(/<sup\b[\s\S]*?<\/sup>/gi, "")
+      .replace(/<[^>]+>/g, ""))
+      .replace(/[~\u00a0]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (!text) continue;
+    if (endVerse === startVerse) {
+      verses.set(startVerse, text);
       continue;
     }
-    const verseMatch = rawLine.match(/^\\v\s+(\d+)(?:[-–]\d+)?[a-z]?\s*(.*)$/i);
-    if (verseMatch) {
-      flush();
-      verse = Number(verseMatch[1]);
-      buffer = verseMatch[2];
-      continue;
+    const combinedVerse = {
+      text,
+      displayVerse: `${startVerse}–${endVerse}`,
+      group: `${startVerse}-${endVerse}`,
+    };
+    for (let verse = startVerse; verse <= endVerse; verse += 1) {
+      verses.set(verse, combinedVerse);
     }
-    if (verse) buffer += ` ${rawLine}`;
   }
-  flush();
-  return { id, chapters };
+
+  if (!verses.size) {
+    throw new Error("HKBS chapter response did not contain any verses.");
+  }
+  return verses;
 }
 
-export async function loadUsfmBible(directory) {
-  const bible = new Map();
-  const files = await walkFiles(directory);
-  for (const filename of files) {
-    if (![".usfm", ".sfm", ".txt"].includes(extname(filename).toLowerCase())) continue;
-    const parsed = parseUsfm(await readFile(filename, "utf8"));
-    if (parsed) bible.set(parsed.id, parsed.chapters);
+export async function loadHkbsRcuvBible(rclDays, fetcher = fetchText) {
+  const requestedChapters = new Map();
+  for (const day of rclDays) {
+    for (const kind of ["psalm", "old", "new"]) {
+      for (const citation of day.citations[kind]) {
+        const parsed = parseCitation(citation);
+        if (!parsed.book) continue;
+        for (const range of parsed.ranges) {
+          for (let chapter = range.startChapter; chapter <= range.endChapter; chapter += 1) {
+            requestedChapters.set(
+              `${parsed.book.code}:${chapter}`,
+              { bookCode: parsed.book.code, chapter },
+            );
+          }
+        }
+      }
+    }
   }
-  if (!bible.size) throw new Error(`No USFM Bible books found in ${directory}.`);
-  return bible;
-}
 
-export async function loadBibleCorpus(filename = DEFAULT_BIBLE_CORPUS) {
-  const corpus = JSON.parse(await readFile(filename, "utf8"));
   const bible = new Map();
-  for (const chapter of Object.values(corpus.chapters ?? {})) {
-    if (!bible.has(chapter.code)) bible.set(chapter.code, new Map());
-    bible.get(chapter.code).set(chapter.chapter, new Map(chapter.verses));
+  const queue = [...requestedChapters.values()];
+  let cursor = 0;
+  async function loadNextChapter() {
+    while (cursor < queue.length) {
+      const { bookCode, chapter } = queue[cursor++];
+      const url = hkbsChapterUrl(bookCode, chapter);
+      const verses = parseHkbsChapter(await fetcher(url));
+      if (!bible.has(bookCode)) bible.set(bookCode, new Map());
+      bible.get(bookCode).set(chapter, verses);
+    }
   }
-  if (!bible.size) throw new Error(`No Bible chapters found in ${filename}.`);
+  await Promise.all(Array.from(
+    { length: Math.min(6, queue.length) },
+    () => loadNextChapter(),
+  ));
+  if (!bible.size) throw new Error("No RCUV 2010 chapters were loaded from HKBS.");
   return bible;
 }
 
@@ -534,10 +528,23 @@ export function selectPassage(bible, citation) {
   const records = [];
   const seen = new Set();
 
+  function addRecord(chapter, verse, value) {
+    const normalized = typeof value === "string"
+      ? { text: value, displayVerse: String(verse), group: String(verse) }
+      : value;
+    records.push({
+      chapter,
+      verse,
+      text: normalized.text,
+      displayVerse: normalized.displayVerse ?? String(verse),
+      verseGroup: `${chapter}:${normalized.group ?? verse}`,
+    });
+  }
+
   for (const range of parsed.ranges) {
     if (range.startVerse === null) {
-      for (const [verse, text] of chapters.get(range.startChapter) ?? []) {
-        records.push({ chapter: range.startChapter, verse, text });
+      for (const [verse, value] of chapters.get(range.startChapter) ?? []) {
+        addRecord(range.startChapter, verse, value);
       }
       continue;
     }
@@ -547,11 +554,11 @@ export function selectPassage(bible, citation) {
       if (!verses) continue;
       const first = chapter === range.startChapter ? range.startVerse : Math.min(...verses.keys());
       const last = chapter === range.endChapter ? range.endVerse : Math.max(...verses.keys());
-      for (const [verse, text] of verses) {
+      for (const [verse, value] of verses) {
         const key = `${chapter}:${verse}`;
         if (verse >= first && verse <= last && !seen.has(key)) {
           seen.add(key);
-          records.push({ chapter, verse, text });
+          addRecord(chapter, verse, value);
         }
       }
     }
@@ -559,11 +566,17 @@ export function selectPassage(bible, citation) {
 
   if (!records.length) throw new Error(`No verses found for ${citation}.`);
   const multipleChapters = new Set(records.map(({ chapter }) => chapter)).size > 1;
+  const displayedGroups = new Set();
+  const displayedRecords = records.filter(({ verseGroup }) => {
+    if (displayedGroups.has(verseGroup)) return false;
+    displayedGroups.add(verseGroup);
+    return true;
+  });
   return {
     label,
     records,
-    text: records.map(({ chapter, verse, text }) =>
-      `${multipleChapters ? `${chapter}:` : ""}${verse} ${text}`,
+    text: displayedRecords.map(({ chapter, displayVerse, text }) =>
+      `${multipleChapters ? `${chapter}:` : ""}${displayVerse} ${text}`,
     ).join(" "),
     unavailable: false,
   };
@@ -643,22 +656,6 @@ export function cycleSignature(citations) {
 
 function rclComparisonSignature(citations) {
   return cycleSignature(citations).replace(/[–—]/g, "-");
-}
-
-export function validateBibleAgainstCorpus(bible, corpusBible, rclDays) {
-  for (const day of rclDays) {
-    for (const kind of ["psalm", "old", "new"]) {
-      for (const citation of day.citations[kind]) {
-        const actual = selectPassage(bible, citation);
-        const expected = selectPassage(corpusBible, citation);
-        const actualRows = actual.records.map(({ chapter, verse, text }) => [chapter, verse, text]);
-        const expectedRows = expected.records.map(({ chapter, verse, text }) => [chapter, verse, text]);
-        if (JSON.stringify(actualRows) !== JSON.stringify(expectedRows)) {
-          throw new Error(`Bible text does not match the reviewed corpus for ${citation}.`);
-        }
-      }
-    }
-  }
 }
 
 export async function loadEditorialPlan(filename = DEFAULT_EDITORIAL_PLAN) {
@@ -891,7 +888,7 @@ export function buildDailyContent(
   return {
     generatedAt: generatedAt.toISOString(),
     track: "RCL Daily Readings — Semi-continuous",
-    translation: "和合本（繁體）",
+    translation: "和合本2010（和修・神版）",
     editorialPlan: "CinGaryee curated cycle plan v3",
     readings,
     fullReadingKeys,
@@ -907,7 +904,6 @@ function parseArguments(argv) {
   const options = {
     date: null,
     window: 2,
-    bibleDir: "",
     output: DEFAULT_OUTPUT,
     editorialPlan: DEFAULT_EDITORIAL_PLAN,
   };
@@ -915,7 +911,6 @@ function parseArguments(argv) {
     const argument = argv[index];
     if (argument === "--date") options.date = argv[++index];
     else if (argument === "--window") options.window = Number(argv[++index]);
-    else if (argument === "--bible-dir") options.bibleDir = argv[++index];
     else if (argument === "--out") options.output = resolve(argv[++index]);
     else if (argument === "--editorial-plan") options.editorialPlan = resolve(argv[++index]);
     else throw new Error(`Unknown argument: ${argument}`);
@@ -933,21 +928,11 @@ export async function main(argv = process.argv.slice(2)) {
   for (let offset = -options.window; offset <= options.window; offset += 1) {
     dates.push(addDays(centre, offset));
   }
-  const [rclDays, corpusBible, editorialPlan] = await Promise.all([
+  const [rclDays, editorialPlan] = await Promise.all([
     loadRclDaysWithFallback(dates),
-    loadBibleCorpus(),
     loadEditorialPlan(options.editorialPlan),
   ]);
-  let bible = corpusBible;
-  if (options.bibleDir) {
-    try {
-      const downloadedBible = await loadUsfmBible(resolve(options.bibleDir));
-      validateBibleAgainstCorpus(downloadedBible, corpusBible, rclDays);
-      bible = downloadedBible;
-    } catch (error) {
-      console.warn(`Downloaded Bible unavailable or invalid; using reviewed corpus: ${error.message}`);
-    }
-  }
+  const bible = await loadHkbsRcuvBible(rclDays);
   for (const day of rclDays) {
     const signature = cycleSignature(day.citations);
     if (!editorialPlan.has(signature)) {
