@@ -45,7 +45,7 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /毛毛聊/);
   assert.doesNotMatch(html, /mailto:/);
   assert.match(html, /cat-readings\.js/);
-  assert.match(html, /cat-style\.css\?v=20260921a/);
+  assert.match(html, /cat-style\.css\?v=20260923g/);
   assert.match(html, /daily-content\.js\?v=20260915a/);
   assert.match(html, /cat-readings\.js\?v=20260921a/);
   assert.match(html, /id="topic-art-image"[\s\S]*draggable="false"/);
@@ -59,6 +59,10 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /id="install-dialog"/);
   assert.match(html, /id="translation-picker-button"/);
   assert.match(html, /id="translation-dialog"/);
+  assert.match(
+    html,
+    /<section class="intro"[\s\S]*class="reading-toolbar"[\s\S]*<section class="readings"/,
+  );
   assert.match(html, /新普及譯本/);
   assert.match(html, /授權申請中/);
   assert.match(html, /和合本2010/);
