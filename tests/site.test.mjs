@@ -5,16 +5,34 @@ import worker from "../dist/server/index.js";
 import {
   THEME_DEFINITIONS,
   buildDailyContent,
+  cycleSignature,
   extractDailyCandidates,
-  loadBibleCorpus,
+  hkbsChapterUrl,
+  loadHkbsRcuvBible,
   loadRclDaysWithFallback,
+  parseHkbsChapter,
   parseCitation,
   parseSundayCitations,
-  parseUsfm,
   parseWeekdayCitations,
   useProtestantCanonicalAlternatives,
-  validateBibleAgainstCorpus,
 } from "../scripts/update-daily-content.mjs";
+
+function parseTestUsfm(content) {
+  const id = content.match(/^\\id\s+([A-Z0-9]{3})\b/m)?.[1];
+  const chapters = new Map();
+  let chapter = 0;
+  for (const line of content.split("\n")) {
+    const chapterMatch = line.match(/^\\c\s+(\d+)/);
+    if (chapterMatch) {
+      chapter = Number(chapterMatch[1]);
+      chapters.set(chapter, new Map());
+      continue;
+    }
+    const verseMatch = line.match(/^\\v\s+(\d+)\s+(.+)$/);
+    if (verseMatch) chapters.get(chapter).set(Number(verseMatch[1]), verseMatch[2]);
+  }
+  return { id, chapters };
+}
 
 test("serves the daily reading page at the site root", async () => {
   const response = await worker.fetch(
@@ -27,9 +45,9 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /毛毛聊/);
   assert.doesNotMatch(html, /mailto:/);
   assert.match(html, /cat-readings\.js/);
-  assert.match(html, /cat-style\.css\?v=20260913h/);
-  assert.match(html, /daily-content\.js\?v=20260913a/);
-  assert.match(html, /cat-readings\.js\?v=20260913e/);
+  assert.match(html, /cat-style\.css\?v=20260921a/);
+  assert.match(html, /daily-content\.js\?v=20260915a/);
+  assert.match(html, /cat-readings\.js\?v=20260921a/);
   assert.match(html, /id="topic-art-image"[\s\S]*draggable="false"/);
   assert.match(html, /rel="manifest" href="manifest\.webmanifest"/);
   assert.match(html, /rel="apple-touch-icon"[^>]+icons\/icon-180\.png/);
@@ -39,6 +57,14 @@ test("serves the daily reading page at the site root", async () => {
     /id="reflection"[\s\S]*class="add-home-area"[\s\S]*<footer>/,
   );
   assert.match(html, /id="install-dialog"/);
+  assert.match(html, /id="translation-picker-button"/);
+  assert.match(html, /id="translation-dialog"/);
+  assert.match(html, /新普及譯本/);
+  assert.match(html, /授權申請中/);
+  assert.match(html, /和合本2010/);
+  assert.match(html, /蒙香港聖經公會授權使用/);
+  assert.match(html, /https:\/\/rcuv\.hkbs\.org\.hk\//);
+  assert.doesNotMatch(html, /eBible|Public Domain/i);
   assert.match(html, /iPhone／iPad/);
   assert.match(html, /Android／Chrome/);
   assert.match(html, /完成後，貓貓圖示會顯示於手機主畫面/);
@@ -74,19 +100,18 @@ test("serves installable app metadata and the supplied icon", async () => {
   assert.ok((await maskableIcon.arrayBuffer()).byteLength > 20_000);
 });
 
-test("serves the artwork and embedded reading data", async () => {
+test("serves the artwork without a legacy embedded Bible", async () => {
   const image = await worker.fetch(
     new Request("https://example.test/cat-psalm-cingaryee-v3.png"),
   );
-  const readings = await worker.fetch(
+  const legacyReadings = await worker.fetch(
     new Request("https://example.test/cat-full-texts.js"),
   );
 
   assert.equal(image.status, 200);
   assert.equal(image.headers.get("content-type"), "image/png");
   assert.ok((await image.arrayBuffer()).byteLength > 100_000);
-  assert.equal(readings.status, 200);
-  assert.match(await readings.text(), /詩篇/);
+  assert.equal(legacyReadings.status, 404);
 });
 
 test("serves valid reviewed daily content or its pre-generation placeholder", async () => {
@@ -176,6 +201,22 @@ test("opens a platform-aware add-to-home-screen guide", async () => {
   assert.match(javascript, /appinstalled/);
 });
 
+test("opens an accessible translation picker with the pending translation disabled", async () => {
+  const page = await worker.fetch(
+    new Request("https://example.test/"),
+  );
+  const html = await page.text();
+  const script = await worker.fetch(
+    new Request("https://example.test/cat-readings.js"),
+  );
+  const javascript = await script.text();
+
+  assert.match(html, /aria-controls="translation-dialog"/);
+  assert.match(html, /class="translation-option is-pending" type="button" disabled/);
+  assert.match(javascript, /translationDialog\.showModal\(\)/);
+  assert.match(javascript, /closeTranslationDialog\(\)/);
+});
+
 test("serves the complete topic artwork library without the design preview", async () => {
   const finalArtwork = await worker.fetch(
     new Request("https://example.test/assets/topics/topic-41.webp"),
@@ -198,7 +239,8 @@ test("includes an automatic GitHub Pages deployment", async () => {
 
   assert.match(workflow, /actions\/checkout@v6/);
   assert.match(workflow, /cron: "17 0 \* \* \*"/);
-  assert.match(workflow, /cmn-cu89t_usfm\.zip/);
+  assert.match(workflow, /HKBS RCUV 2010/);
+  assert.doesNotMatch(workflow, /eBible|cmn-cu89t/i);
   assert.match(workflow, /scripts\/update-daily-content\.mjs/);
   assert.match(workflow, /--window 2/);
   assert.match(workflow, /actions\/configure-pages@v5/);
@@ -284,28 +326,40 @@ test("falls back to the reviewed RCL snapshot when the official source fails or 
   assert.equal(disagrees[0].dataSource, "bundled-rcl-snapshot");
 });
 
-test("rejects downloaded Bible text that differs from the reviewed corpus", async () => {
-  const corpus = await loadBibleCorpus();
-  const altered = new Map(corpus);
-  const psalms = new Map(corpus.get("PSA"));
-  const psalm114 = new Map(psalms.get(114));
-  psalm114.set(1, "不正確的測試文字");
-  psalms.set(114, psalm114);
-  altered.set("PSA", psalms);
+test("parses and loads the required HKBS RCUV 2010 chapters", async () => {
+  const sample = `
+    <h3>上帝的創造</h3><p>
+      <b>1</b><span>起初，上帝創造天地。<sup title="註腳"></sup></span>
+      <b>2</b><span>地是空虛混沌，深淵上面一片黑暗。</span>
+      <b>3-4</b><span>上帝說：「要有光」，就有了光。</span>
+    </p>`;
+  assert.deepEqual([...parseHkbsChapter(sample)], [
+    [1, "起初，上帝創造天地。"],
+    [2, "地是空虛混沌，深淵上面一片黑暗。"],
+    [3, { text: "上帝說：「要有光」，就有了光。", displayVerse: "3–4", group: "3-4" }],
+    [4, { text: "上帝說：「要有光」，就有了光。", displayVerse: "3–4", group: "3-4" }],
+  ]);
+
   const days = [{
     date: new Date(Date.UTC(2026, 8, 10)),
     citations: {
-      psalm: ["Psalm 114"],
-      old: ["Exodus 13:17-22"],
-      new: ["1 John 3:11-16"],
+      psalm: ["Psalm 1:1-2"],
+      old: ["Genesis 1:1-2"],
+      new: ["John 1:1-2"],
     },
   }];
-
-  assert.doesNotThrow(() => validateBibleAgainstCorpus(corpus, corpus, days));
-  assert.throws(
-    () => validateBibleAgainstCorpus(altered, corpus, days),
-    /does not match the reviewed corpus/,
-  );
+  const requested = [];
+  const bible = await loadHkbsRcuvBible(days, async (url) => {
+    requested.push(url);
+    return sample;
+  });
+  assert.deepEqual(new Set(requested), new Set([
+    hkbsChapterUrl("PSA", 1),
+    hkbsChapterUrl("GEN", 1),
+    hkbsChapterUrl("JHN", 1),
+  ]));
+  assert.match(hkbsChapterUrl("GEN", 1), /\/bb\/RCUV1\/GEN\/1\/$/);
+  assert.equal(bible.get("GEN").get(1).get(1), "起初，上帝創造天地。");
 });
 
 test("stops rather than silently publishing an unsupported RCL book", () => {
@@ -357,14 +411,14 @@ test("parses grouped and cross-chapter Bible references", () => {
   ]);
 });
 
-test("builds the current page format from RCL citations and USFM verses", () => {
+test("builds the current page format from RCL citations and Bible verses", () => {
   const bible = new Map();
   for (const usfm of [
     "\\id PSA\n\\c 1\n\\v 1 耶和華是我的牧者，我必不致缺乏。\n\\v 2 他使我躺臥在青草地上。",
     "\\id GEN\n\\c 1\n\\v 1 起初，上帝創造天地。\n\\v 2 上帝的靈運行在水面上。",
     "\\id JHN\n\\c 1\n\\v 1 太初有道，道與上帝同在，道就是上帝。\n\\v 2 這道太初與上帝同在。",
   ]) {
-    const parsed = parseUsfm(usfm);
+    const parsed = parseTestUsfm(usfm);
     bible.set(parsed.id, parsed.chapters);
   }
   const content = buildDailyContent([
@@ -391,7 +445,7 @@ test("keeps editorial copy fixed when the same RCL readings return in a later cy
     "\\id GEN\n\\c 1\n\\v 1 起初，上帝創造天地。",
     "\\id JHN\n\\c 1\n\\v 1 太初有道，道與上帝同在。",
   ]) {
-    const parsed = parseUsfm(usfm);
+    const parsed = parseTestUsfm(usfm);
     bible.set(parsed.id, parsed.chapters);
   }
   const citations = { psalm: ["Psalm 1:1-2"], old: ["Genesis 1:1"], new: ["John 1:1"] };
@@ -416,7 +470,7 @@ test("uses reviewed editorial copy instead of inserting verse fragments into tem
     "\\id JOS\n\\c 5\n\\v 10 以色列人在吉甲安營守逾越節。\n\\v 11 他們吃了那地的出產。\n\\v 12 第二日嗎哪就止住了。",
     "\\id REV\n\\c 8\n\\v 6 七位天使預備吹號。\n\\v 7 第一位天使吹號。\n\\v 8 第二位天使吹號。\n\\v 9 海中的活物死了三分之一。\n\\v 10 第三位天使吹號。\n\\v 11 眾水變苦。\n\\v 12 日月星的三分之一黑暗了。\n\\v 13 你們住在地上的民，禍哉。\n\\c 9\n\\v 1 第五位天使吹號。\n\\v 2 無底坑有煙冒上來。\n\\v 3 有蝗蟲從煙中出來。\n\\v 4 不可傷害地上的草。\n\\v 5 只叫他們受痛苦五個月。\n\\v 6 人要求死，決不得死。\n\\v 7 蝗蟲的形狀好像預備出戰的馬。\n\\v 8 牙齒像獅子的牙齒。\n\\v 9 胸前有甲。\n\\v 10 尾巴上的毒鉤能傷人。\n\\v 11 有無底坑的使者作牠們的王。\n\\v 12 第一樣災禍過去了。",
   ]) {
-    const parsed = parseUsfm(usfm);
+    const parsed = parseTestUsfm(usfm);
     bible.set(parsed.id, parsed.chapters);
   }
   const editorialPlan = new Map([[
@@ -471,55 +525,35 @@ test("uses reviewed editorial copy instead of inserting verse fragments into tem
 });
 
 test("covers the complete three-year RCL cycle with reviewed editorial copy", async () => {
-  const [rcl, corpus, plan] = await Promise.all([
+  const [rcl, plan] = await Promise.all([
     readFile(new URL("../data/rcl-three-year-semi-continuous.json", import.meta.url), "utf8").then(JSON.parse),
-    readFile(new URL("../data/cuv-required-chapters.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../data/editorial-plan.json", import.meta.url), "utf8").then(JSON.parse),
   ]);
-  const bible = new Map();
-  for (const chapter of Object.values(corpus.chapters)) {
-    if (!bible.has(chapter.code)) bible.set(chapter.code, new Map());
-    bible.get(chapter.code).set(chapter.chapter, new Map(chapter.verses));
-  }
-  const days = rcl.days.map((day) => ({
-    ...day,
-    date: new Date(`${day.date}T00:00:00Z`),
-  }));
-  const content = buildDailyContent(
-    days,
-    bible,
-    new Date("2026-09-13T00:00:00Z"),
-    new Map(Object.entries(plan.entries)),
-  );
+  const entries = Object.values(plan.entries);
+  const signatures = new Set(rcl.days.map((day) => cycleSignature(day.citations)));
 
   assert.equal(plan.status, "complete");
   assert.equal(plan.entryCount, 1072);
   assert.equal(plan.entryCount, plan.totalEntryCount);
-  assert.equal(content.readings.length, rcl.days.length);
-  assert.ok(content.readings.every((day) => day.editorialStatus === "reviewed"));
-  assert.ok(content.readings.every((day) => day.deck.trim() && day.reflection.trim()));
-  assert.ok(content.readings.every((day) =>
-    (day.deck.match(/[^。！？]+[。！？]?/gu) ?? []).length <= 3
-      && [...day.deck].length <= 30,
+  assert.equal(signatures.size, 1072);
+  assert.ok([...signatures].every((signature) => plan.entries[signature]?.reviewed === true));
+  assert.ok(entries.every((entry) => entry.deck.trim() && entry.reflection.trim()));
+  assert.ok(entries.every((entry) =>
+    (entry.deck.match(/[^。！？]+[。！？]?/gu) ?? []).length <= 3
+      && [...entry.deck].length <= 30,
   ));
-  assert.ok(Object.values(plan.entries).every((entry) =>
+  assert.ok(entries.every((entry) =>
     (entry.deck.match(/；/gu) ?? []).length === 1
       && /；(?:願我們|讓我們|學習).+。$/u.test(entry.deck),
   ));
-  assert.ok(content.readings.every((day) =>
-    (day.reflection.match(/[^。！？]+[。！？]?/gu) ?? []).length === 1
-      && [...day.reflection].length <= 36,
+  assert.ok(entries.every((entry) =>
+    (entry.reflection.match(/[^。！？]+[。！？]?/gu) ?? []).length === 1
+      && [...entry.reflection].length <= 36,
   ));
-  assert.equal(new Set(content.readings.map((day) => day.editorialKey)).size, 1072);
-  assert.equal(new Set(Object.values(plan.entries).map((entry) => entry.deck.trim())).size, 1072);
-  assert.equal(new Set(Object.values(plan.entries).map((entry) => entry.reflection.trim())).size, 1072);
+  assert.equal(new Set(entries.map((entry) => entry.deck.trim())).size, 1072);
+  assert.equal(new Set(entries.map((entry) => entry.reflection.trim())).size, 1072);
   const topicLabels = new Map(THEME_DEFINITIONS.map((theme) => [theme.file, theme.label]));
-  assert.ok(Object.values(plan.entries).every((entry) =>
+  assert.ok(entries.every((entry) =>
     !entry.deck.includes(topicLabels.get(entry.themeFile)),
-  ));
-  assert.ok(content.readings.every((day) =>
-    [day.psalm, day.old, day.new].every((reading) =>
-      reading.quotes.every((quote) => [...quote.text].length <= 72),
-    ),
   ));
 });
