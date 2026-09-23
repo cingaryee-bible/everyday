@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="每日經課" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <title>每日經課｜和合本</title>
+    <title>每日經課｜和合本2010</title>
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png" />
@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Huninn&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="cat-style.css?v=20260913h" />
+    <link rel="stylesheet" href="cat-style.css?v=20260921a" />
   </head>
   <body>
     <a class="skip-link" href="#psalm">直接閱讀今日經課</a>
@@ -56,6 +56,19 @@
             <span><b id="month-name">九月</b><small id="weekday-display">星期五</small></span>
           </div>
           <p id="year-display">2026</p>
+        </div>
+        <div class="reading-toolbar" aria-label="經文顯示設定">
+          <span class="translation-control-label">經文譯本</span>
+          <button
+            class="translation-picker-button"
+            id="translation-picker-button"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="translation-dialog"
+          >
+            <strong>和合本2010</strong>
+            <span class="translation-picker-arrow" aria-hidden="true"></span>
+          </button>
         </div>
       </header>
 
@@ -94,7 +107,7 @@
               decoding="async"
             />
           </div>
-          <p class="translation" id="psalm-translation">和合本 · 重點節錄</p>
+          <p class="translation" id="psalm-translation">和合本2010 · 重點節錄</p>
           <p class="eyebrow" id="psalm-eyebrow">在主面前，大地震動</p>
           <blockquote id="psalm-quote"><p>「大地啊，你因見主的面，就是雅各上帝的面，便要震動。」</p></blockquote>
           <div class="reading-links" id="psalm-links">
@@ -122,7 +135,7 @@
               decoding="async"
             />
           </div>
-          <p class="translation" id="old-translation">和合本 · 重點節錄</p>
+          <p class="translation" id="old-translation">和合本2010 · 重點節錄</p>
           <p class="eyebrow" id="old-eyebrow">站穩，看耶和華的拯救</p>
           <blockquote id="old-quote"><p>「不要懼怕，只管站住！看耶和華今天向你們所要施行的救恩。……耶和華必為你們爭戰；你們只管靜默，不要作聲。」</p></blockquote>
           <div class="reading-links" id="old-links">
@@ -150,7 +163,7 @@
               decoding="async"
             />
           </div>
-          <p class="translation" id="new-translation">和合本 · 重點節錄</p>
+          <p class="translation" id="new-translation">和合本2010 · 重點節錄</p>
           <p class="eyebrow" id="new-eyebrow">在患難中，上帝仍同在</p>
           <blockquote id="new-quote"><p>「先祖嫉妒約瑟，把他賣到埃及去；上帝卻與他同在。」</p></blockquote>
           <div class="reading-links" id="new-links">
@@ -198,9 +211,12 @@
       </section>
 
       <footer>
-        <p class="footer-title">每日經課 · 和合本閱讀版</p>
+        <p class="footer-title">每日經課 · 和合本2010 閱讀版</p>
         <p>
-          每日按使用者所在地日期顯示。經課編排依據修訂共同經課每日讀經（半連續讀經）；經文採用和合本。和合本經文來源 eBible，該電子版本標示為 Public Domain。
+          每日按使用者所在地日期顯示。經課編排依據修訂共同經課每日讀經（半連續讀經）；經文採用《和合本2010（和修版）》神版，每日由香港聖經公會《和合本網路聖經》取得。
+        </p>
+        <p>
+          《和合本2010（和修版）》經文蒙香港聖經公會授權使用，版權屬香港聖經公會所有。
         </p>
         <p>
           RCL Daily Readings 選讀 © 2005 Consultation on Common Texts；經課出處由 Vanderbilt Divinity Library 官方網頁提供。
@@ -215,10 +231,10 @@
             rel="noreferrer"
           >經課來源 ↗</a>
           <a
-            href="https://ebible.org/bible/details.php?id=cmn-cu89t"
+            href="https://rcuv.hkbs.org.hk/"
             target="_blank"
             rel="noreferrer"
-          >和合本來源 ↗</a>
+          >和合本2010 來源 ↗</a>
           <a
             href="https://www.instagram.com/cingaryee/"
             target="_blank"
@@ -296,13 +312,53 @@
       </div>
     </dialog>
 
+    <dialog
+      class="translation-dialog"
+      id="translation-dialog"
+      aria-labelledby="translation-dialog-title"
+    >
+      <div class="translation-sheet">
+        <form method="dialog">
+          <button class="translation-dialog-close" type="submit" aria-label="關閉譯本選單">×</button>
+        </form>
+
+        <div class="translation-dialog-heading">
+          <p>經文顯示</p>
+          <h2 id="translation-dialog-title">選擇譯本</h2>
+        </div>
+        <p class="translation-dialog-intro">
+          你選擇的譯本會套用今日全部經課。
+        </p>
+
+        <div class="translation-options" aria-label="可選譯本">
+          <button class="translation-option is-current" id="current-translation-option" type="button" aria-current="true">
+            <span>
+              <strong>和合本2010（和修・神版）</strong>
+              <small>現正使用</small>
+            </span>
+            <b aria-hidden="true">✓</b>
+          </button>
+          <button class="translation-option is-pending" type="button" disabled>
+            <span>
+              <strong>新普及譯本</strong>
+              <small>授權申請中</small>
+            </span>
+            <em>稍後推出</em>
+          </button>
+        </div>
+
+        <p class="translation-dialog-note">
+          現有譯本已獲授權；其他譯本會在取得授權後加入。
+        </p>
+      </div>
+    </dialog>
+
     <nav class="mobile-nav" aria-label="跳至本日經課">
       <a href="#psalm"><span aria-hidden="true">一</span>詩篇</a>
       <a href="#old-testament"><span aria-hidden="true">二</span>舊約</a>
       <a href="#new-testament"><span aria-hidden="true">三</span>新約</a>
     </nav>
-    <script src="daily-content.js?v=20260913a" defer></script>
-    <script src="cat-full-texts.js" defer></script>
-    <script src="cat-readings.js?v=20260913e" defer></script>
+    <script src="daily-content.js?v=20260915a" defer></script>
+    <script src="cat-readings.js?v=20260921a" defer></script>
   </body>
 </html>
