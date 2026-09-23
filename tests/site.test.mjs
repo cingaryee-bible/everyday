@@ -332,16 +332,17 @@ test("falls back to the reviewed RCL snapshot when the official source fails or 
 
 test("parses and loads the required HKBS RCUV 2010 chapters", async () => {
   const sample = `
-    <h3>上帝的創造</h3><p>
-      <b>1</b><span>起初，上帝創造天地。<sup title="註腳"></sup></span>
-      <b>2</b><span>地是空虛混沌，深淵上面一片黑暗。</span>
-      <b>3-4</b><span>上帝說：「要有光」，就有了光。</span>
-    </p>`;
+    <h3>神的創造</h3>
+    <p class="p1"><b>1</b><span>起初，神創造天地。<sup title="註腳"></sup></span></p>
+    <p class="p2"><span>這是第一節的續行。</span></p>
+    <p><b>2</b><span>地是空虛混沌，深淵上面一片黑暗。</span>
+      <b>3-4</b><span>神說：「要有光」，就有了光。</span></p>
+    <p class="p2"><span>光就照亮黑暗。</span></p>`;
   assert.deepEqual([...parseHkbsChapter(sample)], [
-    [1, "起初，上帝創造天地。"],
+    [1, "起初，神創造天地。這是第一節的續行。"],
     [2, "地是空虛混沌，深淵上面一片黑暗。"],
-    [3, { text: "上帝說：「要有光」，就有了光。", displayVerse: "3–4", group: "3-4" }],
-    [4, { text: "上帝說：「要有光」，就有了光。", displayVerse: "3–4", group: "3-4" }],
+    [3, { text: "神說：「要有光」，就有了光。光就照亮黑暗。", displayVerse: "3–4", group: "3-4" }],
+    [4, { text: "神說：「要有光」，就有了光。光就照亮黑暗。", displayVerse: "3–4", group: "3-4" }],
   ]);
 
   const days = [{
@@ -363,7 +364,7 @@ test("parses and loads the required HKBS RCUV 2010 chapters", async () => {
     hkbsChapterUrl("JHN", 1),
   ]));
   assert.match(hkbsChapterUrl("GEN", 1), /\/bb\/RCUV1\/GEN\/1\/$/);
-  assert.equal(bible.get("GEN").get(1).get(1), "起初，上帝創造天地。");
+  assert.equal(bible.get("GEN").get(1).get(1), "起初，神創造天地。這是第一節的續行。");
 });
 
 test("stops rather than silently publishing an unsupported RCL book", () => {
