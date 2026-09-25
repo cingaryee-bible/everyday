@@ -641,6 +641,11 @@ blockquote p {
   margin: 0;
 }
 
+.reading-card blockquote {
+  border-left: 3px solid var(--orange-deep);
+  padding-left: 17px;
+}
+
 blockquote p + p {
   border-top: 1px dashed rgba(17, 16, 15, 0.28);
   margin-top: 19px;

@@ -75,7 +75,7 @@ function buildQuotes(element, quotes) {
       paragraph.append(source);
     }
 
-    paragraph.append(document.createTextNode(`「${quote.text}」`));
+    paragraph.append(document.createTextNode(quote.text));
     return paragraph;
   });
 
