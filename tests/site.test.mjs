@@ -45,9 +45,9 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /毛毛聊/);
   assert.doesNotMatch(html, /mailto:/);
   assert.match(html, /cat-readings\.js/);
-  assert.match(html, /cat-style\.css\?v=20260923g/);
+  assert.match(html, /cat-style\.css\?v=20260926a/);
   assert.match(html, /daily-content\.js\?v=20260915a/);
-  assert.match(html, /cat-readings\.js\?v=20260921a/);
+  assert.match(html, /cat-readings\.js\?v=20260926a/);
   assert.match(html, /id="topic-art-image"[\s\S]*draggable="false"/);
   assert.match(html, /rel="manifest" href="manifest\.webmanifest"/);
   assert.match(html, /rel="apple-touch-icon"[^>]+icons\/icon-180\.png/);
@@ -365,6 +365,31 @@ test("parses and loads the required HKBS RCUV 2010 chapters", async () => {
   ]));
   assert.match(hkbsChapterUrl("GEN", 1), /\/bb\/RCUV1\/GEN\/1\/$/);
   assert.equal(bible.get("GEN").get(1).get(1), "起初，神創造天地。這是第一節的續行。");
+});
+
+test("keeps a verse continuation before the next paragraph's first verse number", () => {
+  // HKBS Philippians 1:18 continues in the paragraph that contains verse 19.
+  const verse18 = "這又何妨呢？或是假意或是真心，無論如何，只要基督被傳開了，為此我就歡喜。";
+  const verse19 = "因為我知道，這事藉著你們的祈禱和耶穌基督的靈的幫助，終必使我得到釋放。";
+  const sample = `
+    <h3>我活著就是基督</h3>
+    <p><b>18</b><span>${verse18}</span></p>
+    <p><span>我還要歡喜， </span><b>19</b><span>${verse19}</span></p>
+    <h3>下一段標題</h3>
+    <p>不是經文的說明</p>`;
+  assert.deepEqual([...parseHkbsChapter(sample)], [
+    [18, `${verse18}我還要歡喜，`],
+    [19, verse19],
+  ]);
+
+  const grouped = parseHkbsChapter(`
+    <p><b>3-4</b><span>合併經節。</span></p>
+    <p><span>接續<i>文字</i>。<sup>註腳內容</sup></span><b>5</b><span>下一節。</span></p>`);
+  assert.deepEqual(grouped.get(3), {
+    text: "合併經節。接續文字。", displayVerse: "3–4", group: "3-4",
+  });
+  assert.deepEqual(grouped.get(4), grouped.get(3));
+  assert.equal(grouped.get(5), "下一節。");
 });
 
 test("stops rather than silently publishing an unsupported RCL book", () => {
