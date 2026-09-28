@@ -412,6 +412,10 @@ export function parseHkbsChapter(html) {
       continue;
     }
 
+    // A paragraph can begin with the previous verse's final words (e.g. PHP 1:18)
+    // before introducing its first numbered verse. Keep that unnumbered prefix.
+    appendText(currentRange, extractText(content.slice(0, markers[0].index)));
+
     for (let index = 0; index < markers.length; index += 1) {
       const marker = markers[index];
       const startVerse = Number(marker[1]);
