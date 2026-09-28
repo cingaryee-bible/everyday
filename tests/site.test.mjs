@@ -67,6 +67,10 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /授權申請中/);
   assert.match(html, /和合本2010/);
   assert.match(html, /蒙香港聖經公會授權使用/);
+  assert.match(
+    html,
+    /《修訂共同經課每日讀經》，版權 © 2005 Consultation on Common Texts，經 Augsburg Fortress 授權使用。/,
+  );
   assert.match(html, /https:\/\/rcuv\.hkbs\.org\.hk\//);
   assert.doesNotMatch(html, /eBible|Public Domain/i);
   assert.match(html, /iPhone／iPad/);
