@@ -396,6 +396,35 @@ test("keeps a verse continuation before the next paragraph's first verse number"
   assert.equal(grouped.get(5), "下一節。");
 });
 
+test("keeps unnumbered prose paragraphs in the preceding HKBS verse", () => {
+  // Exodus 23:19 ends in a separate, unclassed paragraph with no verse marker.
+  const verse19 = "「要把地裏最好的初熟之物帶到耶和華－你神的殿中。";
+  const ending = "「不可用母山羊的奶來煮牠的小山羊。」";
+  const verse20 = "「看哪，我要差遣使者在你前面，在路上保護你，領你到我所預備的地方。";
+  const sample = `
+    <p><span>章前說明</span></p>
+    <p><b>19</b><span>${verse19}</span></p>
+    <p><span>${ending}</span></p>
+    <h3>應許和指示</h3>
+    <p><b>20</b><span>${verse20}</span></p>
+    <p>不是經文的說明</p>`;
+  assert.deepEqual([...parseHkbsChapter(sample)], [
+    [19, `${verse19}${ending}`],
+    [20, verse20],
+  ]);
+
+  const grouped = parseHkbsChapter(`
+    <p><b>3-4</b><span>合併經節。</span></p>
+    <p><span>第一段<i>續文</i>。<sup>註腳內容</sup></span></p>
+    <p class="p1"><span>第二段</span><span>續文。</span></p>
+    <p><b>5</b><span>下一節。</span></p>`);
+  assert.deepEqual(grouped.get(3), {
+    text: "合併經節。第一段續文。第二段續文。", displayVerse: "3–4", group: "3-4",
+  });
+  assert.deepEqual(grouped.get(4), grouped.get(3));
+  assert.equal(grouped.get(5), "下一節。");
+});
+
 test("stops rather than silently publishing an unsupported RCL book", () => {
   assert.throws(() => useProtestantCanonicalAlternatives({
     psalm: ["Psalm 1"],
