@@ -407,7 +407,10 @@ export function parseHkbsChapter(html) {
     const markers = [...content.matchAll(versePattern)];
 
     if (!markers.length) {
-      const isContinuation = /\bclass\s*=\s*["'][^"']*\bp[2-9]\b[^"']*["']/i.test(attributes);
+      // HKBS prose can continue in a standalone span paragraph with no class or
+      // verse number (e.g. EXO 23:19); poetry also uses explicit p2–p9 lines.
+      const isContinuation = /<span\b/i.test(content)
+        || /\bclass\s*=\s*["'][^"']*\bp[2-9]\b[^"']*["']/i.test(attributes);
       if (isContinuation) appendText(currentRange, extractText(content));
       continue;
     }
