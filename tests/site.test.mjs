@@ -47,7 +47,7 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /cat-readings\.js/);
   assert.match(html, /cat-style\.css\?v=20260926a/);
   assert.match(html, /daily-content\.js\?v=20260915a/);
-  assert.match(html, /cat-readings\.js\?v=20260926a/);
+  assert.match(html, /cat-readings\.js\?v=20261002b/);
   assert.match(html, /id="topic-art-image"[\s\S]*draggable="false"/);
   assert.match(html, /rel="manifest" href="manifest\.webmanifest"/);
   assert.match(html, /rel="apple-touch-icon"[^>]+icons\/icon-180\.png/);
