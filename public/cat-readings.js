@@ -111,7 +111,7 @@ function renderReading(kind, reading, fullKeys) {
 
   buildReference(reference, reading.reference);
   document.getElementById(`${kind}-translation`).textContent = "和合本2010 · 重點節錄";
-  document.getElementById(`${kind}-eyebrow`).textContent = reading.eyebrow;
+  document.getElementById(`${kind}-eyebrow`)?.remove();
   buildQuotes(document.getElementById(`${kind}-quote`), reading.quotes);
   buildFullScriptures(document.getElementById(`${kind}-links`), fullKeys);
 
