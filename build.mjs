@@ -28,6 +28,7 @@ const files = [
   ["/icons/icon-512.png", "icons/icon-512.png", "image/png"],
   ["/icons/icon-maskable-512.png", "icons/icon-maskable-512.png", "image/png"],
   ["/assets/paper-background.jpg", "assets/paper-background.jpg", "image/jpeg"],
+  ["/assets/share-icon.jpg", "assets/share-icon.jpg", "image/jpeg"],
   ...topicFiles.map((filename) => [
     `/assets/topics/${filename}`,
     `assets/topics/${filename}`,
