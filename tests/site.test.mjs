@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { test } from "node:test";
+import { runInNewContext } from "node:vm";
 import worker from "../dist/server/index.js";
 import {
   THEME_DEFINITIONS,
@@ -45,7 +46,7 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /毛毛聊/);
   assert.doesNotMatch(html, /mailto:/);
   assert.match(html, /cat-readings\.js/);
-  assert.match(html, /cat-style\.css\?v=20260926a/);
+  assert.match(html, /cat-style\.css\?v=20261010a/);
   assert.match(html, /daily-content\.js\?v=20260915a/);
   assert.match(html, /cat-readings\.js\?v=20261002b/);
   assert.match(html, /id="topic-art-image"[\s\S]*draggable="false"/);
@@ -78,6 +79,30 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /完成後，貓貓圖示會顯示於手機主畫面/);
   assert.doesNotMatch(html, /一撳|留喺|下面嘅|搵到|呢個網站/);
   assert.doesNotMatch(html, /id="day-picker"|兩星期/);
+});
+
+test("isolates the scroll layout only for iPad Home Screen apps", async () => {
+  const response = await worker.fetch(new Request("https://example.test/"));
+  const html = await response.text();
+  const source = html.match(/<script id="ipad-standalone-layout">([\s\S]*?)<\/script>/)[1];
+  const cases = [
+    ["iPad Home Screen", "iPad", "iPad", 5, true, false, true],
+    ["iPad desktop identity", "Macintosh", "MacIntel", 5, true, false, true],
+    ["iPad display-mode", "Macintosh", "MacIntel", 5, false, true, true],
+    ["iPad Safari", "Macintosh", "MacIntel", 5, false, false, false],
+    ["iPhone Home Screen", "iPhone", "iPhone", 5, true, true, false],
+    ["Mac desktop", "Macintosh", "MacIntel", 0, false, true, false],
+    ["Android tablet", "Android", "Linux", 5, false, true, false],
+  ];
+  for (const [name, userAgent, platform, maxTouchPoints, standalone, displayMode, expected] of cases) {
+    const classes = new Set();
+    runInNewContext(source, {
+      navigator: { userAgent, platform, maxTouchPoints, standalone },
+      window: { matchMedia: () => ({ matches: displayMode }) },
+      document: { documentElement: { classList: { add: (name) => classes.add(name) } } },
+    });
+    assert.equal(classes.has("ipad-standalone"), expected, name);
+  }
 });
 
 test("serves installable app metadata and the supplied icon", async () => {
