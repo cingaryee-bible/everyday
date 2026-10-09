@@ -46,18 +46,21 @@ test("serves the daily reading page at the site root", async () => {
   assert.match(html, /毛毛聊/);
   assert.doesNotMatch(html, /mailto:/);
   assert.match(html, /cat-readings\.js/);
-  assert.match(html, /cat-style\.css\?v=20261010a/);
+  assert.match(html, /cat-style\.css\?v=20261010b/);
   assert.match(html, /daily-content\.js\?v=20260915a/);
-  assert.match(html, /cat-readings\.js\?v=20261002b/);
+  assert.match(html, /cat-readings\.js\?v=20261010a/);
   assert.match(html, /id="topic-art-image"[\s\S]*draggable="false"/);
   assert.match(html, /rel="manifest" href="manifest\.webmanifest"/);
   assert.match(html, /rel="apple-touch-icon"[^>]+icons\/icon-180\.png/);
   assert.match(html, /id="add-home-button"/);
+  assert.match(html, /id="share-friend-button"/);
+  assert.match(html, /src="assets\/share-icon\.jpg"/);
   assert.match(
     html,
-    /id="reflection"[\s\S]*class="add-home-area"[\s\S]*<footer>/,
+    /id="reflection"[\s\S]*class="add-home-area"[\s\S]*id="add-home-button"[\s\S]*id="share-friend-button"[\s\S]*<footer>/,
   );
   assert.match(html, /id="install-dialog"/);
+  assert.match(html, /id="share-dialog"/);
   assert.match(html, /id="translation-picker-button"/);
   assert.match(html, /id="translation-dialog"/);
   assert.match(
@@ -232,6 +235,32 @@ test("opens a platform-aware add-to-home-screen guide", async () => {
   assert.match(javascript, /beforeinstallprompt/);
   assert.match(javascript, /navigator\.maxTouchPoints/);
   assert.match(javascript, /appinstalled/);
+});
+
+test("opens a share dialog and copies the canonical website URL", async () => {
+  const page = await worker.fetch(new Request("https://example.test/"));
+  const html = await page.text();
+  const script = await worker.fetch(
+    new Request("https://example.test/cat-readings.js"),
+  );
+  const javascript = await script.text();
+
+  assert.match(html, /aria-controls="share-dialog"/);
+  assert.match(
+    html,
+    /id="share-url"[\s\S]*value="https:\/\/bible\.cingaryee\.com\/"[\s\S]*readonly/,
+  );
+  assert.match(html, /id="share-copy-status"[^>]*aria-live="polite"/);
+  assert.match(javascript, /shareDialog\.showModal\(\)/);
+  assert.match(javascript, /navigator\.clipboard\?\.writeText/);
+  assert.match(javascript, /document\.execCommand\("copy"\)/);
+
+  const icon = await worker.fetch(
+    new Request("https://example.test/assets/share-icon.jpg"),
+  );
+  assert.equal(icon.status, 200);
+  assert.equal(icon.headers.get("content-type"), "image/jpeg");
+  assert.ok((await icon.arrayBuffer()).byteLength > 100_000);
 });
 
 test("opens an accessible translation picker with the pending translation disabled", async () => {
