@@ -344,6 +344,78 @@ installDialog.addEventListener("click", (event) => {
   }
 });
 
+const shareDialog = document.getElementById("share-dialog");
+const shareFriendButton = document.getElementById("share-friend-button");
+const shareDialogClose = shareDialog.querySelector(".share-dialog-close");
+const shareUrlInput = document.getElementById("share-url");
+const copyShareUrlButton = document.getElementById("copy-share-url");
+const shareCopyStatus = document.getElementById("share-copy-status");
+
+function openShareDialog() {
+  copyShareUrlButton.textContent = "複製";
+  shareCopyStatus.textContent = "";
+
+  if (typeof shareDialog.showModal === "function") {
+    shareDialog.showModal();
+  } else {
+    shareDialog.setAttribute("open", "");
+    document.body.classList.add("share-dialog-fallback-open");
+  }
+}
+
+function closeShareDialog() {
+  if (typeof shareDialog.close === "function") {
+    shareDialog.close();
+  } else {
+    shareDialog.removeAttribute("open");
+  }
+
+  document.body.classList.remove("share-dialog-fallback-open");
+}
+
+async function copyShareUrl() {
+  let copied = false;
+
+  try {
+    if (!navigator.clipboard?.writeText) {
+      throw new Error("Clipboard API unavailable");
+    }
+    await navigator.clipboard.writeText(shareUrlInput.value);
+    copied = true;
+  } catch {
+    shareUrlInput.focus();
+    shareUrlInput.select();
+    try {
+      copied = document.execCommand("copy");
+    } catch {
+      copied = false;
+    }
+  }
+
+  if (copied) {
+    copyShareUrlButton.textContent = "已複製 ✓";
+    shareCopyStatus.textContent = "網址已複製，可以貼給朋友了。";
+  } else {
+    shareCopyStatus.textContent = "請長按網址，再選擇「複製」。";
+  }
+}
+
+shareFriendButton.addEventListener("click", openShareDialog);
+copyShareUrlButton.addEventListener("click", copyShareUrl);
+shareUrlInput.addEventListener("click", () => shareUrlInput.select());
+
+shareDialogClose.addEventListener("click", () => {
+  if (typeof shareDialog.close !== "function") {
+    closeShareDialog();
+  }
+});
+
+shareDialog.addEventListener("click", (event) => {
+  if (event.target === shareDialog) {
+    closeShareDialog();
+  }
+});
+
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && translationDialog.hasAttribute("open")) {
     closeTranslationDialog();
@@ -351,6 +423,10 @@ document.addEventListener("keydown", (event) => {
 
   if (event.key === "Escape" && installDialog.hasAttribute("open")) {
     closeInstallDialog();
+  }
+
+  if (event.key === "Escape" && shareDialog.hasAttribute("open")) {
+    closeShareDialog();
   }
 });
 

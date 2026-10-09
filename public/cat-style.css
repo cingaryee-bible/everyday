@@ -873,7 +873,10 @@ footer .copyright-line {
 }
 
 .add-home-area {
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  gap: 16px;
   justify-content: center;
   padding: 28px 0 12px;
 }
@@ -933,6 +936,14 @@ footer .copyright-line {
   box-shadow: 2px 2px 0 var(--ink);
   outline: none;
   transform: translate(2px, 2px) rotate(0);
+}
+
+.share-friend-button {
+  transform: rotate(0.35deg);
+}
+
+.share-friend-button b {
+  font-size: 16px;
 }
 
 .install-dialog {
@@ -1163,6 +1174,10 @@ body.translation-dialog-fallback-open {
   overflow: hidden;
 }
 
+body.share-dialog-fallback-open {
+  overflow: hidden;
+}
+
 .install-dialog[open] {
   animation: install-dialog-in 180ms ease-out;
 }
@@ -1346,6 +1361,115 @@ body.translation-dialog-fallback-open {
 }
 
 .translation-dialog[open] {
+  animation: install-dialog-in 180ms ease-out;
+}
+
+.share-sheet {
+  box-shadow: 7px 7px 0 var(--pink);
+}
+
+.share-dialog-heading {
+  padding-right: 46px;
+}
+
+.share-dialog-heading p {
+  color: var(--orange-deep);
+  font-family: var(--utility);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 5px;
+}
+
+.share-dialog-heading h2 {
+  font-size: clamp(30px, 9vw, 42px);
+  letter-spacing: -0.045em;
+  line-height: 1;
+  margin: 0;
+}
+
+.share-dialog-intro {
+  color: #625f59;
+  font-family: var(--utility);
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 18px 0 16px;
+}
+
+.share-link-panel {
+  background: var(--cream);
+  border: 2px solid var(--ink);
+  border-radius: 16px 13px 17px 12px;
+  padding: 14px;
+}
+
+.share-link-panel label {
+  display: block;
+  font-family: var(--utility);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin: 0 0 8px;
+}
+
+.share-url-row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.share-url-row input {
+  background: white;
+  border: 1.5px solid var(--ink);
+  border-radius: 11px 8px 12px 9px;
+  color: var(--ink);
+  font-family: var(--utility);
+  font-size: 14px;
+  min-height: 48px;
+  min-width: 0;
+  padding: 0 12px;
+  width: 100%;
+}
+
+.share-url-row input:focus {
+  outline: 3px solid var(--pink);
+  outline-offset: 2px;
+}
+
+.share-url-row button {
+  background: var(--orange);
+  border: 1.5px solid var(--ink);
+  border-radius: 10px 12px 9px 13px;
+  box-shadow: 2px 2px 0 var(--ink);
+  color: var(--ink);
+  cursor: pointer;
+  font-family: var(--hand);
+  font-size: 17px;
+  font-weight: 800;
+  min-height: 48px;
+  min-width: 72px;
+  padding: 0 13px;
+}
+
+.share-url-row button:hover,
+.share-url-row button:focus-visible {
+  box-shadow: 1px 1px 0 var(--ink);
+  outline: 3px solid var(--orange-deep);
+  outline-offset: 2px;
+  transform: translate(1px, 1px);
+}
+
+.share-copy-status {
+  color: var(--orange-deep);
+  font-family: var(--utility);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: 9px 2px 0;
+  min-height: 18px;
+}
+
+.share-dialog[open] {
   animation: install-dialog-in 180ms ease-out;
 }
 

@@ -32,7 +32,7 @@
       href="https://fonts.googleapis.com/css2?family=Huninn&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="cat-style.css?v=20261010a" />
+    <link rel="stylesheet" href="cat-style.css?v=20261010b" />
   </head>
   <body>
     <a class="skip-link" href="#psalm">直接閱讀今日經課</a>
@@ -216,6 +216,22 @@
             <span>加入主畫面</span>
             <b aria-hidden="true">＋</b>
           </button>
+          <button
+            class="add-home-button share-friend-button"
+            id="share-friend-button"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="share-dialog"
+          >
+            <img
+              src="assets/share-icon.jpg"
+              alt=""
+              width="1024"
+              height="1024"
+            />
+            <span>分享給朋友</span>
+            <b aria-hidden="true">↗</b>
+          </button>
         </div>
       </section>
 
@@ -323,6 +339,41 @@
     </dialog>
 
     <dialog
+      class="translation-dialog share-dialog"
+      id="share-dialog"
+      aria-labelledby="share-dialog-title"
+    >
+      <div class="translation-sheet share-sheet">
+        <form method="dialog">
+          <button class="translation-dialog-close share-dialog-close" type="submit" aria-label="關閉分享視窗">×</button>
+        </form>
+
+        <div class="share-dialog-heading">
+          <p>將每日經課傳開去</p>
+          <h2 id="share-dialog-title">分享給朋友</h2>
+        </div>
+        <p class="share-dialog-intro">
+          複製以下網址，再貼到 WhatsApp、Signal 或其他訊息中，就可以邀請朋友一同閱讀。
+        </p>
+
+        <div class="share-link-panel">
+          <label for="share-url">網站網址</label>
+          <div class="share-url-row">
+            <input
+              id="share-url"
+              type="url"
+              value="https://bible.cingaryee.com/"
+              readonly
+              spellcheck="false"
+            />
+            <button id="copy-share-url" type="button">複製</button>
+          </div>
+          <p class="share-copy-status" id="share-copy-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog
       class="translation-dialog"
       id="translation-dialog"
       aria-labelledby="translation-dialog-title"
@@ -369,6 +420,6 @@
       <a href="#new-testament"><span aria-hidden="true">三</span>新約</a>
     </nav>
     <script src="daily-content.js?v=20260915a" defer></script>
-    <script src="cat-readings.js?v=20261002b" defer></script>
+    <script src="cat-readings.js?v=20261010a" defer></script>
   </body>
 </html>
