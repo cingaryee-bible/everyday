@@ -11,6 +11,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="每日經課" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <script id="ipad-standalone-layout">
+      // iPadOS may identify itself as a Mac when requesting desktop websites.
+      const isIPad = /iPad/.test(navigator.userAgent)
+        || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      const isStandalone = navigator.standalone === true
+        || window.matchMedia("(display-mode: standalone)").matches;
+      if (isIPad && isStandalone) {
+        document.documentElement.classList.add("ipad-standalone");
+      }
+    </script>
     <title>每日經課｜和合本2010</title>
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png" />
@@ -22,11 +32,12 @@
       href="https://fonts.googleapis.com/css2?family=Huninn&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="cat-style.css?v=20260926a" />
+    <link rel="stylesheet" href="cat-style.css?v=20261010a" />
   </head>
   <body>
     <a class="skip-link" href="#psalm">直接閱讀今日經課</a>
 
+    <div class="page-scroll">
     <main id="top">
       <header class="masthead">
         <div class="brand-row">
@@ -241,6 +252,7 @@
         </div>
       </footer>
     </main>
+    </div>
 
     <dialog
       class="install-dialog"
