@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="zh-Hant">
   <head>
+    <meta name="cnlt-api" content="https://lectionary-private-scripture.cingaryee.workers.dev/api/cnlt/daily">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta
@@ -399,10 +400,10 @@
             </span>
             <b aria-hidden="true">✓</b>
           </button>
-          <button class="translation-option is-pending" type="button" disabled>
+          <button class="translation-option is-pending" data-cnlt-option type="button" disabled>
             <span>
               <strong>新普及譯本</strong>
-              <small>授權申請中</small>
+              <small>已獲授權</small>
             </span>
             <em>稍後推出</em>
           </button>
@@ -421,5 +422,6 @@
     </nav>
     <script src="daily-content.js?v=20260915a" defer></script>
     <script src="cat-readings.js?v=20261010a" defer></script>
+    <script src="cnlt-readings.js?v=20261013a" defer></script>
   </body>
 </html>
