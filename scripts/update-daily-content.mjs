@@ -867,15 +867,19 @@ function readingObject(citations, passages, kind, theme, signature, curatedEdito
   return {
     reference,
     eyebrow: lead,
-    quotes: passages.map((passage, index) => ({
-      ...(passages.length > 1 ? { label: passage.label } : {}),
-      text: editorialQuoteFromSelection(
+    quotes: passages.map((passage, index) => {
+      const chosen = editorialQuoteFromSelection(
         passage,
         curatedEditorial?.quotes?.[kind]?.find((selection) => selection.citationIndex === index),
         theme,
         curatedEditorial,
-      )?.text ?? quoteFromPassage(passage, theme, `${signature}:${kind}:${index}`),
-    })),
+      );
+      return {
+        ...(passages.length > 1 ? { label: passage.label } : {}),
+        ...(chosen ? { chapter: chosen.chapter, verse: chosen.verse } : {}),
+        text: chosen?.text ?? quoteFromPassage(passage, theme, `${signature}:${kind}:${index}`),
+      };
+    }),
   };
 }
 
