@@ -42,6 +42,7 @@
       document.getElementById(`${kind}-links`).textContent='正在載入經文…';
     }
     try {
+      await refreshGeneratedContent({force:true});
       const url=new URL(endpoint);url.searchParams.set('date',date);
       const response=await fetch(url,{cache:'no-store',credentials:'omit'});
       if (!response.ok) throw new Error('unavailable');
