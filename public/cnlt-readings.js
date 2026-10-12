@@ -20,7 +20,10 @@
       paragraphs[1].textContent='每日按使用者所在地日期顯示。經課編排依據修訂共同經課每日讀經（半連續讀經）；經文採用《聖經．新普及譯本》。';
       paragraphs[2].textContent='經文來自《聖經．新普及譯本》，版權屬漢語聖經協會有限公司。蒙漢語聖經協會允准使用。';
       const source=[...footer.querySelectorAll('a')].find(a=>a.textContent.includes('和合本2010'));
-      if(source) source.remove();
+      if(source) {
+        source.href='https://www.chinesebible.org.hk/hk/';
+        source.textContent='漢語聖經協會 ↗';
+      }
     }
     original.querySelector('small').textContent=enabled?'選用':'現正使用';
     button.querySelector('small').textContent=enabled?'現正使用':'已獲授權';
@@ -63,7 +66,6 @@
           const details=document.createElement('details'),summary=document.createElement('summary'),body=document.createElement('div');
           details.className='full-scripture';summary.textContent='完整經文 '+passage.label;body.className='full-scripture-text';body.textContent=passage.text;details.append(summary,body);container.append(details);
         }
-        const copyright=document.createElement('small');copyright.textContent=data.copyright;container.append(copyright);
       }
       notice.textContent='已選用新普及譯本';
       closeTranslationDialog();
