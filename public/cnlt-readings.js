@@ -8,6 +8,15 @@
   button.querySelector('small').textContent = '已獲授權';
   button.querySelector('em').textContent = '選用';
   let active=false, serial=0;
+  const pickerLabel=document.querySelector('#translation-picker-button strong');
+  function selection(enabled) {
+    active=enabled;
+    pickerLabel.textContent=enabled?'新普及譯本':'和合本2010';
+    button.classList.toggle('is-current',enabled);
+    original.classList.toggle('is-current',!enabled);
+    button.setAttribute('aria-current',String(enabled));
+    original.setAttribute('aria-current',String(!enabled));
+  }
   const notice=document.createElement('p');notice.className='translation-dialog-note';button.closest('.translation-options').after(notice);
   async function refresh() {
     const date=document.documentElement.dataset.activeDate;
@@ -48,7 +57,7 @@
       }
     }
   }
-  button.addEventListener('click',()=>{active=true;refresh();});
-  original.addEventListener('click',()=>{active=false;serial++;const day=readings.find(r=>r.date===document.documentElement.dataset.activeDate);if(day) renderDay(day);notice.textContent='';});
+  button.addEventListener('click',()=>{selection(true);refresh();});
+  original.addEventListener('click',()=>{selection(false);serial++;const day=readings.find(r=>r.date===document.documentElement.dataset.activeDate);if(day) renderDay(day);notice.textContent='';});
   new MutationObserver(refresh).observe(document.documentElement,{attributes:true,attributeFilter:['data-active-date']});
 })();
