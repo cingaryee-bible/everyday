@@ -64,7 +64,7 @@
         buildQuotes(document.getElementById(`${kind}-quote`),quotes);
         for (const passage of data.passages[kind]) {
           const details=document.createElement('details'),summary=document.createElement('summary'),body=document.createElement('div');
-          details.className='full-scripture';summary.textContent='完整經文 '+passage.label;body.className='full-scripture-text';body.textContent=passage.text;details.append(summary,body);container.append(details);
+          details.className='full-scripture';const action=document.createElement('span'),label=document.createElement('b');action.className='summary-action';action.textContent='完整經文';label.textContent=passage.label;summary.append(action,label);body.className='full-scripture-text';body.textContent=passage.text;details.append(summary,body);container.append(details);
         }
       }
       notice.textContent='已選用新普及譯本';
