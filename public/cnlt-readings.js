@@ -6,7 +6,12 @@
   button.disabled = false;
   button.classList.remove('is-pending');
   button.querySelector('small').textContent = '已獲授權';
-  button.querySelector('em').textContent = '選用';
+  const indicator=document.createElement('b');indicator.setAttribute('aria-hidden','true');
+  button.querySelector('em').replaceWith(indicator);
+  for (const option of [original,button]) {
+    const badge=option.querySelector(':scope > b');
+    badge.style.width='30px';badge.style.height='30px';
+  }
   const footer=document.querySelector('footer');
   const originalFooter=footer.innerHTML;
   let active=false, serial=0;
@@ -26,14 +31,18 @@
       }
     }
     original.querySelector('small').textContent=enabled?'選用':'現正使用';
-    button.querySelector('small').textContent=enabled?'現正使用':'已獲授權';
+    original.querySelector(':scope > b').textContent=enabled?'':'✓';
+    indicator.textContent=enabled?'✓':'';
+    button.querySelector('small').textContent=enabled?'現正使用':'選用';
     pickerLabel.textContent=enabled?'新普及譯本':'和合本2010';
     button.classList.toggle('is-current',enabled);
     original.classList.toggle('is-current',!enabled);
     button.setAttribute('aria-current',String(enabled));
     original.setAttribute('aria-current',String(!enabled));
   }
-  const notice=document.createElement('p');notice.className='translation-dialog-note';button.closest('.translation-options').after(notice);
+  const notice=document.querySelector('#translation-dialog .translation-dialog-note');
+  const defaultNotice='兩個譯本均已獲授權使用。';notice.textContent=defaultNotice;
+  selection(false);
   async function refresh() {
     const date=document.documentElement.dataset.activeDate;
     if (!active || !date) return;
@@ -67,7 +76,7 @@
           details.className='full-scripture';const action=document.createElement('span'),label=document.createElement('b');action.className='summary-action';action.textContent='完整經文';label.textContent=passage.label;summary.append(action,label);body.className='full-scripture-text';body.textContent=passage.text;details.append(summary,body);container.append(details);
         }
       }
-      notice.textContent='已選用新普及譯本';
+      notice.textContent=defaultNotice;
       closeTranslationDialog();
     } catch {
       if (active && version===serial) {
@@ -81,6 +90,6 @@
     }
   }
   button.addEventListener('click',()=>{selection(true);refresh();});
-  original.addEventListener('click',()=>{selection(false);serial++;const day=readings.find(r=>r.date===document.documentElement.dataset.activeDate);if(day) renderDay(day);notice.textContent='';});
+  original.addEventListener('click',()=>{selection(false);serial++;const day=readings.find(r=>r.date===document.documentElement.dataset.activeDate);if(day) renderDay(day);notice.textContent=defaultNotice;});
   new MutationObserver(refresh).observe(document.documentElement,{attributes:true,attributeFilter:['data-active-date']});
 })();
