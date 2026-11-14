@@ -29,9 +29,9 @@
       "dates": ["2026-11-15"],
       "reviewed": true,
       "themeFile": "07",
-      "shortSummary": "上帝喚醒長久受壓的光明之子",
-      "deck": "在長久欺壓和漫長等候中，上帝喚醒光明之子；忠心不是被恐懼埋起來，而是使用所託付的彼此建立。",
-      "reflection": "有哪一份恩賜因我害怕失敗而一直被埋藏？今日可以先為別人使用一小步嗎？",
+      "displayDeck": "以色列人受壓時呼求上帝；願我們警醒等候，忠於所託。",
+      "deck": "以色列人受壓時呼求上帝；願我們警醒等候，忠於所託。",
+      "reflection": "今日，我可以怎樣運用上帝所託付給我的，踏出一小步去幫助別人？",
       "quotes": {
         "psalm": [{ "citationIndex": 0, "verses": [{ "chapter": 123, "verse": 2 }, { "chapter": 123, "verse": 3 }] }],
         "old": [{ "citationIndex": 0, "verses": [{ "chapter": 4, "verse": 3 }, { "chapter": 4, "verse": 6 }, { "chapter": 4, "verse": 7 }] }],

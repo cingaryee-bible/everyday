@@ -151,6 +151,7 @@ function summaryCandidatesFor(entry, maximumLength) {
 }
 
 function displayDeckFor(entry, signature) {
+  if (entry.displayDeck?.trim()) return entry.displayDeck.trim();
   const counselBase = mindsetCounselBases.get(entry.themeFile);
   if (!counselBase) throw new Error(`No mindset counsel for topic ${entry.themeFile}.`);
   const prefixOffset = stableHash(signature) % mindsetCounselPrefixes.length;
@@ -277,6 +278,7 @@ for (const filename of files) {
       }
     }
     const {
+      displayDeck: _displayDeck,
       shortDeck: _shortDeck,
       shortSummary: _shortSummary,
       shortReflection: _shortReflection,
