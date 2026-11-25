@@ -31,10 +31,15 @@ function refreshGeneratedContent({ force = false } = {}) {
   lastDataRefreshAt = Date.now();
   dataRefreshPromise = new Promise((resolve) => {
     const script = document.createElement("script");
+    let finished = false;
     const finish = (updated) => {
+      if (finished) return;
+      finished = true;
+      window.clearTimeout(timeout);
       script.remove();
       resolve(updated);
     };
+    const timeout = window.setTimeout(() => finish(false), 10000);
     script.src = `daily-content.js?refresh=${Date.now()}`;
     script.async = true;
     script.onload = () => finish(applyGeneratedContent(window.dailyReadingContent));
@@ -204,26 +209,38 @@ function renderLocalDay() {
   return Boolean(exactDay);
 }
 
+let midnightUpdateTimer;
+
+function updateLocalDay({ force = false } = {}) {
+  // Use preloaded readings immediately, even while offline or resuming from sleep.
+  const current = renderLocalDay();
+  scheduleLocalMidnightUpdate();
+  return refreshGeneratedContent({ force: force || !current }).finally(renderLocalDay);
+}
+
 function scheduleLocalMidnightUpdate() {
+  window.clearTimeout(midnightUpdateTimer);
   const now = new Date();
   const nextMidnight = new Date(
     now.getFullYear(),
     now.getMonth(),
     now.getDate() + 1,
-    0, 0, 1
+    0, 0, 0
   );
 
-  window.setTimeout(async () => {
-    await refreshGeneratedContent({ force: true });
-    renderLocalDay();
-    scheduleLocalMidnightUpdate();
+  midnightUpdateTimer = window.setTimeout(() => {
+    updateLocalDay({ force: true });
   }, nextMidnight.getTime() - now.getTime());
 }
 
-if (!renderLocalDay()) {
-  refreshGeneratedContent({ force: true }).finally(renderLocalDay);
-}
-scheduleLocalMidnightUpdate();
+updateLocalDay();
+// Recover from throttled timers and clock/timezone changes while the page stays open.
+window.setInterval(() => {
+  if (!document.hidden) updateLocalDay();
+}, 60 * 1000);
+window.addEventListener("pageshow", () => updateLocalDay());
+window.addEventListener("focus", () => updateLocalDay());
+window.addEventListener("online", () => updateLocalDay({ force: true }));
 
 document.addEventListener("contextmenu", (event) => {
   if (event.target.closest?.(".topic-art-stage")) {
@@ -239,7 +256,7 @@ document.addEventListener("dragstart", (event) => {
 
 document.addEventListener("visibilitychange", () => {
   if (!document.hidden) {
-    refreshGeneratedContent().finally(renderLocalDay);
+    updateLocalDay();
   }
 });
 
